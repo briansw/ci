@@ -130,7 +130,6 @@ pre, code, kbd, samp {
 /* line 24, ../../app/assets/stylesheets/normalize.css.scss */
 pre {
   white-space: pre;
-  white-space: pre-wrap;
   word-wrap: break-word;
 }
 
