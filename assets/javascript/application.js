@@ -10,7 +10,7 @@ $(document).ready(function(){
 	    }
 	    else {
 	    	$('html, body').animate({
-	         	scrollTop: $(this).offset().top
+	         	scrollTop: $(this).offset().top - 56
 	         }, 300);
 	        $(this).addClass('open');	         
 	    	$(this).closest('li').find('.icon').addClass('open');
@@ -34,7 +34,7 @@ $(document).ready(function(){
 	    }
         $(action).closest('li').find('.accordion-body').slideToggle();
         $('html, body').animate({
-	     	scrollTop: $(action).offset().top
+	     	scrollTop: $(action).offset().top - 56
 	     }, 300);
     });    
     
