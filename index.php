@@ -23,7 +23,7 @@
 
 	<div id="navigation">
 		<ul>	
-			<li id="home"><a href="index.php" id="home">Core Interaction</a></li>
+			<li id="home"><a href="/" id="home">Core Interaction</a></li>
 			<li><a data-action="#readings-and-resources" href="#">Resources & Readings</a></li>
 			<li><a data-action="#students" href="#" class="people">Students</a></li>
 			<li><a href="#">Syllabi</a></li>
@@ -32,6 +32,10 @@
 	
 	<ul> <!- start accordian -->
 	
+		<?php include('studio-1c.php'); ?>
+		<?php include('studio-1b.php'); ?>
+		<?php include('lab-1a.php'); ?>
+		<?php include('readings.php'); ?>
 		<?php include('students.php'); ?>
 		
 	</ul> <!- end accordian -->
