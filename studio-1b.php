@@ -56,9 +56,17 @@
 			
 			<div class="column-3up"> <!-- start column -->
 				<div class="reading-wrapper">
-					<a class="no-underline" href="#"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-					<p><a href="#">El Lissitzky: <em>Topography of Typography</em>, 1923; <em>Typographical Facts</em>, 1925; <em>Our Book</em>, 1926</a></p>
-					<p class="studio-due-date last">Due Week 1B</p>		
+					<a class="no-underline" href="assets/files/Lissitzky-Typography.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Lissitzky-Typography.pdf">El Lissitzky: <em>Topography of Typography</em>, 1923; <em>Typographical Facts</em>, 1925; <em>Our Book</em>, 1926</a></p>
+					<p class="studio-due-date last">Due Week 1C</p>		
+				</div>
+			</div> <!- end column -->
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/Moholy-Nagy-Laszlo-Typophoto-1926.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Moholy-Nagy-Laszlo-Typophoto-1926.pdf"><em>Typophoto</em>, Laszlo Moholy-Nagy, 1926</a></p>
+					<p class="studio-due-date last">Due Week 1C</p>		
 				</div>
 			</div> <!- end column -->
 			

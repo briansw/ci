@@ -35,19 +35,63 @@
 				</div>
 				<p>Diagram of a decentralized network</p>
 			</div>
-
-		</div>
-	
-		<div class="assignments">
-			<h2>Assignments</h2>
 			
-			<h3>Exercise 1</h3>
-			<p>Create a “Hello, world” animated gif. The gif should be no smaller than 75 × 75 pixels and no larger than 450 × 450 pixels. Please email your animated gif by Wednesday 9pm.</p>
-			<p class="studio-due-date">Due Week 1B</p>		
-		
-			<h3>Project 1</h3>
-			<p>Create a web-based project that tells a story over time using the various methods discussed in studio and lab. Choose a topic that interests you and start to develop a narrative around that topic. The narrative can be anything from your experience of the 2012 Olympics, to responding to an article in the New York Times—keep it interesting. Think about the mood you want to project and how you might use type, image (still and moving), color, time, and the user’s interaction with the browser to achieve it.</p>
-			<p class="studio-due-date last">Due Week 6B</p>
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/airlines.gif" alt="decentralized-network" />
+				</div>
+				<p>Real world example of a decentralized network</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/distributed-network.gif" alt="decentralized-network" />
+				</div>
+				<p>Diagram of a distributed network</p>
+			</div>
+						
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/eisenhower-interstate.jpg" />
+				</div>
+				<p>Dwight D. Eisenhower System of Interstate & Defense System</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/darpa-red-balloon-challenge.jpg" alt="darpa-red-balloon-challenge" />
+				</div>
+				<p>DARPA's $40,000 red balloon challenge</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/6Ga_EJWLzHA?rel=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<p>MIT wins the red balloon challenge in 9 hours</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/dns-ip.gif" alt="dns-ip" />
+				</div>
+				<p>Domain Name System (DNS)</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/ows-peoples-mic.png" alt="ows-peoples-mic" />
+				</div>
+				<p>Occupy Wall Street—The people’s mic</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/google-lissitzky.jpg" alt="google-lissitzky" />
+				</div>
+				<p>Google image search results page</p>
+			</div>
+
 		</div>
 		
 		<div class="readings">
@@ -55,19 +99,12 @@
 			
 			<div class="column-3up"> <!- start column -->
 				<div class="file-wrapper">
-					<a class="no-underline" href="#"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-					<p><a href="#"><em>Typophoto</em>, Laszlo Moholy-Nagy</a></p>
-					<p class="studio-due-date last">Due Week 1B</p>		
+					<a class="no-underline" href="assets/files/Koolhaas-Rem-Junkspace.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Koolhaas-Rem-Junkspace.pdf"><em>Junkspace</em>, Rem Koolhaas, 2002</a></p>
+					<p class="studio-due-date last">Due Week 2B</p>		
 				</div>
 			</div> <!- end column -->
 
-			<div class="column-3up"> <!- start column -->
-				<div class="file-wrapper">
-					<a class="no-underline" href="#"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-					<p><a href="#"><em>Protocol</em>, Alexander R. Galloway</a></p>
-					<p class="studio-due-date last">Recommended</p>		
-				</div>
-			</div> <!- end column -->
 		</div>
 	</div>			
 </li> <!- end row -->
