@@ -8,19 +8,36 @@
 	<div class="accordion-body">
 		<div class="lecture">
 			<h2>Lecture</h2>
-			<img src="assets/images/studio/darpa.gif" alt="darpa" />
-			<p>Defense Advanced Research Projects Agency (DARPA)</p>
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/darpa.gif" alt="darpa" />				
+				</div>
+				<p>Defense Advanced Research Projects Agency (DARPA)</p>
+			</div>
 			
-			<img src="assets/images/studio/centralized-network.gif" alt="centralized-network" />
-			<p>Diagram of a centralized network</p>
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/centralized-network.gif" alt="centralized-network" />
+				</div>
+				<p>Diagram of a centralized network</p>
+			</div>
 			
-			<img src="assets/images/studio/panopticon.jpg" alt="panopticon" />
-			<p>Jeremy Bentham’s panopticon</p>
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/panopticon.jpg" alt="panopticon" />
+				</div>			
+				<p>Jeremy Bentham’s panopticon</p>
+			</div>
 			
-			<img src="assets/images/studio/decentralized-network.gif" alt="decentralized-network" />
-			<p>Diagram of a decentralized network</p>
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/decentralized-network.gif" alt="decentralized-network" />
+				</div>
+				<p>Diagram of a decentralized network</p>
+			</div>
+
 		</div>
-					
+	
 		<div class="assignments">
 			<h2>Assignments</h2>
 			
