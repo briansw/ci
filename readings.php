@@ -62,7 +62,7 @@
 			<h2>Readings</h2>
 	
 			<div class="column-3up"> <!-- start column -->
-				<div class="reading-wrapper">
+				<div class="file-wrapper">
 					<a class="no-underline" href="assets/files/Lissitzky-Typography.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
 					<p><a href="assets/files/Lissitzky-Typography.pdf">El Lissitzky: <em>Topography of Typography</em>, 1923; <em>Typographical Facts</em>, 1925; <em>Our Book</em>, 1926</a></p>
 					<p class="studio-due-date last">Due Week 1C</p>		
@@ -99,15 +99,7 @@
 					<p><a href="assets/files/galloway-alexander-protocol.pdf"><em>Protocol</em> (Ch. 1), Alexander R. Galloway, 2006</a></p>
 					<p class="studio-due-date last">Recommended</p>		
 				</div>
-			</div> <!- end column -->
-			
-			<div class="column-3up"> <!- start column -->
-				<div class="file-wrapper">
-					<a class="no-underline" href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-					<p><a href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><em>What Design Means for Me</em>, Karel Martens, 1990</a></p>
-					<p class="studio-due-date last">Due Week 3B</p>		
-				</div>
-			</div> <!- end column -->
+			</div> <!- end column -->						
 			
 			<div class="column-3up"> <!- start column -->
 				<div class="file-wrapper">
@@ -159,7 +151,7 @@
 			
 		</div> <!- end readings-and-resources-section -->
 		
-		<div class="readings-and-resources-section last"> <!- start section -->
+		<div class="readings-and-resources-section"> <!- start section -->
 			<h2>Books</h2>
 			
 			<ul class="bulleted-list last">
@@ -172,9 +164,22 @@
 				<li><a href="http://www.amazon.com/Graphic-Design-Manual-Form--Bildgestaltung/dp/3721200063/ref=sr_1_1?s=books&ie=UTF8&qid=1358612567&sr=1-1&keywords=graphic+design+manual"><em>Graphic Design Manual: Principles and Practice</em>, Armin Hofmann</a></li>
 				<li><a href="http://www.amazon.com/Typographie-Manual-Design-Emil-Ruder/dp/3721200438/ref=sr_1_1?s=books&ie=UTF8&qid=1358612617&sr=1-1&keywords=typographie+a+manual+of+design"><em>Typographie: A Manual of Design</em>, Emil Ruder</a></li>
 			</ul>
-
-						
+				
 		</div> <!- end readings-and-resources-section -->
+		
+		<div class="readings-and-resources-section last"> <!- start section -->
+			<h2>In New York</h2>
+			
+			<ul class="bulleted-list last">
+				<li><a href="#">McNally Jackson</a></li>
+				<li><a href="#">Dashwood</a></li>
+				<li><a href="#">New Museum bookstore</a></li>
+				<li><a href="#">PS1 bookstore</a></li>
+				<li><a href="#">... more soon</a></li>
+			</ul>
+				
+		</div> <!- end readings-and-resources-section -->
+		
 
 		
 	</div>			

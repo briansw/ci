@@ -55,7 +55,7 @@
 			<h2>Readings</h2>
 			
 			<div class="column-3up"> <!-- start column -->
-				<div class="reading-wrapper">
+				<div class="file-wrapper">
 					<a class="no-underline" href="assets/files/Lissitzky-Typography.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
 					<p><a href="assets/files/Lissitzky-Typography.pdf">El Lissitzky: <em>Topography of Typography</em>, 1923; <em>Typographical Facts</em>, 1925; <em>Our Book</em>, 1926</a></p>
 					<p class="studio-due-date last">Due Week 1C</p>		
