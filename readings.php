@@ -85,6 +85,78 @@
 				</div>
 			</div> <!- end column -->
 			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><em>What Design Means for Me</em>, Karel Martens, 1990</a></p>
+					<p class="studio-due-date last">Due Week 3B</p>		
+				</div>
+			</div> <!- end column -->
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/galloway-alexander-protocol.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/galloway-alexander-protocol.pdf"><em>Protocol</em> (Ch. 1), Alexander R. Galloway, 2006</a></p>
+					<p class="studio-due-date last">Recommended</p>		
+				</div>
+			</div> <!- end column -->
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><em>What Design Means for Me</em>, Karel Martens, 1990</a></p>
+					<p class="studio-due-date last">Due Week 3B</p>		
+				</div>
+			</div> <!- end column -->
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/van-der-Velden-Research-and-Destroy.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/van-der-Velden-Research-and-Destroy.pdf"><em>Research &amp; Destroy</em>, Daniel van der Velden, 2006</a></p>
+					<p class="studio-due-date last">Due Week 4B</p>		
+				</div>
+			</div> <!- end column -->
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/murakami-norwegian-wood-chapter-1.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/murakami-norwegian-wood-chapter-1.pdf"><em>Norwegian Wood</em> (Ch. 1), Haruki Murakami, 1987</a></p>
+					<p class="studio-due-date last">Due Week 4B</p>		
+				</div>
+			</div> <!- end column -->
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/Albers-Stencil-Alphabet.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Albers-Stencil-Alphabet.pdf"><em>Regarding the Economy of a Typeface</em>, Josef Albers, c. 1926</a></p>
+					<p class="studio-due-date last">Due Week 6C</p>		
+				</div>
+			</div> <!- end column -->
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/Annicchiarico-Supernormal.jpg"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Annicchiarico-Supernormal.jpg"><em>Super Normal: Absence, Ambivalence, and Paradox</em>, Silvana Annicchiarico, 2007</a></p>
+					<p class="studio-due-date last">Due Week 10C</p>		
+				</div>
+			</div> <!- end column -->
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="#"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="#"><em>Design Noir: The Secret Lives of Electronic Objects</em>, Anthony Dunne & Fiona Raby, 2001</a></p>
+					<p class="studio-due-date last">Due Week 12C</p>		
+				</div>
+			</div> <!- end column -->
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/Michaelson-Dan-On-Exactitude-in-Science.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Michaelson-Dan-On-Exactitude-in-Science.pdf"><em>On Exactitude in Science</em>, Dan Michaelson, 2007</a></p>
+					<p class="studio-due-date last">Due Week 14C</p>		
+				</div>
+			</div> <!- end column -->
+			
 		</div> <!- end readings-and-resources-section -->
 		
 		<div class="readings-and-resources-section last"> <!- start section -->
