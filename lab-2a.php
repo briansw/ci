@@ -1,7 +1,7 @@
 <li class="accordion-row">		
 	<div class="accordion-header">
 		<div class="icon lab-icon"></div>
-		<div class="title">Week 1A</div>
+		<div class="title">Week 2A</div>
 		<span class="accordion-icon-closed">&ndash;</span>
 		<span class="accordion-icon-open">+</span>
 	</div>			
@@ -14,10 +14,7 @@
 				</div>
 				<p>. . .</p>
 			</div>
-			
-			<script src="https://gist.github.com/2980170.js"></script>
-			
-		</div> <!-- end lecture -->
+		</div>
 		
 		<div class="assignments">
 			<h2>Assignments</h2>

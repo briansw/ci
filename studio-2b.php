@@ -1,7 +1,7 @@
 <li class="accordion-row">		
 	<div class="accordion-header">
-		<div class="icon lab-icon"></div>
-		<div class="title">Week 1A</div>
+		<div class="icon studio-icon"></div>
+		<div class="title">Week 2B</div>
 		<span class="accordion-icon-closed">&ndash;</span>
 		<span class="accordion-icon-open">+</span>
 	</div>			
@@ -14,10 +14,7 @@
 				</div>
 				<p>. . .</p>
 			</div>
-			
-			<script src="https://gist.github.com/2980170.js"></script>
-			
-		</div> <!-- end lecture -->
+		</div>
 		
 		<div class="assignments">
 			<h2>Assignments</h2>
@@ -34,7 +31,7 @@
 				<div class="file-wrapper">
 					<a class="no-underline" href="assets/files/#"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
 					<p><a href="assets/files/#"><em>Title</em>, Author, 2002</a></p>
-					<p class="lab-due-date last">Due Week 3A</p>		
+					<p class="studio-due-date last">Due Week 3A</p>		
 				</div>
 			</div> <!-- end column -->
 

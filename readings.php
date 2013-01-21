@@ -12,15 +12,15 @@
 			<div class="column-3up">
 				<ul class="last">
 					<li><h3>Design Resources</h3></li>
-					<li><a href="http://jsbin.com/">Manystuff</a></li>
-					<li><a href="http://jsbin.com/">Graphic Magazine</a></li>
-					<li><a href="http://jsbin.com/">Rhizome</a></li>
-					<li><a href="http://jsbin.com/">Lined & Unlined</a></li>
-					<li><a href="http://jsbin.com/">Dot Dot Dot</a></li>
-					<li><a href="http://jsbin.com/">The Serving Library</a></li>
-					<li><a href="http://jsbin.com/">VVork</a></li>
-					<li><a href="http://jsbin.com/">Werkplaats Typografie</a></li>
-					<li><a href="http://jsbin.com/">Reitveld Academie</a></li>
+					<li><a href="http://www.manystuff.org/">Manystuff</a></li>
+					<li><a href="http://www.graphicmag.kr/">Graphic Magazine</a></li>
+					<li><a href="http://rhizome.org/">Rhizome</a></li>
+					<li><a href="http://www.linedandunlined.com/">Lined & Unlined</a></li>
+					<li><a href="http://www.dot-dot-dot.us/">Dot Dot Dot</a></li>
+					<li><a href="http://www.servinglibrary.org/">The Serving Library</a></li>
+					<li><a href="http://www.vvork.com/">VVork</a></li>
+					<li><a href="http://www.werkplaatstypografie.org/">Werkplaats Typografie</a></li>
+					<li><a href="http://www.gerritrietveldacademie.nl/nl/">Reitveld Academie</a></li>
 				</ul>
 			</div> <!- end column -->
 			
@@ -149,6 +149,14 @@
 				</div>
 			</div> <!- end column -->
 			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="#"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Michaelson-Dan-On-Exactitude-in-Science.pdf"><em>The Interface Effect</em>, Alexander R. Galloway, 2012</a></p>
+					<p class="studio-due-date last">TBD</p>		
+				</div>
+			</div> <!- end column -->
+			
 		</div> <!- end readings-and-resources-section -->
 		
 		<div class="readings-and-resources-section"> <!- start section -->
@@ -169,15 +177,7 @@
 		
 		<div class="readings-and-resources-section last"> <!- start section -->
 			<h2>In New York</h2>
-			
-			<ul class="bulleted-list last">
-				<li><a href="#">McNally Jackson</a></li>
-				<li><a href="#">Dashwood</a></li>
-				<li><a href="#">New Museum bookstore</a></li>
-				<li><a href="#">PS1 bookstore</a></li>
-				<li><a href="#">... more soon</a></li>
-			</ul>
-				
+			<iframe style="margin: 0 0 0 10px;" width="748" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=213813414008852099526.0004d3cbcb238e4519754&amp;ie=UTF8&amp;t=m&amp;ll=40.8,-74.11&amp;spn=0.052019,0.128231&amp;z=12&amp;output=embed"></iframe>
 		</div> <!- end readings-and-resources-section -->
 		
 
