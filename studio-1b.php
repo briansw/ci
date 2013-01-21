@@ -8,17 +8,35 @@
 	<div class="accordion-body">
 		<div class="lecture">
 			<h2>Lecture</h2>
-			<img src="assets/images/hello-world.gif" width="364" />
-			<p>Hello world animated gif</p>
 			
-			<iframe width="492" height="277" src="http://www.youtube.com/embed/dL0lNGXoP8E?rel=0" frameborder="0" allowfullscreen></iframe>
-			<p><em>Enter the Void</em>, Gaspar Noe, 2010</p>
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/hello-world.gif" width="364" />
+				</div>
+				<p>Hello world animated gif</p>
+			</div>
 			
-			<iframe width="492" height="277" src="http://www.youtube.com/embed/oLuWoz9OpqU?rel=0" frameborder="0" allowfullscreen></iframe>
-			<p><em>Film Socialisme</em>, Jean Luc Godard, 2011</p>
+			<div class="slide-wrapper">
+				<div class="slide">
+					<iframe width="492" height="277" src="http://www.youtube.com/embed/dL0lNGXoP8E?rel=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<p><em>Enter the Void</em>, Gaspar Noe, 2010</p>
+			</div>
 			
-			<img src="assets/images/cyprien-gaillard-city-of-gold-and-mirrors.jpg" width="492" />
-			<p><em>City of Gold and Mirrors</em>, Cyprien Gaillard, 2009</p>
+			<div class="slide-wrapper">
+				<div class="slide">
+					<iframe width="492" height="277" src="http://www.youtube.com/embed/oLuWoz9OpqU?rel=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<p><em>Film Socialisme</em>, Jean Luc Godard, 2011</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/cyprien-gaillard-city-of-gold-and-mirrors.jpg" width="492" />
+				</div>
+				<p><em>City of Gold and Mirrors</em>, Cyprien Gaillard, 2009</p>
+			</div>			
+			
 		</div>
 					
 		<div class="assignments">
