@@ -163,14 +163,19 @@
 			<h2>Books</h2>
 			
 			<ul class="bulleted-list last">
-				<li><a href="http://www.amazon.com/Primer-Visual-Literacy-Donis-Dondis/dp/0262540290"><em>Primer of Visual Literacy</em>, Donis A Dondis</a></li>
+				<li class="header"><h3>Typography</h3></li>
 				<li><a href="http://www.amazon.com/Detail-In-Typography-Jost-Hochuli/dp/0907259340/ref=sr_1_1?ie=UTF8&qid=1358610818&sr=8-1&keywords=details+in+typography"><em>Detail In Typography</em>, Jost Hochuli</a></li>
-				<li><a href="http://www.amazon.com/Systems-Graphic-Systeme-Visuele-Gestaltung/dp/3721201450/ref=sr_1_1?ie=UTF8&qid=1358611019&sr=8-1&keywords=grid+systems+in+graphic+design"><em>Grid Systems in Graphic Design</em>, Josef Muller-Brockmann</a></li>
-				<li><a href="http://www.amazon.com/Bauhaus-Weimar-Dessau-Berlin-Chicago/dp/0262730472/ref=sr_1_6?s=books&ie=UTF8&qid=1358612047&sr=1-6&keywords=bauhaus"><em>Bauhaus: Weimar, Dessau, Berlin, Chicago</em>, Dr Hedwig Wingler</a></li>
-				<li><a href="http://www.amazon.com/Interaction-Color-Expanded-Josef-Albers/dp/0300115954/ref=sr_1_1?s=books&ie=UTF8&qid=1358612242&sr=1-1&keywords=interaction+of+color"><em>Interaction of Color</em>, Josef Albers</a></li>
-				<li><a href="http://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/ref=sr_1_1?s=books&ie=UTF8&qid=1358612327&sr=1-1&keywords=the+elements+of+typographic+style"><em>The Elements of Typographic Style</em>, Robert Bringhurst</a></li>
-				<li><a href="http://www.amazon.com/Graphic-Design-Manual-Form--Bildgestaltung/dp/3721200063/ref=sr_1_1?s=books&ie=UTF8&qid=1358612567&sr=1-1&keywords=graphic+design+manual"><em>Graphic Design Manual: Principles and Practice</em>, Armin Hofmann</a></li>
 				<li><a href="http://www.amazon.com/Typographie-Manual-Design-Emil-Ruder/dp/3721200438/ref=sr_1_1?s=books&ie=UTF8&qid=1358612617&sr=1-1&keywords=typographie+a+manual+of+design"><em>Typographie: A Manual of Design</em>, Emil Ruder</a></li>
+				<li class="last"><a href="http://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/ref=sr_1_1?s=books&ie=UTF8&qid=1358612327&sr=1-1&keywords=the+elements+of+typographic+style"><em>The Elements of Typographic Style</em>, Robert Bringhurst</a></li>
+				<li class="header"><h3>Form &amp; Composition</h3></li>
+				<li><a href="http://www.amazon.com/Primer-Visual-Literacy-Donis-Dondis/dp/0262540290"><em>Primer of Visual Literacy</em>, Donis A Dondis</a></li>
+				<li><a href="http://www.amazon.com/Systems-Graphic-Systeme-Visuele-Gestaltung/dp/3721201450/ref=sr_1_1?ie=UTF8&qid=1358611019&sr=8-1&keywords=grid+systems+in+graphic+design"><em>Grid Systems in Graphic Design</em>, Josef Muller-Brockmann</a></li>
+				<li><a href="http://www.amazon.com/Interaction-Color-Expanded-Josef-Albers/dp/0300115954/ref=sr_1_1?s=books&ie=UTF8&qid=1358612242&sr=1-1&keywords=interaction+of+color"><em>Interaction of Color</em>, Josef Albers</a></li>
+				<li class="last"><a href="http://www.amazon.com/Graphic-Design-Manual-Form--Bildgestaltung/dp/3721200063/ref=sr_1_1?s=books&ie=UTF8&qid=1358612567&sr=1-1&keywords=graphic+design+manual"><em>Graphic Design Manual: Principles and Practice</em>, Armin Hofmann</a></li>
+				<li class="header"><h3>Compendiums</h3></li>
+				<li><a href="http://www.amazon.com/Bauhaus-Weimar-Dessau-Berlin-Chicago/dp/0262730472/ref=sr_1_6?s=books&ie=UTF8&qid=1358612047&sr=1-6&keywords=bauhaus"><em>Bauhaus: Weimar, Dessau, Berlin, Chicago</em>, Dr Hedwig Wingler</a></li>
+				<li><a href="http://www.amazon.com/False-Flat-Dutch-Design-Good/dp/0714848611">False Flat: Why Dutch Design is so Good</a></li>
+
 			</ul>
 				
 		</div> <!- end readings-and-resources-section -->

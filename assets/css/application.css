@@ -68,7 +68,9 @@ a.no-underline { border: none !important; background: transparent !important; }
 .column-3up ul { margin: 0 0 23px 0; }
 .column-3up ul.last { margin: 0; }
 
-ul.bulleted-list li { margin: 0 0 0 30px; list-style: circle; list-style-type: circle; font-size: 17px; line-height: 23px; }
+ul.bulleted-list li { margin: 0 0 0 45px; list-style: circle; list-style-type: circle; font-size: 17px; line-height: 23px; }
+ul.bulleted-list li.last { margin-bottom: 23px; list-style: circle; list-style-type: circle; font-size: 17px; line-height: 23px; }
+ul.bulleted-list li.header { margin: 0 0 0 10px; list-style: none; list-style-type: none ; }
 
 .slide-wrapper { margin: 0 0 50px 0; padding: 0; width: 100%; }
 .slide { background: #f1f1f1; text-align: center; padding: 20px; }
