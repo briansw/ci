@@ -8,7 +8,7 @@
 	<div class="accordion-body">
 		<div class="lecture">
 			<h2>Lecture</h2>
-			
+						
 			<div class="slide-wrapper">
 				<div class="slide">
 					<img src="assets/images/hello-world.gif" width="364" />
