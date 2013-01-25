@@ -13,7 +13,7 @@
 					<img src="assets/images/studio/discussion-thumbs/lissitzky-typography.jpg" width="75" />				
 					<img src="assets/images/studio/discussion-thumbs/nagy-typophoto.jpg" width="75" />				
 				</div>
-				<p>Presented by <a href="#">Sam Sneed</a> and <a href="#">Charlie Dawkins</a></p>
+				<p>Presentions by <a href="#">Sam Sneed</a> and <a href="#">Charlie Dawkins</a></p>
 			</div>
 			
 			<h2>Lecture</h2>

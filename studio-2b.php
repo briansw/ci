@@ -7,6 +7,15 @@
 	</div>			
 	<div class="accordion-body">
 		<div class="lecture">
+		
+			<h2>Discussion</h2>
+			<div class="slide-wrapper">
+				<div class="slide discussion">
+					<img src="assets/images/studio/discussion-thumbs/lissitzky-typography.jpg" width="75" />				
+				</div>
+				<p>Presentations by <a href="#">Sam Sneed</a> and <a href="#">Charlie Dawkins</a></p>
+			</div>
+			
 			<h2>Lecture</h2>
 			
 			<div class="slide-wrapper">
