@@ -13,7 +13,7 @@
 				<div class="slide">
 					<img src="assets/images/hello-world.gif" width="364" />
 				</div>
-				<p>Hello world animated gif</p>
+				<p>Hello world animated GIF</p>
 			</div>
 			
 			<div class="slide-wrapper">
@@ -35,7 +35,21 @@
 					<img src="assets/images/cyprien-gaillard-city-of-gold-and-mirrors.jpg" width="492" />
 				</div>
 				<p><em>City of Gold and Mirrors</em>, Cyprien Gaillard, 2009</p>
-			</div>			
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/fisher-morgan-color-balance.jpg" />
+				</div>
+				<p>Morgan Fisher&rsquo;s <em>Color Balance</em>, 1983 depicting the additive color system.</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/photoshop-icon.png" />
+				</div>
+				<p>Photoshop tutorial</p>
+			</div>
 			
 		</div>
 					

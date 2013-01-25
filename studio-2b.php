@@ -36,8 +36,8 @@
 			<h2>Assignments</h2>
 			
 			<h3>Exercise 1</h3>
-			<p>Select a website that you enjoy and visit frequently and explore the navigational devices/strategies the site employs. Create a slide presentation that documents how the navigation works. Focus on the following elements: how the user moves from one section to the next, how are deeper levels of navigation set off from the primary navigation, how does the navigation relate to the content. Finally, create a link to your PDF presentation on your course home page.</p>
-			<p class="studio-due-date">Due Week 2C</p>		
+			<p>Select a website that you enjoy and visit frequently and explore the navigational devices/strategies the site employs. Create a slide presentation that documents how the navigation works. Focus on the following questions: how the user moves from one section to the next, how are deeper levels of navigation set off from the primary navigation, how does the navigation relate to the content. Finally, create a link to your PDF presentation on your course home page.</p>
+			<p class="studio-due-date last">Due Week 2C</p>		
 			
 		</div>
 		
