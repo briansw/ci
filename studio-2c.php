@@ -38,7 +38,7 @@
 			
 			<div class="slide-wrapper">
 				<div class="slide">
-					<img src="assets/images/studio/tris-vonna-michell" />				
+					<img src="assets/images/studio/tris-vonna-michell.jpg" />				
 				</div>
 				<p>Performance by Tris Vonna-Michell (starts at 6:36)</p>
 			</div>
