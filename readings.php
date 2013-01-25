@@ -174,7 +174,7 @@
 				<li class="last"><a href="http://www.amazon.com/Graphic-Design-Manual-Form--Bildgestaltung/dp/3721200063/ref=sr_1_1?s=books&ie=UTF8&qid=1358612567&sr=1-1&keywords=graphic+design+manual"><em>Graphic Design Manual: Principles and Practice</em>, Armin Hofmann</a></li>
 				<li class="header"><h3>Compendiums</h3></li>
 				<li><a href="http://www.amazon.com/Bauhaus-Weimar-Dessau-Berlin-Chicago/dp/0262730472/ref=sr_1_6?s=books&ie=UTF8&qid=1358612047&sr=1-6&keywords=bauhaus"><em>Bauhaus: Weimar, Dessau, Berlin, Chicago</em>, Dr Hedwig Wingler</a></li>
-				<li><a href="http://www.amazon.com/False-Flat-Dutch-Design-Good/dp/0714848611">False Flat: Why Dutch Design is so Good</a></li>
+				<li><a href="http://www.amazon.com/False-Flat-Dutch-Design-Good/dp/0714848611"><em>False Flat: Why Dutch Design is so Good</em>, Aaron Betsky &amp; Adam Eeuwens</a></li>
 
 			</ul>
 				

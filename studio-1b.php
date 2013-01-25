@@ -25,9 +25,9 @@
 			
 			<div class="slide-wrapper">
 				<div class="slide">
-					<iframe width="492" height="277" src="http://www.youtube.com/embed/oLuWoz9OpqU?rel=0" frameborder="0" allowfullscreen></iframe>
+					<iframe width="492" height="396" src="http://www.youtube.com/embed/w2hDR_e1o1M?rel=0" frameborder="0" allowfullscreen></iframe>
 				</div>
-				<p><em>Film Socialisme</em>, Jean Luc Godard, 2011</p>
+				<p><em>À Bout de Souffle</em> (Breathless), Jean Luc Godard, 1960</p>
 			</div>
 			
 			<div class="slide-wrapper">
@@ -48,7 +48,7 @@
 				<div class="slide">
 					<img src="assets/images/studio/photoshop-icon.png" />
 				</div>
-				<p>Photoshop tutorial</p>
+				<p>Animated GIF tutorial</p>
 			</div>
 			
 		</div>
