@@ -43,7 +43,7 @@
 			<h2>Assignments</h2>
 			
 			<h3>Exercise 1</h3>
-			<p>Create a “Hello, world” animated gif. The gif should be no smaller than 75 × 75 pixels and no larger than 450 × 450 pixels. Please email your animated gif by Wednesday 9pm.</p>
+			<p>Create a typographic “Hello world” animated GIF that is 365&times;115px at 72 DPI. You may only use one typeface (Arial or Times New Roman). Please use black and one other color (100% red, 100% green, or 100% blue). Title your file in the following format: "watterson-brian-hello-world.gif". Create a web page that includes your GIF and link it on your course home page. Finally, please <a href="mailto:wattersb@newschool.edu">email</a> your GIF by Thursday at 7:00pm. </p>
 			<p class="studio-due-date">Due Week 1B</p>		
 		
 			<h3>Project 1</h3>

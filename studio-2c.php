@@ -60,10 +60,31 @@
 			
 			<div class="slide-wrapper">
 				<div class="slide">
+					<img src="assets/images/studio/device-screens.jpg" />
+				</div>
+				<p>Array of modern devices with various screen resolutions</p>				
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/lo-resolution-screen.gif" />
+				</div>
+				<p>Low resolution resolution screen simulation (29&times;19px)</p>				
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/hi-resolution-screen.gif" />
+				</div>
+				<p>High resolution screen simulation (58&times;38px)</p>				
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
 					<img src="assets/images/studio/pixel-ufan.png" />
 				</div>
 				<p>Zoomed in view of <em>Relatum (formerly Phenomenon and Perception A)</em></p>				
-			</div>
+			</div>											
 			
 			<div class="slide-wrapper">
 				<div class="slide">
@@ -98,27 +119,6 @@
 					<img src="assets/images/studio/variable-browser-dimensions.png" />
 				</div>
 				<p>Variable browser dimensions</p>				
-			</div>
-						
-			<div class="slide-wrapper">
-				<div class="slide">
-					<img src="assets/images/studio/device-screens.jpg" />
-				</div>
-				<p>Array of modern devices with various screen resolutions</p>				
-			</div>
-			
-			<div class="slide-wrapper">
-				<div class="slide">
-					<img src="assets/images/studio/lo-resolution-screen.gif" />
-				</div>
-				<p>Low resolution resolution screen simulation (29&times;19px)</p>				
-			</div>
-			
-			<div class="slide-wrapper">
-				<div class="slide">
-					<img src="assets/images/studio/hi-resolution-screen.gif" />
-				</div>
-				<p>High resolution screen simulation (58&times;38px)</p>				
 			</div>
 			
 			<div class="slide-wrapper">
