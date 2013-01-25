@@ -61,7 +61,7 @@
 			<p class="studio-due-date">Due Week 1B</p>		
 		
 			<h3>Project 1</h3>
-			<p>Create a web-based project that tells a story over time using the various methods discussed in studio and lab. Choose a topic that interests you and start to develop a narrative around that topic. The narrative can be anything from your experience of the 2012 Olympics, to responding to an article in the New York Times—keep it interesting. Think about the mood you want to project and how you might use type, image (still and moving), color, time, and the user’s interaction with the browser to achieve it.</p>
+			<p>Choose a subject (or even an object for that matter). The subject must  be researchable in a way that yields data (text, image) that can be used in the final output. The subject should be clearly defined and should not be overly complex&mdash;the smaller the subject the better. Research and collect as much data about your subject as possible. Organize the data into like datasets and develop a position in relation to the subject. Create a web-based project that clearly states the subject and your position in a way that unfolds over time. The design should articulate your position in relation to the subject. Throughout the course of the project, ask yourself the following questions: Is my position interesting? Does the way the user navigates the website relate to the subject? Do the formal qualities of the website feel intentional and appropriate? Is it beautiful?</p>
 			<p class="studio-due-date last">Due Week 6B</p>
 		</div>
 		
