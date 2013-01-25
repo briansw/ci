@@ -6,16 +6,16 @@
 		<span class="accordion-icon-open">+</span>
 	</div>			
 	<div class="accordion-body">
-		<div class="lecture">
-		
+		<div class="discussion">
 			<h2>Discussion</h2>
 			<div class="slide-wrapper">
-				<div class="slide discussion">
-					<img src="assets/images/studio/discussion-thumbs/lissitzky-typography.jpg" width="75" />				
+				<div class="discussion-slide">
+					<img src="assets/images/studio/discussion-thumbs/koolhaas-junkspace.jpg" width="75" />				
 				</div>
-				<p>Presentations by <a href="#">Sam Sneed</a> and <a href="#">Charlie Dawkins</a></p>
+				<p class="last">Presentations by <a href="#">Sam Sneed</a> and <a href="#">Charlie Dawkins</a></p>
 			</div>
-			
+		</div>
+		<div class="lecture">
 			<h2>Lecture</h2>
 			
 			<div class="slide-wrapper">
