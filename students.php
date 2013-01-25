@@ -21,6 +21,7 @@
 				<li><a href="#">Kelly Merole</a></li>
 				<li><a href="#">Caroline Newton</a></li>
 				<li><a href="#">Maria Putri</a></li>
+				<li><a href="#">Hussain Salahuddin</a></li>
 				<li><a href="#">Taleen Setrakian</a></li> 	
 				<li><a href="#">Sangseob Woo</a></li>				
 			</ol>

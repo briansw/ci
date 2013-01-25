@@ -39,6 +39,13 @@
 			
 			<div class="slide-wrapper">
 				<div class="slide">
+					<iframe width="420" height="315" src="http://www.youtube.com/embed/LK90lJCHlV4?rel=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<p><em>787 Cliparts</em>, Oliver Laric, 2008</p>
+			</div>			
+			
+			<div class="slide-wrapper">
+				<div class="slide">
 					<img src="assets/images/studio/fisher-morgan-color-balance.jpg" />
 				</div>
 				<p>Morgan Fisher&rsquo;s <em>Color Balance</em>, 1983 depicting the additive color system.</p>
@@ -57,7 +64,7 @@
 			<h2>Assignments</h2>
 			
 			<h3>Exercise 1</h3>
-			<p>Create a typographic “Hello world” animated GIF that is 365&times;115px at 72 DPI. You may only use one typeface (Arial or Times New Roman). Please use black and one other color (100% red, 100% green, or 100% blue). Title your file in the following format: "watterson-brian-hello-world.gif". Create a web page that includes your GIF and link it on your course home page. Finally, please <a href="mailto:wattersb@newschool.edu">email</a> your GIF by Thursday at 7:00pm. </p>
+			<p>Create a typographic “Hello world” animated GIF that is 249&times;76px at 72 DPI. You may only use one typeface (Arial or Times New Roman). Please use black and one other color (100% red, 100% green, or 100% blue). Title your file in the following format: "watterson-brian-hello-world.gif". Create a web page that includes your GIF and link it on your course home page. Finally, please <a href="mailto:wattersb@newschool.edu">email</a> your GIF by Thursday at 7:00pm. </p>
 			<p class="studio-due-date">Due Week 1B</p>		
 		
 			<h3>Project 1</h3>
