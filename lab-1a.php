@@ -10,12 +10,19 @@
 			<h2>Lecture</h2>
 			<div class="slide-wrapper">
 				<div class="slide">
-					<img src="assets/images/lab/#" />				
+					<img src="assets/images/lab/server-setup-file-management.png" alt="server-setup-file-management" width="618" height="120" />
 				</div>
-				<p>. . .</p>
+				<p>Our standard FTP set up</p>
+			</div>
+
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/lab/server-setup-file-management-2.png" alt="server-setup-file-management" width="618" height="120" />
+				</div>
+				<p>Setting up our first project</p>
 			</div>
 			
-			<script src="https://gist.github.com/2980170.js"></script>
+			<script src="https://gist.github.com/4639773.js"></script>
 			
 		</div> <!-- end lecture -->
 		
