@@ -24,8 +24,8 @@
 	<div id="navigation">
 		<ul>	
 			<li id="home"><a href="/" id="home">Core Interaction</a></li>
-			<li><a data-action="#readings-and-resources" href="#">Resources & Readings</a></li>
-			<li><a data-action="#students" href="#" class="people">Students</a></li>
+			<li><a class="hash" data-action="#readings-and-resources" href="#">Resources & Readings</a></li>
+			<li><a class="hash" data-action="#students" href="#" class="people">Students</a></li>
 			<li><a href="#">Syllabi</a></li>
 		</ul>
 	</div>
