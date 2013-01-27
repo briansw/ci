@@ -23,6 +23,28 @@
 			</div>
 			
 			<script src="https://gist.github.com/4639773.js"></script>
+			<script src="https://gist.github.com/4648922.js"></script>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/lab/composition-der-dada.jpg" alt="composition-der-dada" width="300" height="410" />
+				</div>
+				<p>Cover of <em>der Dada vol1</em>, 1919</p>
+			</div>
+
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/lab/composition-merz.jpg" alt="composition-merz" width="300" height="396" />
+				</div>
+				<p>Kurt Schwitters, 1924</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/lab/composition-Muller-Brockmann.jpeg" alt="composition-Muller-Brockmann" width="298" height="420" />
+				</div>
+				<p>Josef Müller-Brockmann, 1972</p>
+			</div>
 			
 		</div> <!-- end lecture -->
 		
@@ -30,20 +52,20 @@
 			<h2>Assignments</h2>
 			
 			<h3>Exercise 1</h3>
-			<p>Description . . .</p>
+			<p>Create a composition with HTML. Using the HTML Create a web page that includes your GIF and link it on your course home page. Finally, please email your GIF by Thursday at 7:00pm.</p>
 			<p class="lab-due-date last">Due Week 3A</p>		
 		</div>
 							
 		<div class="readings">
 			<h2>Readings</h2>			
 			
-			<div class="column-3up"> <!-- start column -->
+			<div class="column-3up"> <!- start column -->
 				<div class="file-wrapper">
-					<a class="no-underline" href="assets/files/#"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-					<p><a href="assets/files/#"><em>Title</em>, Author, 2002</a></p>
-					<p class="lab-due-date last">Due Week 3A</p>		
+					<a class="no-underline" href="assets/files/Guide-to-Media-Influence.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Guide-to-Media-Influence.pdf"><em>The Ubermotive Guide to Media Influence</em>, ubermotive.com, 2012</a></p>
+					<p class="studio-due-date last">Due Week 2A</p>		
 				</div>
-			</div> <!-- end column -->
+			</div> <!- end column -->
 
 		</div> <!-- end readings -->
 		

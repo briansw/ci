@@ -1,23 +1,19 @@
 <li class="accordion-row">		
 	<div class="accordion-header">
 		<div class="icon lab-icon"></div>
-		<div class="title">Week 2A</div>
+		<div class="title">Week 3A</div>
 		<span class="accordion-icon-closed">&ndash;</span>
 		<span class="accordion-icon-open">+</span>
 	</div>			
 	<div class="accordion-body">
 		<div class="lecture">
 			<h2>Lecture</h2>
-
-			<script src="https://gist.github.com/4648990.js"></script>
-
 			<div class="slide-wrapper">
 				<div class="slide">
-					<img src="assets/images/lab/#" />				
+					<img src="assets/images/lab/inspect-element-chrome.png" />				
 				</div>
 				<p>. . .</p>
 			</div>
-
 		</div>
 		
 		<div class="assignments">
