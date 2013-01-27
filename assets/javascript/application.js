@@ -20,9 +20,9 @@ $(document).ready(function(){
         $(this).closest('li').find('.accordion-body').slideToggle();
     });
     
-    $('#navigation li a').click(function(e){
+    $('#navigation li a.hash').click(function(e){
         e.preventDefault();
-    	var action = $(this).data('action');
+    	var action = $(this).data('action') || null;
 
         if($(action).closest('li').find('.accordion-body').is(":visible")){
 	    	$(action).closest('li').find('.accordion-icon-closed').hide();
@@ -34,7 +34,7 @@ $(document).ready(function(){
 	    }
         $(action).closest('li').find('.accordion-body').slideToggle();
         $('html, body').animate({
-	     	scrollTop: $(action).offset().top - 56
+	     		scrollTop: $(action).offset().top - 56
 	     }, 300);
     });    
     
