@@ -46,13 +46,13 @@
 				
 				<div class="file-wrapper">
 					<a class="no-underline" href="#"><img style="margin-top: 3px;" src="assets/images/icon-zip.gif" width="37" height="49" /></a>
-					<p><a href="#">Design & Programming Starter Package</a></p>
+					<p><a href="assets/files/starter-package.zip">Design & Programming Starter Package</a></p>
 				</div>
 				
 				<ul class="last">
 					<li><h3>Syllabi</h3></li>
-					<li><a href="#">Studio</a></li>
-					<li><a href="#">Lab</a></li>
+					<li><a href="assets/files/syllabus-core-interaction-studio.pdf">Studio</a></li>
+					<li>Lab</li>
 	
 				</ul>
 			</div> <!- end column -->
