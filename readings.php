@@ -30,6 +30,7 @@
 					<li><a href="http://www.w3schools.com/">W3Schools</a></li>
 					<li><a href="http://stackoverflow.com/">Stack Overflow</a></li>
 					<li><a href="https://developer.mozilla.org/">Mozilla Developer Network</a></li>
+					<li><a href="http://getfirebug.com/">Firebug</a></li>
 				</ul>
 				
 				<ul class="last">
