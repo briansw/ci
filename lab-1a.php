@@ -62,7 +62,7 @@
 			
 			<h3>Exercise 1</h3>
 			<p>Using the elements listed above, create a formal composition that you find beautiful. How can you utilize elements about the web to emphasis emotions or convey ideas? What ideas and interactions are unique to the web? In what ways can use the language of the web to convey new ideas?</p>
-			<p class="lab-due-date last">Due Week 3A</p>		
+			<p class="lab-due-date last">Due Week 2A</p>		
 		</div>
 							
 		<div class="readings">
