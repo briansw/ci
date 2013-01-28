@@ -8,22 +8,24 @@
 	<div class="accordion-body">
 		<div class="accordion-content">
 			<ol>
-				<li><a href="#">Elizabeth Bergesch</a></li>
-				<li><a href="#">Bianca Bono</a></li>
-				<li><a href="#">Rachel Darmody</a></li>
-				<li><a href="#">Perri Ginsberg</a></li>
-				<li><a href="#">Lena Anne Hammes</a></li>
-				<li><a href="#">Hyerin Kim</a></li>
-				<li><a href="#">Sanggyun Kim</a></li>
-				<li><a href="#">Victoria Lee</a></li>
-				<li><a href="#">Yunjoo Lee</a></li>
-				<li><a href="#">Sara Li</a></li>
-				<li><a href="#">Kelly Merole</a></li>
-				<li><a href="#">Caroline Newton</a></li>
-				<li><a href="#">Maria Putri</a></li>
-				<li><a href="#">Hussain Salahuddin</a></li>
-				<li><a href="#">Taleen Setrakian</a></li> 	
-				<li><a href="#">Sangseob Woo</a></li>				
+				<li><a href="http://a.parsons.edu/~berge675">Elizabeth Bergesch</a></li>
+				<li><a href="http://a.parsons.edu/~bonob154">Bianca Bono</a></li>
+				<li><a href="http://a.parsons.edu/~darmr955">Rachel Darmody</a></li>
+				<li><a href="http://a.parsons.edu/~ginsp007">Perri Ginsberg</a></li>
+				<li><a href="http://a.parsons.edu/~hamml048">Lena Anne Hammes</a></li>
+				<li><a href="http://a.parsons.edu/~hillt692">Thomas Hill</a></li>
+				<li><a href="http://a.parsons.edu/~kimh506">Hyerin Kim</a></li>
+				<li><a href="http://a.parsons.edu/~kims554">Sanggyun Kim</a></li>
+				<li><a href="http://a.parsons.edu/~leev512">Victoria Lee</a></li>
+				<li><a href="http://a.parsons.edu/~leey316">Yunjoo Lee</a></li>
+				<li><a href="http://a.parsons.edu/~lis364">Sara Li</a></li>
+				<li><a href="http://a.parsons.edu/~mcdae964">Ellen McDade</a></li>
+				<li><a href="http://a.parsons.edu/~merok742">Kelly Merole</a></li>
+				<li><a href="http://a.parsons.edu/~newtc116">Caroline Newton</a></li>
+				<li><a href="http://a.parsons.edu/~putrm886">Maria Putri</a></li>
+				<li><a href="http://a.parsons.edu/~salah205">Hussain Salahuddin</a></li>
+				<li><a href="http://a.parsons.edu/~setrt577">Taleen Setrakian</a></li> 	
+				<li><a href="http://a.parsons.edu/~woos879">Sangseob Woo</a></li>				
 			</ol>
 		</div>
 	</div>			
