@@ -23,7 +23,6 @@
 			</div>
 			
 			<script src="https://gist.github.com/4639773.js"></script>
-			<script src="https://gist.github.com/4648922.js"></script>
 			
 			<div class="slide-wrapper">
 				<div class="slide">
@@ -46,13 +45,23 @@
 				<p>Josef Müller-Brockmann, 1972</p>
 			</div>
 			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/lab/composition-the-389.png" alt="composition-the-389" width="1057" height="606" />
+				</div>
+				<p><a href="http://the389.com/">The 389</a>, 2011</p>
+			</div>
+
+			<script src="https://gist.github.com/4648922.js"></script>
+
+
 		</div> <!-- end lecture -->
 		
 		<div class="assignments">
 			<h2>Assignments</h2>
 			
 			<h3>Exercise 1</h3>
-			<p>Create a composition with HTML. Using the HTML Create a web page that includes your GIF and link it on your course home page. Finally, please email your GIF by Thursday at 7:00pm.</p>
+			<p>Using the elements listed above, create a formal composition that you find beautiful. How can you utilize elements about the web to emphasis emotions or convey ideas? What ideas and interactions are unique to the web? In what ways can use the language of the web to convey new ideas?</p>
 			<p class="lab-due-date last">Due Week 3A</p>		
 		</div>
 							
@@ -63,7 +72,7 @@
 				<div class="file-wrapper">
 					<a class="no-underline" href="assets/files/Guide-to-Media-Influence.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
 					<p><a href="assets/files/Guide-to-Media-Influence.pdf"><em>The Ubermotive Guide to Media Influence</em>, ubermotive.com, 2012</a></p>
-					<p class="studio-due-date last">Due Week 2A</p>		
+					<p class="lab-due-date last">Due Week 2A</p>		
 				</div>
 			</div> <!- end column -->
 
