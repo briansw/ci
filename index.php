@@ -31,6 +31,7 @@
 	
 	<ul> <!- start accordian -->
 		
+		
 		<?php include('readings.php'); ?>
 		<?php include('students.php'); ?>
 		
