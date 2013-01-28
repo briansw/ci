@@ -80,9 +80,25 @@
 
 			<div class="column-3up"> <!- start column -->
 				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/Guide-to-Media-Influence.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Guide-to-Media-Influence.pdf"><em>The Ubermotive Guide to Media Influence</em>, ubermotive.com, 2012</a></p>
+					<p class="lab-due-date last">Due Week 2A</p>		
+				</div>
+			</div> <!- end column -->
+
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
 					<a class="no-underline" href="assets/files/Koolhaas-Rem-Junkspace.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
 					<p><a href="assets/files/Koolhaas-Rem-Junkspace.pdf"><em>Junkspace</em>, Rem Koolhaas, 2002</a></p>
 					<p class="studio-due-date last">Due Week 2B</p>		
+				</div>
+			</div> <!- end column -->
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/Amazon-23-Million-Dollar-Book.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Amazon-23-Million-Dollar-Book.pdf"><em>Amazon’s $23,698,655.93 book about flies</em>, Michael Eisen, 2011</a></p>
+					<p class="lab-due-date last">Due Week 2A</p>		
 				</div>
 			</div> <!- end column -->
 			
@@ -153,7 +169,7 @@
 			<div class="column-3up"> <!- start column -->
 				<div class="file-wrapper">
 					<a class="no-underline" href="#"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-					<p><a href="assets/files/Michaelson-Dan-On-Exactitude-in-Science.pdf"><em>The Interface Effect</em>, Alexander R. Galloway, 2012</a></p>
+					<p><a href="assets/files/Galloway-Alexander-The-Interface-Effect.pdf"><em>The Interface Effect</em>, Alexander R. Galloway, 2012</a></p>
 					<p class="studio-due-date last">TBD</p>		
 				</div>
 			</div> <!- end column -->
