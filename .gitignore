@@ -5,6 +5,7 @@
 #   git config --global core.excludesfile ~/.gitignore_global
 
 
+index-local.php
 archive/
 2012-01-27-parsons-core-interaction-syllabus.indd
 *.idlk
