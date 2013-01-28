@@ -1,4 +1,4 @@
-<li class="accordion-row">		
+<li class="accordion-row">
 	<div class="accordion-header">
 		<div class="icon lab-icon"></div>
 		<div class="title">Week 2A</div>
