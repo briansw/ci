@@ -53,7 +53,7 @@
 				<ul class="last">
 					<li><h3>Syllabi</h3></li>
 					<li><a href="assets/files/syllabus-core-interaction-studio.pdf">Studio</a></li>
-					<li>Lab</li>
+					<li><a href="assets/files/syllabus-core-interaction-lab.pdf">Lab</a></li>
 	
 				</ul>
 			</div> <!- end column -->
