@@ -20,7 +20,7 @@
 					<li><a href="http://www.servinglibrary.org/">The Serving Library</a></li>
 					<li><a href="http://www.vvork.com/">VVork</a></li>
 					<li><a href="http://www.werkplaatstypografie.org/">Werkplaats Typografie</a></li>
-					<li><a href="http://www.gerritrietveldacademie.nl/nl/">Reitveld Academie</a></li>
+					<li><a href="http://www.gerritrietveldacademie.nl/nl/">Gerrit Rietveld Academie</a></li>
 				</ul>
 			</div> <!- end column -->
 			
@@ -36,6 +36,7 @@
 				<ul class="last">
 					<li><h3>Programming Tools</h3></li>
 					<li><a href="http://www.barebones.com/products/textwrangler/download.html">TextWrangler</a></li>
+					<li><a href="http://cyberduck.ch/">Cyberduck</a></li>
 					<li><a href="http://fugu.en.softonic.com/mac">Fugu</a></li>
 					<li><a href="http://copypastecharacter.com/">Copy/Paste Character</a></li>
 					<li><a href="http://jsbin.com/">JSbin</a></li>
