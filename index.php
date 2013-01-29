@@ -45,6 +45,7 @@
 	
 	<ul> <!- start accordian -->
 		
+		<?php include('studio-1b.php'); ?>
 		<?php include('lab-1a.php'); ?>
 		<?php include('readings.php'); ?>
 		<?php include('students.php'); ?>

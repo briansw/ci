@@ -6,6 +6,18 @@
 		<span class="accordion-icon-open">+</span>
 	</div>			
 	<div class="accordion-body">
+	
+		<div class="announcement">
+			<div class="slide-wrapper">
+				<a href="#">
+				<div class="announcement-slide">
+					<h2>Announcement</h2>
+					<p>Cyprien Gaillard & Metahaven at MoMA PS1</p>
+				</div>
+				</a>
+			</div>
+		</div>
+		
 		<div class="discussion">
 			<h2>Discussion</h2>
 			<div class="slide-wrapper">

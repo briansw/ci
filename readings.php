@@ -122,7 +122,7 @@
 			<div class="column-3up"> <!- start column -->
 				<div class="file-wrapper">
 					<a class="no-underline" href="assets/files/Metz-Sandi-Practical-Object-Oriented-Design-In-Ruby.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-					<p><a href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><em>Practical Object-Oriented Design in Ruby</em>, Sandi Metz, 2012</a></p>
+					<p><a href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><em>Practical Object-Oriented Design in Ruby</em> (Ch. 1), Sandi Metz, 2012</a></p>
 					<p class="studio-due-date last">Due Week 3B</p>		
 				</div>
 			</div> <!- end column -->
@@ -190,7 +190,7 @@
 			
 			<ul class="bulleted-list last">
 				<li class="header"><h3>Typography</h3></li>
-				<li><a href="assets/files/Hochuli-Jost-Detail-In-Typography.pdf"><em>Detail In Typography</em>, Jost Hochuli</a></li>
+				<li><a href="assets/files/Hochuli-Jost-Detail-In-Typography.pdf"><em>Detail In Typography</em>, Jost Hochuli</a>&nbsp;&nbsp;<img src="assets/images/icon-pdf-mini.gif" /></li>
 				<li><a href="http://www.amazon.com/Typographie-Manual-Design-Emil-Ruder/dp/3721200438/ref=sr_1_1?s=books&ie=UTF8&qid=1358612617&sr=1-1&keywords=typographie+a+manual+of+design"><em>Typographie: A Manual of Design</em>, Emil Ruder</a></li>
 				<li class="last"><a href="http://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/ref=sr_1_1?s=books&ie=UTF8&qid=1358612327&sr=1-1&keywords=the+elements+of+typographic+style"><em>The Elements of Typographic Style</em>, Robert Bringhurst</a></li>
 				<li class="header"><h3>Form &amp; Composition</h3></li>

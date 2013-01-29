@@ -34,7 +34,7 @@
 				<div class="slide">
 					<img src="assets/images/cyprien-gaillard-city-of-gold-and-mirrors.jpg" width="492" />
 				</div>
-				<p><em>City of Gold and Mirrors</em>, Cyprien Gaillard, 2009</p>
+				<p><em>Cities of Gold and Mirrors</em>, Cyprien Gaillard, 2009</p>
 			</div>
 			
 			<div class="slide-wrapper">
@@ -43,6 +43,13 @@
 				</div>
 				<p><em><a href="http://oliverlaric.com/787cliparts.htm">787 Cliparts</a></em>, Oliver Laric, 2008</p>
 			</div>			
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/studio/yale-school-of-art.png" />
+				</div>
+				<p><a href="http://art.yale.edu">Yale University School of Art</a> home page</p>
+			</div>
 			
 			<div class="slide-wrapper">
 				<div class="slide">

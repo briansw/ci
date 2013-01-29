@@ -54,7 +54,7 @@ a.no-underline { border: none !important; background: transparent !important; }
 .accordion-body p.lab-due-date { color: #f00; }
 .accordion-body p.last { margin: -23px 0 0 0; }
 
-.discussion, .lecture, .assignments { border-bottom: 1px solid; margin: 0 10px 23px 10px; padding: 0 0 23px 0; }
+.announcement, .discussion, .lecture, .assignments { border-bottom: 1px solid; margin: 0 10px 23px 10px; padding: 0 0 23px 0; }
 .assignments.last { border-bottom: none; margin-bottom: 0; }
 .readings { font-size: 0; line-height: 0; }
 .readings h2, .readings h3 { margin-left: 10px; margin-right: 10px; }
@@ -79,3 +79,7 @@ ul.bulleted-list li.header { margin: 0 0 0 10px; list-style: none; list-style-ty
 .discussion-slide { background: #000; text-align: left; padding: 20px; }
 .discussion-slide img { margin: 0 15px 0 0; }
 .slide-wrapper p.last { margin: 0; }
+
+.announcement-slide { padding: 10px 15px; background: #ff0; font-size: 40px; line-height: 1; text-align: center; }
+.announcement-slide h2 { font-size: 17px; line-height: 1; text-decoration: underline; margin: 0; padding: 0; }
+.announcement-slide p { margin: 0; padding: 0; }
