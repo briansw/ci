@@ -41,7 +41,7 @@
 				<div class="slide">
 					<iframe width="420" height="315" src="http://www.youtube.com/embed/LK90lJCHlV4?rel=0" frameborder="0" allowfullscreen></iframe>
 				</div>
-				<p><em>787 Cliparts</em>, Oliver Laric, 2008</p>
+				<p><em><a href="http://oliverlaric.com/787cliparts.htm">787 Cliparts</a></em>, Oliver Laric, 2008</p>
 			</div>			
 			
 			<div class="slide-wrapper">

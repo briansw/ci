@@ -97,9 +97,17 @@
 			
 			<div class="column-3up"> <!- start column -->
 				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/galloway-alexander-protocol.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/galloway-alexander-protocol.pdf"><em>Protocol</em> (Ch. 1), Alexander R. Galloway, 2006</a></p>
+					<p class="studio-due-date last">Recommended Week 2B</p>		
+				</div>
+			</div> <!- end column -->
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
 					<a class="no-underline" href="assets/files/Amazon-23-Million-Dollar-Book.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
 					<p><a href="assets/files/Amazon-23-Million-Dollar-Book.pdf"><em>Amazon’s $23,698,655.93 book about flies</em>, Michael Eisen, 2011</a></p>
-					<p class="lab-due-date last">Due Week 2A</p>		
+					<p class="lab-due-date last">Due Week 3A</p>		
 				</div>
 			</div> <!- end column -->
 			
@@ -113,11 +121,11 @@
 			
 			<div class="column-3up"> <!- start column -->
 				<div class="file-wrapper">
-					<a class="no-underline" href="assets/files/galloway-alexander-protocol.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-					<p><a href="assets/files/galloway-alexander-protocol.pdf"><em>Protocol</em> (Ch. 1), Alexander R. Galloway, 2006</a></p>
-					<p class="studio-due-date last">Recommended</p>		
+					<a class="no-underline" href="assets/files/Metz-Sandi-Practical-Object-Oriented-Design-In-Ruby.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><em>Practical Object-Oriented Design in Ruby</em>, Sandi Metz, 2012</a></p>
+					<p class="studio-due-date last">Due Week 3B</p>		
 				</div>
-			</div> <!- end column -->						
+			</div> <!- end column -->
 			
 			<div class="column-3up"> <!- start column -->
 				<div class="file-wrapper">
@@ -182,7 +190,7 @@
 			
 			<ul class="bulleted-list last">
 				<li class="header"><h3>Typography</h3></li>
-				<li><a href="http://www.amazon.com/Detail-In-Typography-Jost-Hochuli/dp/0907259340/ref=sr_1_1?ie=UTF8&qid=1358610818&sr=8-1&keywords=details+in+typography"><em>Detail In Typography</em>, Jost Hochuli</a></li>
+				<li><a href="assets/files/Hochuli-Jost-Detail-In-Typography.pdf"><em>Detail In Typography</em>, Jost Hochuli</a></li>
 				<li><a href="http://www.amazon.com/Typographie-Manual-Design-Emil-Ruder/dp/3721200438/ref=sr_1_1?s=books&ie=UTF8&qid=1358612617&sr=1-1&keywords=typographie+a+manual+of+design"><em>Typographie: A Manual of Design</em>, Emil Ruder</a></li>
 				<li class="last"><a href="http://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/ref=sr_1_1?s=books&ie=UTF8&qid=1358612327&sr=1-1&keywords=the+elements+of+typographic+style"><em>The Elements of Typographic Style</em>, Robert Bringhurst</a></li>
 				<li class="header"><h3>Form &amp; Composition</h3></li>
