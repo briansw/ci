@@ -72,7 +72,7 @@
 			
 			<h3>Exercise 1</h3>
 			<p>Create a typographic “Hello world” animated GIF that is 249&times;76px at 72 DPI. You may only use one typeface (Arial or Times New Roman). Please use black and one other color (100% red, 100% green, or 100% blue). Title your file in the following format: "watterson-brian-hello-world.gif". Create a web page that includes your GIF and link it on your course home page. Finally, please <a href="mailto:wattersb@newschool.edu">email</a> your GIF by Thursday at 7:00pm. </p>
-			<p class="studio-due-date">Due Week 1B</p>		
+			<p class="studio-due-date">Due Week 1C</p>		
 		
 			<h3>Project 1</h3>
 			<p>Choose a subject, or even an object, that interests you. Your subject need not be exceptional in any way—it is your relationship, ideas and point of view on the topic that will be important to creating an interesting and successful project. The subject should be clearly defined and should not be overly complex—the smaller your subject is the better. It is necessary that your subject be researchable in a way that yields data (text, image) to provide ample material for your project. Research and collect as much data about your subject as possible. Organize the information into datasets and develop a position in relation to your subject. Create a web-based project that clearly states the subject and your position in a way that unfolds over time. Throughout the course of the project, ask yourself the following questions: Is my position interesting? How does the way the user navigates the website relate to the subject? Are the formal qualities of the website intentional and appropriate? Is it beautiful?</p>
