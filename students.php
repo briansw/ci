@@ -12,10 +12,9 @@
 				<li><a href="http://a.parsons.edu/~bonob154">Bianca Bono</a></li>
 				<li><a href="http://a.parsons.edu/~darmr955">Rachel Darmody</a></li>
 				<li><a href="http://a.parsons.edu/~ginsp007">Perri Ginsberg</a></li>
-				<li><a href="http://a.parsons.edu/~hamml048">Lena Anne Hammes</a></li>
-				<li><a href="http://a.parsons.edu/~hillt692">Thomas Hill</a></li>
 				<li><a href="http://a.parsons.edu/~kimh506">Hyerin Kim</a></li>
 				<li><a href="http://a.parsons.edu/~kims554">Sanggyun Kim</a></li>
+				<li><a href="http://a.parsons.edu/~lamj312">Jasmine Lam</a></li>
 				<li><a href="http://a.parsons.edu/~leev512">Victoria Lee</a></li>
 				<li><a href="http://a.parsons.edu/~leey316">Yunjoo Lee</a></li>
 				<li><a href="http://a.parsons.edu/~lis364">Sara Li</a></li>
