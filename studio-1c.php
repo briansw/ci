@@ -130,9 +130,9 @@
 			
 			<div class="slide-wrapper">
 				<div class="slide">
-					<img src="assets/images/studio/google-lissitzky.jpg" alt="google-lissitzky" />
+					<img src="assets/images/studio/lissitzky-nagy-desktop.jpg" alt="google-lissitzky" />
 				</div>
-				<p>Google image search results page</p>
+				<p>Desktop &amp; Google image search results page for &ldquo;Beat the Whites with the Red Wedge El Lissitzky 1919&rdquo;</p>
 			</div>
 
 		</div>
