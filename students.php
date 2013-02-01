@@ -16,7 +16,6 @@
 				<li><a href="http://a.parsons.edu/~kims554">Sanggyun Kim</a></li>
 				<li><a href="http://a.parsons.edu/~lamj312">Jasmine Lam</a></li>
 				<li><a href="http://a.parsons.edu/~leev512">Victoria Lee</a></li>
-				<li><a href="http://a.parsons.edu/~leey316">Yunjoo Lee</a></li>
 				<li><a href="http://a.parsons.edu/~lis364">Sara Li</a></li>
 				<li><a href="http://a.parsons.edu/~mcdae964">Ellen McDade</a></li>
 				<li><a href="http://a.parsons.edu/~merok742">Kelly Merole</a></li>
