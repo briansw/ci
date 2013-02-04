@@ -1,0 +1,33 @@
+body { 
+  background-color: #ccc;
+}
+
+#header { 
+	
+}
+ 
+#container { 
+	padding: 20px;
+	background-color: #fff;
+	margin: 0 auto;
+	width: 920px;
+	overflow: auto;
+}
+ 
+#main-column { 
+  width: 600px;
+  float: left;
+  margin-right: 20px;
+  font-size: 24px;
+}
+ 
+#right-column { 
+  width: 300px;
+  border-left: 1px;
+  float: left;
+}
+
+#footer { 
+	
+}
+
