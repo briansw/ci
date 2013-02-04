@@ -105,14 +105,6 @@
 			
 			<div class="column-3up"> <!- start column -->
 				<div class="file-wrapper">
-					<a class="no-underline" href="assets/files/Amazon-23-Million-Dollar-Book.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-					<p><a href="assets/files/Amazon-23-Million-Dollar-Book.pdf"><em>Amazon’s $23,698,655.93 book about flies</em>, Michael Eisen, 2011</a></p>
-					<p class="lab-due-date last">Due Week 3A</p>		
-				</div>
-			</div> <!- end column -->
-			
-			<div class="column-3up"> <!- start column -->
-				<div class="file-wrapper">
 					<a class="no-underline" href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
 					<p><a href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><em>What Design Means for Me</em>, Karel Martens, 1990</a></p>
 					<p class="studio-due-date last">Due Week 3B</p>		
@@ -140,6 +132,14 @@
 					<a class="no-underline" href="assets/files/murakami-norwegian-wood-chapter-1.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
 					<p><a href="assets/files/murakami-norwegian-wood-chapter-1.pdf"><em>Norwegian Wood</em> (Ch. 1), Haruki Murakami, 1987</a></p>
 					<p class="studio-due-date last">Due Week 4B</p>		
+				</div>
+			</div> <!- end column -->
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/Amazon-23-Million-Dollar-Book.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Amazon-23-Million-Dollar-Book.pdf"><em>Amazon’s $23,698,655.93 book about flies</em>, Michael Eisen, 2011</a></p>
+					<p class="lab-due-date last">Due Week 5A</p>		
 				</div>
 			</div> <!- end column -->
 			
