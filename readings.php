@@ -105,6 +105,14 @@
 			
 			<div class="column-3up"> <!- start column -->
 				<div class="file-wrapper">
+					<p><a href="http://learn.shayhowe.com/html-css/box-model"><em>Box Model & Positioning</em>, Shay Howe</a></p>
+					<p class="lab-due-date last">Due Week 3A</p>
+				</div>
+			</div> <!- end column -->
+
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
 					<a class="no-underline" href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
 					<p><a href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><em>What Design Means for Me</em>, Karel Martens, 1990</a></p>
 					<p class="studio-due-date last">Due Week 3B</p>		

@@ -88,6 +88,18 @@
 			<p class="lab-due-date last">Due Week 3A</p>
 		</div>
 		
+		<div class="readings">
+			<h2>Readings</h2>			
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<p><a href="http://learn.shayhowe.com/html-css/box-model"><em>Box Model & Positioning</em>, Shay Howe</a></p>
+					<p class="lab-due-date last">Due Week 3A</p>
+				</div>
+			</div> <!- end column -->
+
+		</div> <!-- end readings -->
+		
 	</div> <!-- end body -->
 	
 </li> <!-- end row -->
