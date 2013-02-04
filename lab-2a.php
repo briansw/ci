@@ -21,7 +21,7 @@
 
 			<div class="slide-wrapper">
 				<div class="slide">
-					<p>HTML stands for Hyper Text Markup Language. <em>Markup</em> is the key word in HTML, because HTML is supposed to describe the content of the page.</p>
+					<p>HTML stands for Hyper Text Markup Language. <em>Markup</em> is the key word in HTML, because HTML describes the content of the page.</p>
 				</div>
 			</div>
 			
@@ -35,23 +35,48 @@
 			
 			<div class="slide-wrapper">
 				<div class="slide">
-					<p>With CSS we select elements, classes, or IDs. Well, what are those?</p>
+					<p>With CSS, we can select HTML elements, classes, or IDs. We know what HTML elements are, but what are the others?</p>
 				</div>
+			<script src="https://gist.github.com/4704739.js"></script>
 			</div>
 			
-			<script src="https://gist.github.com/4704739.js"></script>
 			
 			<div class="slide-wrapper">
 				<div class="slide">
 					<p>Properties and values</p>
 				</div>
+				<script src="https://gist.github.com/4704965.js"></script>
 			</div>
 			
+						
 			<div class="slide-wrapper">
 				<div class="slide">
 					<img src="assets/images/lab/box-model.png" />
 				</div>
+				<p>The box model</p>
 			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/lab/refine-comp-george-herbert.jpeg" />
+				</div>
+				<p>George Herbert's "Easter Wings", printed in 1633</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/lab/refine-comp-emmett-williams.jpeg" alt="refine-comp-emmett-williams" width="550" height="558" />
+				</div>
+				<p>Emmett Williams, "Meditation No. 2"</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/lab/refine-comp-rob-giampietro.gif" />
+				</div>
+				<p>Rob Giampietro, "Spraypaint", 2008</p>
+			</div>
+
 
 		</div>
 		
@@ -59,7 +84,7 @@
 			<h2>Assignments</h2>
 			
 			<h3>Exercise 2</h3>
-			<p>Design a web site that archives each classmate's composition from last week's assignment. Your archive should include a static image of each student's composition and a link to the html version of the composition. In addition, the following information should also be included: title, author, email address, and any other content appropriate to your design. For this assignment, you should analyze all of the compositions and decide on an organizing principle that your site will be based on&mdash;try to find a system more interesting than alphabetical order.</p>
+			<p>With the addition of CSS, refine your composition. Do <em>not</em> overwrite your original composition. What were you trying to achieve in the original? How we can use CSS attributes to push those ideas further.</p>
 			<p class="lab-due-date last">Due Week 3A</p>
 		</div>
 		
