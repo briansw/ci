@@ -28,7 +28,6 @@
 			<div class="slide-wrapper">
 				<div class="slide">
 					<p>CSS stands for Cascading Style Sheets. Here, <em>Style</em> is the key word. CSS styles the page's contents.</p> 
-					<p>We'll discover what is important about <em>cascading</em> later.</p>
 				</div>
 			</div>
 
