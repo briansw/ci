@@ -8,6 +8,22 @@
 	<div class="accordion-body">
 		<div class="lecture">
 			<h2>Lecture</h2>
+
+
+			<div class="slide-wrapper">
+				<div class="slide">
+					<p>Positioning elements</p>
+				</div>
+			</div>
+
+
+			<div class="slide-wrapper">
+				<div class="slide">
+					<p>Debugging</p>
+				</div>
+			</div>
+
+
 			<div class="slide-wrapper">
 				<div class="slide">
 					<img src="assets/images/lab/inspect-element-chrome.png" />				
@@ -19,9 +35,9 @@
 		<div class="assignments">
 			<h2>Assignments</h2>
 			
-			<h3>Exercise 1</h3>
-			<p>Description . . .</p>
-			<p class="lab-due-date last">Due Week 3A</p>		
+			<h3>Exercise 2</h3>
+			<p>Design a web site that archives each classmate's composition from last week's assignment. Your archive should include a static image of each student's composition and a link to the HTML version of the composition. In addition, the following information should also be included: title, author, email address, and any other content appropriate to your design. For this assignment, you should analyze all of the compositions and decide on an organizing principle that your site will be based on&mdash;try to find a system more interesting than alphabetical order.</p>
+			<p class="lab-due-date last">Due Week 4A, via email</p>		
 		</div>
 							
 		<div class="readings">
