@@ -12,7 +12,7 @@
 				<div class="discussion-slide">
 					<img src="assets/images/studio/discussion-thumbs/koolhaas-junkspace.jpg" width="75" />				
 				</div>
-				<p class="last">Presentations by <a href="#">Sam Sneed</a> and <a href="#">Charlie Dawkins</a></p>
+				<p class="last">Presentations by <a href="http://a.parsons.edu/~kims554/">SG Kim</a> and <a href="http://a.parsons.edu/~darmr955/">Rachel Darmody</a></p>
 			</div>
 		</div>
 		<div class="lecture">
@@ -34,6 +34,84 @@
 			
 			<div class="slide-wrapper">
 				<div class="slide">
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/ort_GKw6mQs?rel=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<p>Clear app promo</p>
+			</div>
+
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<a class="no-underline" href="http://www.artasiapacific.com"><img src="assets/images/studio/week-2/aap-website.png" /></a>
+				</div>
+				<p>ArtAsiaPacific website</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<a class="no-underline" href="http://www.dextersinister.org"><img src="assets/images/studio/week-2/dextersinister-website.png" /></a>
+				</div>
+				<p>Dexter Sinister website</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<a class="no-underline" href="http://yourlandmyland.us"><img src="assets/images/studio/week-2/yourlandmyland-website.png" /></a>
+				</div>
+				<p>Your Land My Land website</p>
+			</div>			
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<a class="no-underline" href="http://www.lineto.com"><img src="assets/images/studio/week-2/lineto-website.png" /></a>
+				</div>
+				<p>Lineto website</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<a class="no-underline" href="http://linkedbyair.net/artcity/"><img src="assets/images/studio/week-2/artcity-website.png" /></a>
+				</div>
+				<p>Artcity website</p>
+			</div>			
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<a class="no-underline" href="http://www.radimpesko.com"><img src="assets/images/studio/week-2/radimpesko-website.png" /></a>
+				</div>
+				<p>Radim Pesko website</p>
+			</div>	
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<a class="no-underline" href="http://www.so-il.org"><img src="assets/images/studio/week-2/soil-website.png" /></a>
+				</div>
+				<p>So&mdash;Il website</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<a class="no-underline" href="http://www.hier-eisenreich.org/"><img src="assets/images/studio/week-2/uta-website.png" /></a>
+				</div>
+				<p>Uta Eisenreich website</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<a class="no-underline" href="http://www.babakradboy.com"><img src="assets/images/studio/week-2/babakradboy-website.png" /></a>
+				</div>
+				<p>Babak Radboy website</p>
+			</div>
+			
+			<div class="slide-wrapper">
+				<div class="slide">
+					<a class="no-underline" href="http://whitney.org"><img src="assets/images/studio/week-2/whitney-website.png" /></a>
+				</div>
+				<p>Whitney Museum of American Art</p>
+			</div>
+						
+			<div class="slide-wrapper">
+				<div class="slide">
 					<img src="assets/images/studio/navigation-lecture/indesign-icon.png" />
 				</div>
 				<p>InDesign tutorial</p>
@@ -42,14 +120,10 @@
 		</div>
 					
 		<div class="assignments last">
-			<h2>Assignments</h2>
+			<h2>Materials</h2>
 			
-			<h3>Exercise 1</h3>
-			<p>Select a website that you enjoy and visit frequently and explore the navigational devices/strategies the site employs. Create a slide presentation that documents how the navigation works. Focus on the following questions: how the user moves from one section to the next, how are deeper levels of navigation set off from the primary navigation, how does the navigation relate to the content. Finally, create a link to your PDF presentation on your course home page.</p>
-			<p class="studio-due-date last">Due Week 2C</p>		
-			
-			<h3>Materials</h3>
-			<p>Bring cameras and laptops</p>
+			<p>Please bring a camera, laptop, and jump drive to class on Friday.</p>
+			<p class="studio-due-date last">Week 2C</p>		
 			
 		</div>
 		
