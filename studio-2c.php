@@ -145,11 +145,11 @@
 			<p class="studio-due-date">Due Today</p>
 			
 			<h3>Exercise 2</h3>
-			<p>Design and program a website that represents your space. You may focus on one function within the space or use all of them. The website should be related to the space in the way that the user moves through it. What does an appropriate navigation look like for this space? How are the functions of the space expressed and how do they relate/depart from the physical act of being in the space?</p>
+			<p>Design and program a website that represents your space. Choose a minimum of three functions within the space to represent. The way the user navigates your website should relate to the way one moves through your chosen space. While designing, ask yourself the following: What is an appropriate navigation for the space? What does it look like? How are the functions of the space expressed visually and how do they relate to/depart from the physical act of performing the function within the space?</p>
 			<p class="studio-due-date">Due Week 2C</p>
 			
 			<h3>Exercise 3</h3>
-			<p>Create a favicon for the Core Interaction website. Think about the function of the website along with the navigational and formal qualities of its design. How does the favicon you design relate to these qualities?</p>
+			<p>Create a favicon for the Core Interaction website. Think about the function of the website along with the navigational and formal elements of its design. How does the favicon you design relate to these elements?</p>
 			<p class="studio-due-date last">Due Week 2C</p>
 		</div>
 							
@@ -160,6 +160,14 @@
 				<div class="file-wrapper">
 					<a class="no-underline" href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
 					<p><a href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><em>What Design Means for Me</em>, Karel Martens, 1990</a></p>
+					<p class="studio-due-date last">Due Week 3B</p>		
+				</div>
+			</div> <!- end column -->
+			
+			<div class="column-3up"> <!- start column -->
+				<div class="file-wrapper">
+					<a class="no-underline" href="assets/files/Metz-Sandi-Practical-Object-Oriented-Design-In-Ruby.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/Martens-Printed-Matter-What-Design-Means-for-Me.pdf"><em>Practical Object-Oriented Design in Ruby</em> (Ch. 1), Sandi Metz, 2012</a></p>
 					<p class="studio-due-date last">Due Week 3B</p>		
 				</div>
 			</div> <!- end column -->
