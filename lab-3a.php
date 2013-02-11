@@ -9,13 +9,12 @@
 		<div class="lecture">
 			<h2>Lecture</h2>
 
-
 			<div class="slide-wrapper">
 				<div class="slide">
-					<p>Positioning elements</p>
+					<img src="assets/images/lab/positioning-columns.png" />				
 				</div>
+				<script src="https://gist.github.com/zackseuberling/4752085.js"></script>
 			</div>
-
 
 			<div class="slide-wrapper">
 				<div class="slide">
@@ -23,36 +22,44 @@
 				</div>
 			</div>
 
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/lab/debug-inspect-element.png" />				
+				</div>
+				<p>Chrome's inspect element opens…</p>
+			</div>
 
 			<div class="slide-wrapper">
 				<div class="slide">
-					<img src="assets/images/lab/inspect-element-chrome.png" />				
+					<img src="assets/images/lab/debug-google-chrome.png" />				
 				</div>
-				<p>. . .</p>
+				<p>Chrome development tools</p>
 			</div>
+
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/lab/debug-changing-css.png" />
+				</div>
+				<p>Chrome development tools</p>
+			</div>
+
+			<div class="slide-wrapper">
+				<div class="slide">
+					<img src="assets/images/lab/debug-firebug.png" />
+				</div>
+				<p><a href="http://getfirebug.com">Get Firebug</a></p>
+			</div>
+
 		</div>
 		
 		<div class="assignments">
 			<h2>Assignments</h2>
 			
-			<h3>Exercise 2</h3>
+			<h3>Exercise 3</h3>
 			<p>Design a web site that archives each classmate's composition from last week's assignment. Your archive should include a static image of each student's composition and a link to the HTML version of the composition. In addition, the following information should also be included: title, author, email address, and any other content appropriate to your design. For this assignment, you should analyze all of the compositions and decide on an organizing principle that your site will be based on&mdash;try to find a system more interesting than alphabetical order.</p>
 			<p class="lab-due-date last">Due Week 4A, via email</p>		
 		</div>
-							
-		<div class="readings">
-			<h2>Readings</h2>			
-			
-			<div class="column-3up"> <!-- start column -->
-				<div class="file-wrapper">
-					<a class="no-underline" href="assets/files/#"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-					<p><a href="assets/files/#"><em>Title</em>, Author, 2002</a></p>
-					<p class="lab-due-date last">Due Week 3A</p>		
-				</div>
-			</div> <!-- end column -->
-
-		</div> <!-- end readings -->
-		
+									
 	</div> <!-- end body -->
 	
 </li> <!-- end row -->
