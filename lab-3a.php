@@ -57,7 +57,7 @@
 			
 			<h3>Exercise 3</h3>
 			<p>Design a web site that archives each classmate's composition from last week's assignment. Your archive should include a static image of each student's composition and a link to the HTML version of the composition. In addition, the following information should also be included: title, author, email address, and any other content appropriate to your design. For this assignment, you should analyze all of the compositions and decide on an organizing principle that your site will be based on&mdash;try to find a system more interesting than alphabetical order.</p>
-			<p class="lab-due-date last">Due Week 4A, via email</p>		
+			<p class="lab-due-date last">Due Week 4 by 6PM &mdash; a PDF of 3 design ideas.</p>		
 		</div>
 									
 	</div> <!-- end body -->
