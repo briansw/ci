@@ -69,7 +69,7 @@
 		<div class="assignments last">
 			<h2>Assignments</h2>			
 			<h3>Project 1</h3>
-			<p>Generate three separate narratives that you might like to pursue for your midterm and compile a list of references for each. Thoroughly define the key components within each narrative and sketch out in detail a proposed site structure and navigation. Finally, assemble a PDF presentation that presents each direction in a clear and coherent manner.</p>
+			<p>Generate three distinct proposals that you&rsquo;d like to pursue for project 1. Compile a list of references for each and thoroughly document the key components within each proposal that you&rsquo;d like to focus on. Begin to develop a position in relation to your subjects and create a detailed sketches of each proposal that employs an interesting and engaging site structure and navigation. Finally, assemble a PDF that contains each proposal and upload it to your course home page.</p>
 			<p class="studio-due-date">Due Week 4B</p>			
 		</div>
 		
