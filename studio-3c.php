@@ -59,9 +59,10 @@
 			
 			<div class="slide-wrapper">
 				<div class="slide">
+					<img src="assets/images/studio/project-1-lecture/sealand-photo.jpg" alt="sealand" width="400" height="271" />
 					<img src="assets/images/studio/project-1-lecture/sealand.jpg" alt="sealand" width="400" height="271" />
 				</div>
-				<p><em>Sealand</em>, Metahaven</p>
+				<p>Principality of Sealand; Sealand identity, Metahaven</p>
 			</div>
 						
 		</div>
