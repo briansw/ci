@@ -45,6 +45,7 @@
 	
 	<ul> <!- start accordian -->
 		
+		<?php include('studio-4c.php'); ?>
 		<?php include('studio-4b.php'); ?>
 		<?php include('studio-3c.php'); ?>
 		<?php include('studio-3b.php'); ?>
