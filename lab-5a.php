@@ -25,8 +25,8 @@
 			<h2>Assignments</h2>
 			
 			<h3>Exercise 3-b</h3>
-			<p>Program your composition archive.</p>
-			<p class="lab-due-date last">Due Week 6.</p>		
+			<p>Execute your composition design using using HTML and CSS techniques discussed in class. Your site will not have any broken links, and it will not have any broken images. It will match your PDF designs as closely as possible.</p>
+			<p class="lab-due-date last">Due Week 6.</p>
 		</div>
 									
 	</div> <!-- end body -->
