@@ -11,14 +11,20 @@
 
 			<div class="slide-wrapper">
 				<div class="slide">
-					<p>Positioning</p>
+					<p>Introduction to <em>cascading</em> style sheets</p>
 				</div>
 				<script src="https://gist.github.com/zackseuberling/5028035.js"></script>
 			</div>
 
 			<h2>Group critiques</h2>
 
-			<h2>Working lab</h2>
+			<div class="slide-wrapper">
+				<div class="slide">
+					<p>More positioning!</p>
+				</div>
+				<script src="https://gist.github.com/zackseuberling/5027978.js"></script>
+			</div>
+
 		</div>
 		
 		<div class="assignments">
