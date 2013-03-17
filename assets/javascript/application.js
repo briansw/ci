@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $('.accordion-header').click(function(e){
+    $('.accordion-row').click(function(e){	    
         e.preventDefault();
         if($(this).closest('li').find('.accordion-body').is(":visible")){
         	$(this).removeClass('open');
@@ -9,6 +9,8 @@ $(document).ready(function(){
 	    	$(this).closest('li').find('.accordion-icon-open').show();
 	    }
 	    else {
+		    var url = $(this).data('url');
+	    	$(this).find('.accordion-body').load(url);
 	    	$('html, body').animate({
 	         	scrollTop: $(this).offset().top - 56
 	         }, 300);
@@ -36,6 +38,6 @@ $(document).ready(function(){
         $('html, body').animate({
 	     		scrollTop: $(action).offset().top - 56
 	     }, 300);
-    });    
-    
+    });
+     
 });

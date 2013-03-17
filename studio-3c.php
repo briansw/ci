@@ -1,12 +1,4 @@
-<li class="accordion-row">		
-	<div class="accordion-header">
-		<div class="icon studio-icon"></div>
-		<div class="title">Week 3C</div>
-		<span class="accordion-icon-closed">&ndash;</span>
-		<span class="accordion-icon-open">+</span>
-	</div>			
-	<div class="accordion-body">
-				<div class="lecture">
+		<div class="lecture">
 			<h2>Lecture</h2>
 			<div class="slide-wrapper">
 				<div class="slide">
@@ -95,6 +87,3 @@
 
 
 		</div>
-		
-	</div>			
-</li> <!- end row -->

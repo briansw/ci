@@ -44,19 +44,19 @@
 	</div>
 	
 	<ul> <!- start accordian -->
-		
-		<?php include('lab-5a.php'); ?>
-		<?php include('studio-4c.php'); ?>
-		<?php include('studio-4b.php'); ?>
-		<?php include('studio-3c.php'); ?>
-		<?php include('studio-3b.php'); ?>
-		<?php include('lab-3a.php'); ?>
-		<?php include('studio-2c.php'); ?>
-		<?php include('studio-2b.php'); ?>
-		<?php include('lab-2a.php'); ?>
-		<?php include('studio-1c.php'); ?>
-		<?php include('studio-1b.php'); ?>
-		<?php include('lab-1a.php'); ?>
+				
+		<?php include('snippets/lab-5a.php'); ?>
+		<?php include('snippets/studio-4c.php'); ?>
+		<?php include('snippets/studio-4b.php'); ?>
+		<?php include('snippets/studio-3c.php'); ?>
+		<?php include('snippets/studio-3b.php'); ?>
+		<?php include('snippets/lab-3a.php'); ?>
+		<?php include('snippets/studio-2c.php'); ?>
+		<?php include('snippets/studio-2b.php'); ?>
+		<?php include('snippets/lab-2a.php'); ?>
+		<?php include('snippets/studio-1c.php'); ?>
+		<?php include('snippets/studio-1b.php'); ?>
+		<?php include('snippets/lab-1a.php'); ?>
 		<?php include('readings.php'); ?>
 		<?php include('students.php'); ?>
 		

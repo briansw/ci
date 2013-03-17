@@ -1,12 +1,3 @@
-<li class="accordion-row">		
-	<div class="accordion-header">
-		<div class="icon studio-icon"></div>
-		<div class="title">Week 1C</div>
-		<span class="accordion-icon-closed">&ndash;</span>
-		<span class="accordion-icon-open">+</span>
-	</div>			
-	<div class="accordion-body">
-	
 		<div class="announcement">
 			<div class="slide-wrapper">
 				<a target="_blank" href="http://www.momaps1.org/exhibitions/view/364">
@@ -155,8 +146,3 @@
 					<p class="studio-due-date last">Recommended Week 2B</p>		
 				</div>
 			</div> <!- end column -->
-
-
-		</div>
-	</div>			
-</li> <!- end row -->

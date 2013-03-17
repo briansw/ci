@@ -1,11 +1,3 @@
-<li class="accordion-row">		
-	<div class="accordion-header">
-		<div class="icon studio-icon"></div>
-		<div class="title">Week 4B</div>
-		<span class="accordion-icon-closed">&ndash;</span>
-		<span class="accordion-icon-open">+</span>
-	</div>			
-	<div class="accordion-body">
 		<div class="discussion">
 			<h2>Discussion</h2>
 			<div class="slide-wrapper">
@@ -30,6 +22,3 @@
 			<p>Based on the feedback given in class, continue to research your chosen subject and further develop your position. Generate three additional proposals that thoroughly explore alternative site structures/flows and navigation patterns.</p>
 			<p class="studio-due-date">Due Week 4C</p>			
 		</div>
-		
-	</div>			
-</li> <!- end row -->

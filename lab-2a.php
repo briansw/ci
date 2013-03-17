@@ -1,11 +1,3 @@
-<li class="accordion-row">
-	<div class="accordion-header">
-		<div class="icon lab-icon"></div>
-		<div class="title">Week 2A</div>
-		<span class="accordion-icon-closed">&ndash;</span>
-		<span class="accordion-icon-open">+</span>
-	</div>			
-	<div class="accordion-body">
 
 		<div class="discussion">
 			<h2>Discussion</h2>
@@ -100,6 +92,3 @@
 
 		</div> <!-- end readings -->
 		
-	</div> <!-- end body -->
-	
-</li> <!-- end row -->
