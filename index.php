@@ -44,7 +44,8 @@
 	</div>
 	
 	<ul> <!- start accordian -->
-				
+		
+		<?php include('snippets/studio-7c.php'); ?>		
 		<?php include('snippets/lab-5a.php'); ?>
 		<?php include('snippets/studio-4c.php'); ?>
 		<?php include('snippets/studio-4b.php'); ?>
