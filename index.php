@@ -8,7 +8,8 @@
     
 	<link rel="stylesheet" href="assets/css/normalize.css">
 	<link rel="stylesheet" href="assets/css/application.css">
-		
+<!-- 	<link rel="icon" href="<?php $favicon_to_use ?>" /> -->
+	
 	<script src='assets/javascript/jquery-1.9.0.min.js'></script>
 	<script src='assets/javascript/application.js'></script>
 	<script src='assets/javascript/bootstrap.min.js'></script>
@@ -45,6 +46,7 @@
 	
 	<ul> <!- start accordian -->
 		
+		<?php include('snippets/studio-8b.php'); ?>
 		<?php include('snippets/studio-7c.php'); ?>	
 		<?php include('snippets/studio-7b.php'); ?>		
 		<?php include('snippets/lab-5a.php'); ?>
