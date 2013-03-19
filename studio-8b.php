@@ -14,7 +14,7 @@
 	<h2>Assignments</h2>			
 	<h3>Assignment 1</h3>
 	<p>Research the work and ideas of both Wim Crouwel and <a target="_blank" href="http://www.experimentaljetset.nl/">Experimental Jetset</a>. Select and print out (no smaller than 8.5×11 in.) one work from each of these studios that you find interesting. Think about these works in relation to the reading and to each other and prepare your thoughts for group discussion.</p>
-	<p class="studio-due-date">Due Week 8B</p>			
+	<p class="studio-due-date">Due Week 8C</p>			
 </div>
 
 <h2>Readings</h2>			
