@@ -1,3 +1,5 @@
+<?php include('favicon.php'); ?>
+
 <!doctype html>
 <html>
 <head>
@@ -8,7 +10,7 @@
     
 	<link rel="stylesheet" href="assets/css/normalize.css">
 	<link rel="stylesheet" href="assets/css/application.css">
-<!-- 	<link rel="icon" href="<?php $favicon_to_use ?>" /> -->
+	<link rel="icon" href="assets/images/favicons/<?php print($favicon_to_use); ?>" />
 	
 	<script src='assets/javascript/jquery-1.9.0.min.js'></script>
 	<script src='assets/javascript/application.js'></script>
