@@ -47,22 +47,7 @@
 	</div>
 	
 	<ul> <!- start accordian -->
-		
-		<?php include('snippets/studio-8b.php'); ?>
-		<?php include('snippets/studio-7c.php'); ?>	
-		<?php include('snippets/studio-7b.php'); ?>		
-		<?php include('snippets/lab-5a.php'); ?>
-		<?php include('snippets/studio-4c.php'); ?>
-		<?php include('snippets/studio-4b.php'); ?>
-		<?php include('snippets/studio-3c.php'); ?>
-		<?php include('snippets/studio-3b.php'); ?>
-		<?php include('snippets/lab-3a.php'); ?>
-		<?php include('snippets/studio-2c.php'); ?>
-		<?php include('snippets/studio-2b.php'); ?>
-		<?php include('snippets/lab-2a.php'); ?>
-		<?php include('snippets/studio-1c.php'); ?>
-		<?php include('snippets/studio-1b.php'); ?>
-		<?php include('snippets/lab-1a.php'); ?>
+
 		<?php include('readings.php'); ?>
 		<?php include('students.php'); ?>
 		
@@ -71,7 +56,7 @@
 	<div id="footer">
 		<ul>
 			<li><a href="mailto:wattersb@newschool.edu">wattersb@newschool.edu</a></li>
-			<li><a href="mailto:seuberlz@newschool.edu">seuberlz@newschool.edu</a></li>
+			<li><a href="mailto:griffitb@newschool.edu">griffitb@newschool.edu</a></li>
 			<li><img src="assets/images/crab.gif" width="33" height="15" />
 		</ul>
 	</div>

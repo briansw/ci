@@ -1,15 +1,15 @@
-body { font-family: arial, helvetica, sans-serif; font-size: 17px; line-height: 23px; }
+body { font-family: helvetica, arial, sans-serif; font-size: 17px; line-height: 23px; }
 .gist { font-size: 13px; line-height: 15px; }
 ul, li { list-style: none; list-style-type: none; margin: 0; padding: 0; }
 div { vertical-align: top; }
 #wrapper { width: 768px; margin: 53px auto 0 auto; padding: 0; }
 
-h2, h3 { font-size: 40px; line-height: 1; font-weight: normal; margin: 0; padding: 0; }
+h2, h3 { font-size: 30px; line-height: 1; font-weight: normal; margin: 0; padding: 0; }
 
 .accordion-header.open.affix { position: fixed; top: 0; }
 
 
-#navigation { width: 748px; position: fixed; top: 0; background: #fff; border-bottom: 3px solid; padding: 10px 10px 20px 10px; }
+#navigation { width: 748px; position: fixed; top: 0; background: #fff; border-bottom: 1px solid; padding: 10px 10px 20px 10px; }
 #navigation li, #footer li { display: inline-block; *display: inline; zoom: 1; margin-right: 30px; }
 #navigation li#home { margin-right: 126px; }
 #navigation li#home a { border: none; }
@@ -28,11 +28,11 @@ a img { border: none; background: none; }
 a.no-underline { border: none !important; background: transparent !important; }
 
 
-.accordion-row { width: 100%; border-top: 3px solid; padding: 0; }
-.accordion-header { font-weight: normal; margin: 0; padding: 15px 10px; line-height: 50px; height: 50px; }
+.accordion-row { width: 100%; border-top: 1px solid; padding: 0; }
+.accordion-header { font-weight: normal; margin: 0; padding: 5px 10px; line-height: 50px; height: 50px; }
 .accordion-header .icon, .accordion-header .title { padding: 0; display: inline-block; height: 50px; }
-.accordion-header .icon { width: 81px; margin: 0 20px 0 0; text-align: center; }
-.accordion-header .title { font-size: 40px; line-height: 45px; padding: 5px 0 0 0; }
+.accordion-header .icon { width: 81px; margin: 0; text-align: center; }
+.accordion-header .title { font-size: 30px; line-height: 45px; padding: 5px 0 0 0; }
 .accordion-header:hover { background: #f1f1f1; cursor: pointer; }
 .accordion-header:active { background: #ff0; }
 
@@ -42,7 +42,7 @@ a.no-underline { border: none !important; background: transparent !important; }
 .students-icon { background: url('../images/students-icon.png') no-repeat; }
 .icon.open { background-position: -81px 0; }
 		
-.accordion-row:last-child { border-bottom: 3px solid; }
+.accordion-row:last-child { border-bottom: 1px solid; }
 		
 .accordion-body { display: none; vertical-align: top; padding: 30px 0; background: url('../images/expanded-fold-down.gif') repeat-x; }
 .accordion-body ol li { margin: 0 0 0 30px; list-style: decimal;}
@@ -81,6 +81,6 @@ ul.bulleted-list li.header { margin: 0 0 0 10px; list-style: none; list-style-ty
 .discussion-slide img { margin: 0 15px 0 0; }
 .slide-wrapper p.last { margin: 0; }
 
-.announcement-slide { padding: 10px 15px; background: #ff0; font-size: 40px; line-height: 1; text-align: center; }
+.announcement-slide { padding: 10px 15px; background: #ff0; font-size: 30px; line-height: 1; text-align: center; }
 .announcement-slide h2 { font-size: 17px; line-height: 1; text-decoration: underline; margin: 0; padding: 0; }
 .announcement-slide p { margin: 0; padding: 0; }

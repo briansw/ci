@@ -8,23 +8,18 @@
 	<div class="accordion-body">
 		<div class="accordion-content">
 			<ol>
-				<li><a href="http://a.parsons.edu/~berge675">Elizabeth Bergesch</a></li>
-				<li><a href="http://a.parsons.edu/~bonob154">Bianca Bono</a></li>
-				<li><a href="http://a.parsons.edu/~darmr955">Rachel Darmody</a></li>
-				<li><a href="http://a.parsons.edu/~ginsp007">Perri Ginsberg</a></li>
-				<li><a href="http://a.parsons.edu/~kimh506">Hyerin Kim</a></li>
-				<li><a href="http://a.parsons.edu/~kims554">Sanggyun Kim</a></li>
-				<li><a href="http://a.parsons.edu/~lamj312">Jasmine Lam</a></li>
-				<li><a href="http://a.parsons.edu/~leev512">Victoria Lee</a></li>
-				<li><a href="http://a.parsons.edu/~lis364">Sara Li</a></li>
-				<li><a href="http://a.parsons.edu/~mcdae964">Ellen McDade</a></li>
-				<li><a href="http://a.parsons.edu/~merok742">Kelly Merole</a></li>
-				<li><a href="http://a.parsons.edu/~newtc116">Caroline Newton</a></li>
-				<li><a href="http://a.parsons.edu/~putrm886">Maria Putri</a></li>
-				<li><a href="http://a.parsons.edu/~salah205">Hussain Salahuddin</a></li>
-				<li><a href="http://a.parsons.edu/~setrt577">Taleen Setrakian</a></li> 	
-				<li><a href="http://a.parsons.edu/~woos879">Sangseob Woo</a></li>				
+				<li><a target="_blank" href="http://a.parsons.edu/~adkik756">Adkins, Kathryn</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~auc258">Au, Che Ying</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~ballk483">Ballon, Kevin</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~doylr196">Doyle Cunningham, Rachel Alexandra</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~fossm993">Foss, Mark J.</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~lamam851">Iamaguti, Mariana S.</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~kuhna347">Kuhnen, Andreas</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~steim512">Stein, Maurann</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~tschj092">Tschong, Joel E.</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~wangy858">Wang, Yue</a></li>
 			</ol>
 		</div>
 	</div>			
 </li> <!- end students row -->
+

@@ -35,7 +35,7 @@
 				
 				<ul class="last">
 					<li><h3>Programming Tools</h3></li>
-					<li><a href="http://www.barebones.com/products/textwrangler/download.html">TextWrangler</a></li>
+					<li><a href="http://www.sublimetext.com/">Sublime Text</a></li>
 					<li><a href="http://cyberduck.ch/">Cyberduck</a></li>
 					<li><a href="http://fugu.en.softonic.com/mac">Fugu</a></li>
 					<li><a href="http://copypastecharacter.com/">Copy/Paste Character</a></li>
