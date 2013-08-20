@@ -27,21 +27,22 @@
 			<div class="column-3up">
 				<ul>				
 					<li><h3>Programming Resources</h3></li>
-					<li><a href="http://www.w3schools.com/">W3Schools</a></li>
-					<li><a href="http://stackoverflow.com/">Stack Overflow</a></li>
-					<li><a href="https://developer.mozilla.org/">Mozilla Developer Network</a></li>
+					<li><a href="http://dochub.io/">DocHub</a></li>
 					<li><a href="http://discover-devtools.codeschool.com/">Discover Devtools</a></li>
 					<li><a href="http://getfirebug.com/">Firebug</a></li>
 					<li><a href="http://learnlayout.com/">Learn CSS Layout</a></li>
+					<li><a href="https://developer.mozilla.org/">Mozilla Developer Network</a></li>
+					<li><a href="http://stackoverflow.com/">Stack Overflow</a></li>
+					<li><a href="http://www.w3schools.com/">W3Schools</a></li>
 				</ul>
 				
 				<ul class="last">
 					<li><h3>Programming Tools</h3></li>
-					<li><a href="http://www.sublimetext.com/">Sublime Text</a></li>
+					<li><a href="http://copypastecharacter.com/">Copy/Paste Character</a></li>
 					<li><a href="http://cyberduck.ch/">Cyberduck</a></li>
 					<li><a href="http://fugu.en.softonic.com/mac">Fugu</a></li>
-					<li><a href="http://copypastecharacter.com/">Copy/Paste Character</a></li>
 					<li><a href="http://jsbin.com/">JSbin</a></li>
+					<li><a href="http://www.sublimetext.com/">Sublime Text</a></li>
 				</ul>
 			</div> <!- end column -->
 			

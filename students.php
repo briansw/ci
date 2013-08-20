@@ -8,16 +8,17 @@
 	<div class="accordion-body">
 		<div class="accordion-content">
 			<ol>
-				<li><a target="_blank" href="http://a.parsons.edu/~adkik756">Adkins, Kathryn</a></li>
-				<li><a target="_blank" href="http://a.parsons.edu/~auc258">Au, Che Ying</a></li>
-				<li><a target="_blank" href="http://a.parsons.edu/~ballk483">Ballon, Kevin</a></li>
-				<li><a target="_blank" href="http://a.parsons.edu/~doylr196">Doyle Cunningham, Rachel Alexandra</a></li>
-				<li><a target="_blank" href="http://a.parsons.edu/~fossm993">Foss, Mark J.</a></li>
-				<li><a target="_blank" href="http://a.parsons.edu/~lamam851">Iamaguti, Mariana S.</a></li>
-				<li><a target="_blank" href="http://a.parsons.edu/~kuhna347">Kuhnen, Andreas</a></li>
-				<li><a target="_blank" href="http://a.parsons.edu/~steim512">Stein, Maurann</a></li>
-				<li><a target="_blank" href="http://a.parsons.edu/~tschj092">Tschong, Joel E.</a></li>
-				<li><a target="_blank" href="http://a.parsons.edu/~wangy858">Wang, Yue</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~adkik756">Kathryn Adkins</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~auc258">Che Ying Au</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~ballk483">Kevin Ballon</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~dangm024">Minh Huy Dang</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~doylr196">Rachel Alexandra Doyle Cunningham</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~fossm993">Mark J. Foss</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~lamam851">Mariana S. Iamaguti</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~kuhna347">Andreas Kuhnen</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~steim512">Maurann Stein</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~tschj092">Joel E. Tschong</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~wangy858">Yue Wang</a></li>
 			</ol>
 		</div>
 	</div>			
