@@ -12,15 +12,15 @@
 			<div class="column-3up">
 				<ul class="last">
 					<li><h3>Design Resources</h3></li>
-					<li><a href="http://www.manystuff.org/">Manystuff</a></li>
-					<li><a href="http://www.graphicmag.kr/">Graphic Magazine</a></li>
-					<li><a href="http://rhizome.org/">Rhizome</a></li>
-					<li><a href="http://www.linedandunlined.com/">Lined & Unlined</a></li>
 					<li><a href="http://www.dot-dot-dot.us/">Dot Dot Dot</a></li>
+					<li><a href="http://www.gerritrietveldacademie.nl/en/">Gerrit Rietveld Academie</a></li>
+					<li><a href="http://www.graphicmag.kr/">Graphic Magazine</a></li>
+					<li><a href="http://www.linedandunlined.com/">Lined & Unlined</a></li>
+					<li><a href="http://www.manystuff.org/">Manystuff</a></li>
+					<li><a href="http://rhizome.org/">Rhizome</a></li>
 					<li><a href="http://www.servinglibrary.org/">The Serving Library</a></li>
 					<li><a href="http://www.vvork.com/">VVork</a></li>
 					<li><a href="http://www.werkplaatstypografie.org/">Werkplaats Typografie</a></li>
-					<li><a href="http://www.gerritrietveldacademie.nl/nl/">Gerrit Rietveld Academie</a></li>
 				</ul>
 			</div> <!- end column -->
 			
