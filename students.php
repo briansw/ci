@@ -17,6 +17,7 @@
 				<li><a target="_blank" href="http://a.parsons.edu/~lamam851">Mariana S. Iamaguti</a></li>
 				<li><a target="_blank" href="http://a.parsons.edu/~kuhna347">Andreas Kuhnen</a></li>
 				<li><a target="_blank" href="http://a.parsons.edu/~steim512">Maurann Stein</a></li>
+				<li><a target="_blank" href="http://a.parsons.edu/~tanzn675">Nicholas Tanzman</a></li>
 				<li><a target="_blank" href="http://a.parsons.edu/~tschj092">Joel E. Tschong</a></li>
 				<li><a target="_blank" href="http://a.parsons.edu/~wangy858">Yue Wang</a></li>
 			</ol>
