@@ -1,148 +1,182 @@
-		<div class="announcement">
-			<div class="slide-wrapper">
-				<a target="_blank" href="http://www.momaps1.org/exhibitions/view/364">
-				<div class="announcement-slide">
-					<h2>Reminder</h2>
-					<p>Cyprien Gaillard & Metahaven<br />at MoMA PS1</p>
-				</div>
-				</a>
-			</div>
-		</div>
-		
-		<div class="discussion">
-			<h2>Discussion</h2>
-			<div class="slide-wrapper">
-				<div class="discussion-slide">
-					<img src="assets/images/studio/discussion-thumbs/lissitzky-typography.jpg" width="75" />				
-					<img src="assets/images/studio/discussion-thumbs/nagy-typophoto.jpg" width="75" />				
-				</div>
-				<p>Presentations by <a href="http://a.parsons.edu/~setrt577">Taleen</a> and <a href="http://a.parsons.edu/~kimh506">Hyerin</a></p>
-			</div>
-		</div>
-		
-		<div class="lecture">
-			<h2>Lecture</h2>
-			
-			<div class="slide-wrapper" style="font-size: 0; line-height: 0;">
-					<img src="assets/images/studio/hello-world-gifs/kim-sang-hello-world.gif" alt="kim-sang-hello-world" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/Bianca-bono-hello-world.gif" alt="Bianca-bono-hello-world" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/woo-sangseob-hello-world.gif" alt="woo-sangseob-hello-world" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/darmody-rachel-hello-world.gif" alt="darmody-rachel-hello-world" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/kim-hyerin-hello-world.gif" alt="kim-hyerin-hello-world" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/putri-maria-hello-world.gif" alt="putri-maria-hello-world" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/liz-bergesch-hello-world.gif" alt="liz-bergesch-hello-world" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/mcdade-ellen-hello-world2.gif" alt="mcdade-ellen-hello-world2" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/setrakian-taleen-hello-world.gif" alt="setrakian-taleen-hello-world" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/merole-kelly-hello-world.gif" alt="merole-kelly-hello-world" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/newton-caroline-hello-world.gif" alt="newton-caroline-hello-world" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/sara-li-hello-world.gif" alt="sara-li-hello-world" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/jasmine-lam-hello-world.gif" alt="jasmine-lam-hello-world" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/ginsberg_perri_hello_world.gif" alt="ginsberg_perri_hello_world" width="249" height="76" />
-					<img src="assets/images/studio/hello-world-gifs/salahuddin-hussain-hello-world.gif" alt="salahuddin-hussain-hello-world" width="249" height="76" />
-			</div>
-			
-			
-			<div class="slide-wrapper">
-				<div class="slide">
-					<img src="assets/images/studio/darpa.gif" alt="darpa" />				
-				</div>
-				<p>Defense Advanced Research Projects Agency (DARPA)</p>
-			</div>
-			
-			<div class="slide-wrapper">
-				<div class="slide">
-					<img src="assets/images/studio/centralized-network.gif" alt="centralized-network" />
-				</div>
-				<p>Diagram of a centralized network</p>
-			</div>
-			
-			<div class="slide-wrapper">
-				<div class="slide">
-					<img src="assets/images/studio/panopticon.jpg" alt="panopticon" />
-				</div>			
-				<p>Jeremy Bentham’s panopticon</p>
-			</div>
-			
-			<div class="slide-wrapper">
-				<div class="slide">
-					<img src="assets/images/studio/decentralized-network.gif" alt="decentralized-network" />
-				</div>
-				<p>Diagram of a decentralized network</p>
-			</div>
-			
-			<div class="slide-wrapper">
-				<div class="slide">
-					<img src="assets/images/studio/airlines.gif" alt="decentralized-network" />
-				</div>
-				<p>Real world example of a decentralized network</p>
-			</div>
-			
-			<div class="slide-wrapper">
-				<div class="slide">
-					<img src="assets/images/studio/distributed-network.gif" alt="decentralized-network" />
-				</div>
-				<p>Diagram of a distributed network</p>
-			</div>
-						
-			<div class="slide-wrapper">
-				<div class="slide">
-					<img src="assets/images/studio/eisenhower-interstate.jpg" />
-				</div>
-				<p>Dwight D. Eisenhower System of Interstate & Defense System</p>
-			</div>
-			
-			<div class="slide-wrapper">
-				<div class="slide">
-					<img src="assets/images/studio/darpa-red-balloon-challenge.jpg" alt="darpa-red-balloon-challenge" />
-				</div>
-				<p>DARPA's $40,000 red balloon challenge, 2009</p>
-			</div>
-			
-			<div class="slide-wrapper">
-				<div class="slide">
-					<iframe width="560" height="315" src="http://www.youtube.com/embed/6Ga_EJWLzHA?rel=0" frameborder="0" allowfullscreen></iframe>
-				</div>
-				<p>MIT wins the red balloon challenge in 9 hours</p>
-			</div>
-			
-			<div class="slide-wrapper">
-				<div class="slide">
-					<h2 style="margin: 0; padding: 0;">74.125.228.105 &#8646; google.com</h2>
-				</div>
-				<p>Domain Name System (DNS)</p>
-			</div>
-			
-			<div class="slide-wrapper">
-				<div class="slide">
-					<img src="assets/images/studio/ows-peoples-mic.png" alt="ows-peoples-mic" />
-				</div>
-				<p>Occupy Wall Street—The people’s mic</p>
-			</div>
-			
-			<div class="slide-wrapper">
-				<div class="slide">
-					<img src="assets/images/studio/lissitzky-nagy-desktop.jpg" alt="google-lissitzky" />
-				</div>
-				<p>Desktop &amp; Google image search results page for &ldquo;Beat the Whites with the Red Wedge El Lissitzky 1919&rdquo;</p>
-			</div>
+    <div class="discussion">
+        <h2>Discussion</h2>
+        <div class="slide-wrapper">
+            <div class="discussion-slide">
+                <img src="assets/images/studio/discussion-thumbs/lissitzky-typography.jpg" width="75" />
+                <img src="assets/images/studio/discussion-thumbs/nagy-typophoto.jpg" width="75" />
+            </div>
+            <p>Presentations by <a href="http://a.parsons.edu/~setrt577">Taleen</a> and <a href="http://a.parsons.edu/~kimh506">Hyerin</a></p>
+        </div>
+    </div>
 
-		</div>
-		
-		<div class="readings">
-			<h2>Readings</h2>			
-			
-			<div class="column-3up"> <!- start column -->
-				<div class="file-wrapper">
-					<a class="no-underline" href="assets/files/Koolhaas-Rem-Junkspace.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-					<p><a href="assets/files/Koolhaas-Rem-Junkspace.pdf"><em>Junkspace</em>, Rem Koolhaas, 2002</a></p>
-					<p class="studio-due-date last">Due Week 2B</p>		
-				</div>
-			</div> <!- end column -->
-			
-						<div class="column-3up"> <!- start column -->
-				<div class="file-wrapper">
-					<a class="no-underline" href="assets/files/galloway-alexander-protocol.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-					<p><a href="assets/files/galloway-alexander-protocol.pdf"><em>Protocol</em> (Ch. 1), Alexander R. Galloway, 2006</a></p>
-					<p class="studio-due-date last">Recommended Week 2B</p>		
-				</div>
-			</div> <!- end column -->
+    <div class="lecture">
+        <h2>Lecture</h2>
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/franz_erhard_walter.jpg" />
+            </div>
+            <p><em>Körpergewichte</em>, Franz Erhard Walther, 1968</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/song-dong-waste-not.jpg" />
+            </div>
+            <p><em>Waste Not</em> (Installation view), Song Dong</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/sophie-calle-the-hotel.jpg" />
+            </div>
+            <p><em>The Hotel</em>, Sophie Calle</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <a class="no-underline" href="http://video.pbs.org/video/1239665588"><img src="assets/images/studio/huyge-pierre-harvard.jpg" /></a>
+            </div>
+            <p><em>Huyghe + Corbusier: Harvard Project</em>, Pierre Huyge (starts at 44:20)</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/tris-vonna-michell.jpg" />
+            </div>
+            <p>Performance by Tris Vonna-Michell (starts at 6:36)</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <iframe width="550" height="413" src="http://www.youtube.com/embed/aX5BJHmotD4?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p><em>Ear to the Ground</em>, David Van Tieghem, 1981</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/lee-ufan.jpg" />
+            </div>
+            <p><em>Relatum (formerly Phenomenon and Perception A)</em>, Lee Ufan, 1969</p>
+            <p>In this work, three stones are spaced on top of a five-meter rubber measuring tape laid out on the floor. Each of the tape’s linear segments is distorted so that a one meter segment is stretched to three meters, and two meters stretched to two-and-a-half meters. Stones thus act as markers that deform the given rules of linear measurement, introducing a moment of uncertainty in the precise universe of measurement that questions the divisibility of space. Measurement is no longer conceived as reliant on mathematical constancy, but as a variable model contingent upon perception. From MoMA.</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/device-screens.jpg" />
+            </div>
+            <p>Array of modern devices with various screen resolutions</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/lo-resolution-screen.gif" />
+            </div>
+            <p>Low resolution resolution screen simulation (29&times;19px)</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/hi-resolution-screen.gif" />
+            </div>
+            <p>High resolution screen simulation (58&times;38px)</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/pixel-ufan.png" />
+            </div>
+            <p>Zoomed in view of <em>Relatum (formerly Phenomenon and Perception A)</em></p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/desktop-view.jpg" />
+            </div>
+            <p>Desktop</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/web-browser-view.jpg" />
+            </div>
+            <p>Web browser</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/browser-chrome-view.jpg" />
+            </div>
+            <p>Browser chrome</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/viewport-view.jpg" />
+            </div>
+            <p>Viewport</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/variable-browser-dimensions.png" />
+            </div>
+            <p>Variable browser dimensions</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <a class="no-underline" href="http://www.intotime.com/"><img src="assets/images/studio/rozendaal-into-time.jpg" /></a>
+            </div>
+            <p><em>Into Time</em>, Raphael Rozendaal, 2010</p>
+        </div>
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/images/studio/favicon.png" />
+            </div>
+            <p>Favicon (16&times;16px) for <em>Into Time</em></p>
+        </div>
+
+    </div>
+
+    <div class="assignments">
+        <h2>Assignments</h2>
+
+        <h3>Project 1: Part 1 (in class)</h3>
+        <p>Break up into groups of five. As a group choose a space nearby to explore. The space may be as small as a closet or as large as a classroom. Begin by making a list of the intended functions of the space. If there are alternative ways to use the space separate from its intended use, list those as well. Observe how you move through the space and think about how your presence in the space activates its functions. Once you have considered all possible functions of the space, organize them in order of intended uses down to alternative uses. Write out the procedure for carrying out each function. Thoroughly document the space and each function using photography. Finally, construct a brief slide presentation that explains the space in an efficient and poetic manner.</p>
+
+        <h3>Project 1: Part 2</h3>
+        <p>Create 5 proposals for a website that represents your space.
+           Choose a minimum of three functions or
+           actions within the space to represent. The
+           way the user navigates your website should
+           relate to the way one moves through
+           your chosen space. While designing,
+           ask yourself the following: What is an
+           appropriate navigation for the space? What
+           does it look like? How are the functions
+           of the space expressed visually and how
+           do they relate to/depart from the physical
+           act of performing the function within the
+           space? Is my position interesting? How
+           does the way the user navigates the
+           website relate to the subject? Are the
+           formal qualities of the website intentional
+           and appropriate? Is it beautiful?</p>
+
+        <h3>Exercise</h3>
+        <p>Create a favicon for the Core Interaction website. Think about the function of the website along with the navigational and formal elements of its design. How does the favicon you design relate to these elements?</p>
+    </div>
+
+    <div class="readings">
+        <h2>Readings</h2>
+
+        <div class="column-3up"> <!- start column -->
+            <div class="file-wrapper">
+                <a class="no-underline" href="assets/files/Koolhaas-Rem-Junkspace.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+                <p><a href="assets/files/Koolhaas-Rem-Junkspace.pdf"><em>Junkspace</em>, Rem Koolhaas, 2002</a></p>
+            </div>
+        </div> <!- end column -->
+
+    </div> <!-- end readings -->

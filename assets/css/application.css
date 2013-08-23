@@ -61,6 +61,8 @@ a.no-underline { border: none !important; background: transparent !important; }
 .file-wrapper:hover a { background: #f1f1f1; }
 .file-wrapper:active a { background: #ff0; }
 
+h2.title-slide { font-size: 55px; line-height: 1; margin: 0; padding: 0; }
+
 .accordion-content { padding: 0 10px; }
 .readings-and-resources-section { font-size: 0; line-height: 0; border-bottom: 1px solid; margin: 0 0 23px 0; padding: 0 0 23px 0; }
 .readings-and-resources-section.last { margin: 0; padding: 0; border: none; }
