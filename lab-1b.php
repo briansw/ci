@@ -60,7 +60,7 @@
 				</div>
 				<p>Kurt Schwitters, 1924</p>
 			</div>
-			
+
 
 			<div class="slide-wrapper">
 				<div class="slide">
@@ -93,8 +93,8 @@
 			<h2>Assignments</h2>
 			
 			<h3>Exercise 1</h3>
-			<p>Using the elements listed above, create a formal composition that you find beautiful. How can you utilize elements about the web to emphasis emotions or convey ideas? What ideas and interactions are unique to the web? In what ways can use the language of the web to convey new ideas?</p>
-			<p class="lab-due-date first">Due Week 3B</p>	
+			<p>Using the elements listed above, create a formal composition that you find beautiful. Each element should be used at least ten (10) times. How can you utilize elements about the web to emphasize emotions or convey ideas? What ideas and interactions are unique to the web? In what ways can use the language of the web to convey these ideas? Consider how the composition changes while the user scrolls and resizes the browser.</p>
+			<p class="lab-due-date">Due Week 3B</p>	
 
 			<h3>Assignment 1</h3>
 			<p>Build an index page for yourself using the structure and tags used in today’s lecture. Consider how the page could reflect your particular design sensibility. We will be using this page as a springboard to link to the projects you make this semester, so think about how the structure could evolve to accommodate a living archive of work.</p>
