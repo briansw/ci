@@ -86,3 +86,8 @@ ul.bulleted-list li.header { margin: 0 0 0 10px; list-style: none; list-style-ty
 .announcement-slide { padding: 10px 15px; background: #ff0; font-size: 30px; line-height: 1; text-align: center; }
 .announcement-slide h2 { font-size: 17px; line-height: 1; text-decoration: underline; margin: 0; padding: 0; }
 .announcement-slide p { margin: 0; padding: 0; }
+
+iframe {
+	padding:0;
+	margin:0;
+}
