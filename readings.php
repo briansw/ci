@@ -82,8 +82,8 @@
 
 			<div class="column-3up"> <!- start column -->
 				<div class="file-wrapper">
-					<a class="no-underline" href="assets/files/Guide-to-Media-Influence.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-					<p><a href="assets/files/Guide-to-Media-Influence.pdf"><em>The Ubermotive Guide to Media Influence</em>, ubermotive.com, 2012</a></p>
+					<a class="no-underline" href="assets/files/lethem_ecstasy_of_influence.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+					<p><a href="assets/files/lethem_ecstasy_of_influence.pdf"><em>The Ecstasy of Influence</em>, Jonathan Lethem, 2007</a></p>
 				</div>
 			</div> <!- end column -->
 
