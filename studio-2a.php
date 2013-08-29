@@ -135,3 +135,16 @@
                 <p><a href="assets/files/Metz-Sandi-Practical-Object-Oriented-Design-In-Ruby.pdf"><em>Practical Object-Oriented Design in Ruby</em> (Ch. 1), Sandi Metz, 2012</a></p>
             </div>
         </div> <!- end column -->
+
+
+        <div class="readings">
+            <h2>Readings</h2>
+
+            <div class="column-3up"> <!- start column -->
+                <div class="file-wrapper">
+                    <a class="no-underline" href="assets/files/Koolhaas-Rem-Junkspace.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
+                    <p><a href="assets/files/Koolhaas-Rem-Junkspace.pdf"><em>Junkspace</em>, Rem Koolhaas, 2002</a></p>
+                </div>
+            </div> <!- end column -->
+
+        </div> <!-- end readings -->

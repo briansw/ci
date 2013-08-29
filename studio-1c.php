@@ -5,7 +5,7 @@
                 <img src="assets/images/studio/discussion-thumbs/lissitzky-typography.jpg" width="75" />
                 <img src="assets/images/studio/discussion-thumbs/nagy-typophoto.jpg" width="75" />
             </div>
-            <p>Presentations by <a href="http://a.parsons.edu/~setrt577">Taleen</a> and <a href="http://a.parsons.edu/~kimh506">Hyerin</a></p>
+            <p>Presentations by <a target="_blank" href="http://a.parsons.edu/~adkik756">Kathryn</a> and <a target="_blank" href="http://a.parsons.edu/~tscj092">Joel</a></p>
         </div>
     </div>
 
@@ -144,7 +144,7 @@
         <h2>Assignments</h2>
 
         <h3>Project 1: Part 1 (in class)</h3>
-        <p>Break up into groups of five. As a group choose a space nearby to explore. The space may be as small as a closet or as large as a classroom. Begin by making a list of the intended functions of the space. If there are alternative ways to use the space separate from its intended use, list those as well. Observe how you move through the space and think about how your presence in the space activates its functions. Once you have considered all possible functions of the space, organize them in order of intended uses down to alternative uses. Write out the procedure for carrying out each function. Thoroughly document the space and each function using photography. Finally, construct a brief slide presentation that explains the space in an efficient and poetic manner.</p>
+        <p>Choose a space nearby to explore. The space may be as small as a closet or as large as a classroom. Begin by making a list of the intended functions of the space. If there are alternative ways to use the space separate from its intended use, list those as well. Observe how you move through the space and think about how your presence in the space activates its functions. Once you have considered all possible functions of the space, organize them in order of intended uses down to alternative uses. Write out the procedure for carrying out each function. Thoroughly document the space and each function using photography. Finally, construct a brief slide presentation that explains the space in an efficient and poetic manner.</p>
 
         <h3>Project 1: Part 2</h3>
         <p>Create 5 proposals for a website that represents your space.
@@ -168,15 +168,3 @@
         <h3>Exercise</h3>
         <p>Create a favicon for the Core Interaction website. Think about the function of the website along with the navigational and formal elements of its design. How does the favicon you design relate to these elements?</p>
     </div>
-
-    <div class="readings">
-        <h2>Readings</h2>
-
-        <div class="column-3up"> <!- start column -->
-            <div class="file-wrapper">
-                <a class="no-underline" href="assets/files/Koolhaas-Rem-Junkspace.pdf"><img src="assets/images/icon-pdf.gif" width="37" height="49" /></a>
-                <p><a href="assets/files/Koolhaas-Rem-Junkspace.pdf"><em>Junkspace</em>, Rem Koolhaas, 2002</a></p>
-            </div>
-        </div> <!- end column -->
-
-    </div> <!-- end readings -->
