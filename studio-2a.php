@@ -7,12 +7,19 @@
                 </div>
                 <p>Left to right: <em>Offofjoff One to One</em>, Joff & Julia Born; <em>Full Color</em>, Karel Martens; <em>Unfolded</em>, Maurice Scheltens & Liesbeth Abbenes; <em>Made in Tokyo</em>, Atelier Bow Wow</p>
             </div>
+
+            <div class="slide-wrapper">
+                <div class="slide">
+                    <img src="assets/images/studio/notification-system.jpg" />
+                </div>
+                <p>Notification system</p>
+            </div>
         </div>
 
         <div class="assignments last">
             <h2>Assignments</h2>
 
-            <p>Generate three distinct directions based on the feedback given in class. Each direction should take a different approach (both formally and structurally) to the content you're developing for your space and continue to think about structural and navigational aspects of the design to communicate these ideas.</p>
+            <p>Generate three distinct directions based on the feedback given in class. Develop a notification system that ties in both formally and conceptually for each of the three proposals. Each direction should take a different approach (both formally and structurally) to the content you're developing for your space and continue to think about structural and navigational aspects of the design to communicate these ideas.</p>
 
         </div>
 
