@@ -12,16 +12,16 @@
                 <li><a target="_blank" href="http://a.parsons.edu/~auc258">Che Ying Au</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~ballk483">Kevin Ballon</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~dangm024">Minh Huy Dang</a></li>
-                <li><a target="_blank" href="http://a.parsons.edu/~doylr196">Rachel Alexandra Doyle Cunningham</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~fossm993">Mark Foss</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~grygd330">Derek Gryga</a></li>
-                <li><a target="_blank" href="http://a.parsons.edu/~lamam851">Mariana S. Iamaguti</a></li>
+                <li><a target="_blank" href="http://a.parsons.edu/~lamam851">Mariana Iamaguti</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~kuhna347">Andreas Kuhnen</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~mumka678">Baki Mumkaya</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~steim512">Maurann Stein</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~tanzn675">Nick Tanzman</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~tschj092">Joel Tschong</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~wangy858">Yue Wang</a></li>
+                <li><a target="_blank" href="http://a.parsons.edu/~xuey484">Yunan Xue</a></li>
             </ol>
         </div>
     </div>
