@@ -14,7 +14,6 @@
                 <li><a target="_blank" href="http://a.parsons.edu/~dangm024">Minh Huy Dang</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~fossm993">Mark Foss</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~grygd330">Derek Gryga</a></li>
-                <li><a target="_blank" href="http://a.parsons.edu/~lamam851">Mariana Iamaguti</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~kuhna347">Andreas Kuhnen</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~mumka678">Baki Mumkaya</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~steim512">Maurann Stein</a></li>
