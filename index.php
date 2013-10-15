@@ -48,6 +48,8 @@
 
     <ul> <!- start accordian -->
 
+        <?php include('snippets/studio-8a.php'); ?>
+        <?php include('snippets/studio-7c.php'); ?>
         <?php include('snippets/lab-4b.php'); ?>
         <?php include('snippets/studio-4a.php'); ?>
         <?php include('snippets/studio-3c.php'); ?>
