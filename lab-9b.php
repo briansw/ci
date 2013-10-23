@@ -493,6 +493,24 @@ determinable.
 
 
 
+			<div class="slide-wrapper">
+				<div class="slide codesample">
+
+				<p>
+
+var array = [1, 2, 3];<br>
+for (var counter = 0; counter < array.length; counter++) {<br>
+&nbsp;&nbsp;&nbsp;console.log(array[counter]);<br>
+}
+</p>
+
+				</div>
+				<p>Array Iteration</p>
+			</div>
+
+
+
+
 
 
 
@@ -510,13 +528,8 @@ determinable.
 		<div class="assignments">
 			<h2>Assignments</h2>
 			
-			<h3>Exercise 4</h3>
-			<p>Write a program of your own design using your typeface as a framework. Consider logical operators such as: 'if', & 'else'; as well as conditional operations such as: 'is', & 'is not'. First: what does your program "do"? What does it not do? What conditions must be met to make it excute correctly?</p>
-			<p class="lab-due-date last">Due Week 10A</p>
-
-			<br />
-
-			<h3>Project 2-b</h3>
-			<p>Execute 'exercize 4' for your typeface website using Javascript</p>
-			<p class="lab-due-date last">Due Week 15A</p>
+			<h3>Exercise</h3>
+			<p>Write a JavaScript program which uses loops, if statements, and relational operators to log (print) a pattern to the console. Consider how the program might change as it iterates through an array or number of increasing value. Upload your JavaScript program to your web space before the next time we meet. 
+			</p>
+			<p class="lab-due-date last">Due Week 10B</p>
 		</div>
