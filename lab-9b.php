@@ -1,0 +1,403 @@
+		<div class="lecture">
+			<h2>Introduction to JavaScript</h2>
+			<div class="slide-wrapper">
+			<div class="slide">
+				<p>HTML = organization of webpage content</p>
+				<p>CSS = definition of content presentation style</p>
+				<p>JavaScript = how the content interacts and behaves with the user</p>
+			</div>
+						<p>Separation of Concerns</p>
+
+			</div>
+
+			<div class="slide-wrapper">
+			<div class="slide codesample">
+				<p>
+					&lt;script type=&quot;text/javascript&quot; src=&quot;file.js&quot;&gt;&lt;/script&gt;</p>
+					<p>
+&lt;script type=&quot;text/javascript&quot;&gt;<br/>
+&nbsp;&nbsp;&nbsp;// insert some JavaScript here<br/>
+&lt;/script&gt;
+</p>
+
+			</div>
+						<p>Loading JavaScript</p>
+
+			</div>
+
+
+			<div class="slide-wrapper">
+				<div class="slide">
+				<img src="assets/images/console.png" alt="console" />
+			</div>
+						<p>Using the Console</p>
+
+			</div>
+
+
+
+
+
+<div class="slide-wrapper">
+			<div class="slide codesample">
+				<p>
+				string<br />
+				number<br />
+				boolean<br />
+				array<br />
+
+</p>
+			</div>
+						<p>Data Types</p>
+
+			</div>
+
+
+			<div class="slide-wrapper">
+			<div class="slide codesample">
+				<p>
+				"Strings are used to store textual information and must be wrapped in quote marks."<br/>
+				</p><p>
+				'You can use single or double quotes, so long as you open and close your string with the same mark.'
+</p>
+
+			</div>
+						<p>Strings</p>
+
+			</div>
+
+
+
+
+			<div class="slide-wrapper">
+				<div class="slide codesample">
+					<p>
+					"The leaders agreed \"to intensify further the cooperation between our intelligence services with the goal of protecting the security of both countries and of our partners, as well as protecting the privacy of our citizens,\" it added."
+				</p>
+				</div>
+				<p>Escaping Strings</p>
+			</div>
+
+
+			<div class="slide-wrapper">
+				<div class="slide">
+					<p>
+Left double quote: <span class="codesample">&amp;ldquo;</span><br>
+Right double quote: <span class="codesample">&amp;rdquo;</span></p>
+
+<p class="codesample">"Many economists say that such &amp;ldquo;first
+dollar&amp;rdquo; coverage leaves beneficiaries
+insensitive to costs"</p>
+
+<p>
+Left single quote: <span class="codesample">&amp;lsquo;</span><br>
+Right single quote: <span class="codesample">&amp;rsquo;</span></p>
+
+				</div>
+				<p>HTML Entities</p>
+			</div>
+
+
+
+		<div class="slide-wrapper">
+				<div class="slide">
+					<p>
+					Numbers are used to represent numerical data
+</p><p>
+					Integers:<br/>
+					<span class="codesample">58</span>
+</p><p>
+					Float:<br/>
+					<span class="codesample">3.14159</span>
+</p>
+				</div>
+				<p>Numbers</p>
+			</div>
+
+
+
+					<div class="slide-wrapper">
+				<div class="slide">
+					<p>Booleans represent a binary value (true or false)
+</p><p>
+					<span class="codesample">true<br>false</span>
+</p>
+				</div>
+				<p>Booleans</p>
+			</div>
+
+
+								<div class="slide-wrapper">
+				<div class="slide">
+					<p>
+					Arrays contain other data types. They always begin with '[' and end with ']' with each element separated by a comma.
+					Arrays can contain a mix of data types (you could have a string, a number, and a boolean in the same array).
+</p>
+<p>Empty:<br/>
+					<span class="codesample">[]</span>
+				</p>
+
+				<p>Single element:<br/>
+					<span class="codesample">["one"]</span>
+				</p>
+
+
+				<p>Multiple elements:<br/>
+					<span class="codesample">["one", 2, "three", false]</span>
+				</p>
+
+
+
+				</div>
+				<p>Arrays</p>
+			</div>
+
+
+
+											<div class="slide-wrapper">
+				<div class="slide">
+
+<p>
+					<span class="codesample">[]</span> + number = index into array
+				</p>
+
+				<p>Javascript is a zero-indexed language:<br/>
+					<span class="codesample">
+						["red", "white", "blue"][0] => "red"<br/>
+						["red", "white", "blue"][1] => "white"<br/>
+						["red", "white", "blue"][2] => "blue"<br/>
+
+					</span>
+				</p>
+
+
+				<p>So, the first element lives at index 0, the last element at one less than the array length.
+				</p>
+
+
+
+				</div>
+				<p>Array Indexing</p>
+			</div>
+
+
+
+			<div class="slide-wrapper">
+				<div class="slide">
+
+<p>Declaration:<br/>
+					<span class="codesample">var blackjack;</span>
+				</p>
+
+
+				<p>Assignment:<br/>
+					<span class="codesample">blackjack = 21;</span>
+				</p>
+
+				<p>Declaration and assignment:<br/>
+					<span class="codesample">var blackjack = 21;</span>
+				</p>
+
+
+				<p>Reassignment:<br/>
+					<span class="codesample">var name = "Brendan";<br>
+					name = "Brendan Griffiths";<br>
+				name = "Miles";<br></span>
+				</p>
+
+
+
+
+
+				</div>
+				<p>Variables</p>
+			</div>
+
+
+
+
+
+
+
+
+			<div class="slide-wrapper">
+				<div class="slide">
+
+<p>
+					<span class="codesample">console.log("Hello World");</span>
+				</p>
+
+
+				<p>Console log accepts any variable or data type.
+Multiple values can be strung together, separated
+with a comma:<br/>
+					<span class="codesample">console.log(myVar, "Hello", 7);</span>
+				</p>
+
+
+				</div>
+				<p>Console Logging</p>
+			</div>
+
+
+						<div class="slide-wrapper">
+				<div class="slide">
+
+				<p>Less than:<br/>
+					<span class="codesample"><</span>
+				</p>
+
+				<p>Greater than:<br/>
+					<span class="codesample">></span>
+				</p>
+
+
+				<p>Less than or equal to:<br/>
+					<span class="codesample"><=</span>
+				</p>
+
+				<p>Greater than or equal to:<br/>
+					<span class="codesample">>=</span>
+				</p>
+
+
+
+
+				</div>
+				<p>Relational Operators</p>
+			</div>
+
+
+
+		<div class="slide-wrapper">
+				<div class="slide codesample">
+
+				<p>10 == 10;<br/>
+					//true
+				</p>
+
+
+					<p>10 == 5;<br/>
+					//true
+				</p>
+
+
+					<p>"hello" == "hello";<br/>
+					//true
+				</p>
+
+
+				</div>
+				<p>Are Two Things Equal?</p>
+			</div>
+
+
+
+
+
+
+		<div class="slide-wrapper">
+				<div class="slide codesample">
+
+				<p>var name = "Brenan";<br/>
+					var school = "Parsons";<br/>
+					if (name == "Brendan" && school == "Parsons") {<br />
+					&nbsp;&nbsp;&nbsp;console.log('Come on in!');<br />
+				}
+				</p>
+
+
+					
+
+				</div>
+				<p>And (&&)</p>
+			</div>
+
+
+
+
+
+		<div class="slide-wrapper">
+				<div class="slide codesample">
+
+				<p>
+
+				var overSixteen = true;<br/>
+var parentsPresent = false;<br/>
+if (overSixteen || parentsPresent) {<br/>
+&nbsp;&nbsp;&nbsp;console.log('Amazing...you can go to an R-rated movie.');<br/>
+}
+
+
+				</p>
+
+
+					
+
+				</div>
+				<p>Or (||)</p>
+			</div>
+
+
+
+					<div class="slide-wrapper">
+				<div class="slide codesample">
+
+				<p>
+
+
+if (true) {<br/>
+&nbsp;&nbsp;&nbsp;console.log('Condition is true');<br/>
+}<br/><br/>
+if (false) {<br/>
+&nbsp;&nbsp;&nbsp;console.log('This will never execute.');<br/>
+}
+
+				</p>
+
+				</div>
+				<p>If Statement</p>
+			</div>
+
+
+
+
+
+<div class="slide-wrapper">
+				<div class="slide codesample">
+
+				<p>
+var film 
+
+if (true) {<br/>
+&nbsp;&nbsp;&nbsp;console.log('Condition is true');<br/>
+}<br/><br/>
+if (false) {<br/>
+&nbsp;&nbsp;&nbsp;console.log('This will never execute.');<br/>
+}
+
+				</p>
+
+				</div>
+				<p>If/Else</p>
+			</div>
+
+
+
+
+
+		</div> <!-- end lecture -->
+		
+		<div class="assignments">
+			<h2>Assignments</h2>
+			
+			<h3>Exercise 4</h3>
+			<p>Write a program of your own design using your typeface as a framework. Consider logical operators such as: 'if', & 'else'; as well as conditional operations such as: 'is', & 'is not'. First: what does your program "do"? What does it not do? What conditions must be met to make it excute correctly?</p>
+			<p class="lab-due-date last">Due Week 10A</p>
+
+			<br />
+
+			<h3>Project 2-b</h3>
+			<p>Execute 'exercize 4' for your typeface website using Javascript</p>
+			<p class="lab-due-date last">Due Week 15A</p>
+		</div>

@@ -91,3 +91,10 @@ iframe {
 	padding:0;
 	margin:0;
 }
+
+.codesample {
+	font-family: Courier, monospace;
+	text-align: left;
+	color:blue;
+}
+
