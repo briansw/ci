@@ -367,20 +367,139 @@ if (false) {<br/>
 				<div class="slide codesample">
 
 				<p>
-var film 
-
-if (true) {<br/>
-&nbsp;&nbsp;&nbsp;console.log('Condition is true');<br/>
-}<br/><br/>
-if (false) {<br/>
-&nbsp;&nbsp;&nbsp;console.log('This will never execute.');<br/>
+var film = "The Silence of the Lambs";<br/>
+if (film == "The Silence of the Lambs" || film == "Psycho") {<br/>
+&nbsp;&nbsp;&nbsp;console.log('Your film is a thriller.');<br/>
+} else {<br/>
+&nbsp;&nbsp;&nbsp;console.log('Your film probably isn’t a thriller.');<br/>
 }
+
 
 				</p>
 
 				</div>
 				<p>If/Else</p>
 			</div>
+
+
+
+<div class="slide-wrapper">
+				<div class="slide">
+
+				<p>
+Addition:<br>
+<span class="codesample">1 + 1 = 2</span>
+
+</p><p>
+Subtraction:<br>
+<span class="codesample">3 - 2 = 1</span>
+</p><p>
+
+Multiplication:<br>
+<span class="codesample">5 * 3 = 15</span>
+
+</p><p>
+
+Division:<br/>
+<span class="codesample">10 / 2 = 5</span>
+
+
+				</p>
+
+				</div>
+				<p>Basic Math</p>
+			</div>
+
+
+			<div class="slide-wrapper">
+				<div class="slide">
+
+				<p>
+Increment:<br>
+<span class="codesample">myVar = myVar + 1;<br>
+myVar++;</span>
+
+</p><p>
+Decrement::<br>
+<span class="codesample">myVar = myVar - 1;<br>
+myVar--;</span>
+</p>
+
+				</div>
+				<p>Increment / Decrement (++ / --)</p>
+			</div>
+
+
+
+
+
+			<div class="slide-wrapper">
+				<div class="slide codesample">
+
+				<p>
+
+
+for (var multiplier = 1; multiplier <= 10; multiplier++) {<br>
+&nbsp;&nbsp;&nbsp;var result = multiplier * 6;<br>
+&nbsp;&nbsp;&nbsp;console.log(result);<br>
+}
+</p>
+
+				</div>
+				<p>For Loops</p>
+			</div>
+
+
+
+
+
+
+			<div class="slide-wrapper">
+				<div class="slide codesample">
+
+				<p>
+
+var multiplier = 1;<br>
+while (multiplier <= 10) {<br>
+&nbsp;&nbsp;&nbsp;var result = multiplier * 6;<br>
+&nbsp;&nbsp;&nbsp;console.log(result);<br>
+&nbsp;&nbsp;&nbsp;multiplier++;<br>
+}
+</p>
+
+				</div>
+				<p>While Loops</p>
+			</div>
+
+
+
+
+			<div class="slide-wrapper">
+				<div class="slide codesample">
+
+				<p>
+Use a for loop when the number of iterations is
+determinable.
+</p>
+
+<p>While loops should be used when the number of iterations is unknown.</p>
+
+				</div>
+				<p>For vs. While</p>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
