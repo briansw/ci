@@ -10,7 +10,9 @@ function begin_roll() {
     if (Game.end != true) {
         set_current_player();
         set_roll_score(roll_dice());
-        set_turn_score();
+        if (end_of_current_players_turn()) {
+            set_turn_score();
+        }
         increment_turn();
         check_for_winner();
         render_roll();
@@ -36,6 +38,7 @@ function set_current_player() {
         }
         console.log('*** Player' + Game.current_player);
         players[Game.current_player].current_roll = 0;
+        players[Game.current_player].roll_scores = [];
     }
 
 }

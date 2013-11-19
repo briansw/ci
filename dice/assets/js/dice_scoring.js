@@ -21,20 +21,17 @@ function set_roll_score(dice) {
 // In this case, we are subtracting every other roll from the
 // one that precedes it.
 function set_turn_score() {
-    if (end_of_current_players_turn()) {
-        $(players[Game.current_player].roll_scores).each(function(index, value) {
-            if ((index + 1) % 2 == 0) {
-                players[Game.current_player].total_score -= value;
-            } else {
-                players[Game.current_player].total_score += value;
-            }
+    $(players[Game.current_player].roll_scores).each(function(index, value) {
+        if ((index + 1) % 2 == 0) {
+            players[Game.current_player].total_score -= value;
+        } else {
+            players[Game.current_player].total_score += value;
+        }
 
-            //if score is less than 0, set score equal to 0
-            if (players[Game.current_player].total_score < 0) {
-                players[Game.current_player].total_score = 0;
-            }
-        });
-        console.log("round score: " + players[Game.current_player].total_score);
-        players[Game.current_player].roll_scores = [];
-    }
+        //if score is less than 0, set score equal to 0
+        if (players[Game.current_player].total_score < 0) {
+            players[Game.current_player].total_score = 0;
+        }
+    });
+    console.log("round score: " + players[Game.current_player].total_score);
 }
