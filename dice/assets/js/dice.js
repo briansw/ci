@@ -27,8 +27,9 @@ function begin_roll() {
     set_current_player(); // Don't touch this!
     set_roll_score(roll_dice());
     set_turn_score();
-    check_for_winner();
     increment_turn();
+    check_for_winner();
+
     render_roll();
 
 }
@@ -132,7 +133,7 @@ function set_turn_score() {
 }
 
 function check_for_winner() {
-    if ((Game.turns != 0) && (Game.total_turns > Game.turns)) {
+    if ((Game.turns != 0) && (Game.total_turns == Game.turns)) {
         if (Game.win_condition == 'highest') {
             find_highest_score();
         } else if (Game.win_condition == 'lowest') {
