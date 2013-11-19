@@ -36,7 +36,7 @@ function initialize_game_board() {
 function render_roll() {
 
     $("#player-" + Game.current_player + "-current").html(players[Game.current_player].current_roll);
-    $("#player-" + Game.current_player + "-roll-results").html(players[Game.current_player].roll_results);
+    $("#player-" + Game.current_player + "-roll-results").html(players[Game.current_player].roll_results.join(', '));
     $("#player-" + Game.current_player + "-roll-score").append("<span class='die'>" + players[Game.current_player].roll_scores[players[Game.current_player].roll_scores.length-1] + '</span>');
     $("#player-" + Game.current_player + "-total-score").html(players[Game.current_player].total_score);
 }
