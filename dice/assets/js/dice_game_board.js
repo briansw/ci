@@ -24,7 +24,7 @@ function initialize_game_board() {
         $("#game-board").append("<div class='player player-" + i +"'></div>");
         $(".player-" + i).append("<h2>Player: <span id='player-" + i +"'>" + i + "</span></h2>");
         $(".player-" + i).append("<h4>Current Roll: <span id='player-" + i +"-current'>" + players[i].current_roll + "</span></h4>");
-        $(".player-" + i).append("<h4>Roll Score: <span id='player-" + i +"-roll-score'>" + players[i].roll_scores + "</span></h4>");
+        $(".player-" + i).append("<h4>Dice Rolls: <span id='player-" + i +"-roll-score'>" + players[i].roll_scores + "</span></h4>");
         $(".player-" + i).append("<h4>Total Score: <span id='player-" + i +"-total-score'>" + players[i].total_score + "</span></h4>");
     }
 }
@@ -35,7 +35,7 @@ function initialize_game_board() {
 function render_roll() {
 
     $("#player-" + Game.current_player + "-current").html(players[Game.current_player].current_roll);
-    $("#player-" + Game.current_player + "-roll-score").html(players[Game.current_player].roll_scores + ',');
+    $("#player-" + Game.current_player + "-roll-score").append("<span class='die'>" + players[Game.current_player].roll_scores[players[Game.current_player].roll_scores.length-1] + '</span>');
     $("#player-" + Game.current_player + "-total-score").html(players[Game.current_player].total_score);
 }
 
