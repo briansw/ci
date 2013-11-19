@@ -48,7 +48,7 @@ function announce_winner() {
     Game.end = true;
     alert('GAME OVER, check logs for winner(s)!');
     $(Game.winning_player).each(function(x) {
-        var player = '.player-' + x
+        var player = '.player-' + Game.winning_player[x];
         $(player).css({ 'background': '#0f0'});
         console.log('Player ' + Game.winning_player[x] + ' wins with a score of ' + players[Game.winning_player[x]].total_score + '!');
     });
