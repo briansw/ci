@@ -257,9 +257,8 @@ function find_exact_score_for_infinite() {
 
 
 function announce_winner() {
+    alert('GAME OVER, check logs for winner(s)!');
     $(Game.winning_player).each(function(x) {
-        // announce winners
-        alert('Game OVER');
         console.log('Player ' + Game.winning_player[x] + ' wins with a score of ' + players[Game.winning_player[x]].total_score + '!');
     });
 }
