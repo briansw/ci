@@ -14,8 +14,8 @@ function begin_roll() {
             set_turn_score();
         }
         increment_turn();
-        check_for_winner();
         render_roll();
+        check_for_winner();
     }
 }
 
