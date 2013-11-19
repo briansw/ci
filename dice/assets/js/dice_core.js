@@ -20,7 +20,7 @@ function initialize_players() {
         players[i] = {
             current_roll: 0,
             roll_scores: [],
-            total_score: 0
+            total_score: Game.initial_score
         };
     }
 }
