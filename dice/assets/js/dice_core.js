@@ -1,8 +1,10 @@
-initialize_game();
-
 // ##################################
 // #### Core ########################
 // ##################################
+
+
+initialize_players();
+initialize_game_board();
 
 function begin_roll() {
     set_current_player();
@@ -11,6 +13,16 @@ function begin_roll() {
     increment_turn();
     check_for_winner();
     render_roll();
+}
+
+function initialize_players() {
+    for (var i = 0; i < Game.players; i++) {
+        players[i] = {
+            current_roll: 0,
+            roll_scores: [],
+            total_score: 0
+        };
+    }
 }
 
 function set_current_player() {

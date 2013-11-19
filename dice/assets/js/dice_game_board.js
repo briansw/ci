@@ -8,13 +8,8 @@ $('#roll').click(function() {
 // ##################################
 
 
-function initialize_game() {
+function initialize_game_board() {
     for (var i = 0; i < Game.players; i++) {
-        players[i] = {
-            current_roll: 0,
-            roll_scores: [],
-            total_score: 0
-        };
         $("#game-board").append("<div class='player-" + i +"'>");
         $("#game-board").append("<h2>Player: <span id='player-" + i +"'>" + i + "</span></h2>");
         $("#game-board").append("<h4>Current Roll: <span id='player-" + i +"-current'></span>");
