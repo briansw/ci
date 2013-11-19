@@ -25,7 +25,6 @@ function initialize_game_board() {
         $(".player-" + i).append("<h2>Player: <span id='player-" + i +"'>" + i + "</span></h2>");
         $(".player-" + i).append("<h4>Current Roll: <span id='player-" + i +"-current'>" + players[i].current_roll + "</span></h4>");
         $(".player-" + i).append("<h4>Roll Score: <span id='player-" + i +"-roll-score'>" + players[i].roll_scores + "</span></h4>");
-        $(".player-" + i).append("<h4>Turn Score: <span id='player-" + i +"-turn-score'></span></h4>");
         $(".player-" + i).append("<h4>Total Score: <span id='player-" + i +"-total-score'>" + players[i].total_score + "</span></h4>");
     }
 }
