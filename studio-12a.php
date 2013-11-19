@@ -11,6 +11,13 @@
 
     <div class="slide-wrapper">
         <div class="slide">
+            <img src="assets/images/studio/dada.jpg" />
+        </div>
+        <p>Dada began c. 1916 in Zurich and employed, among other things, aleatoric methodologies</p>
+    </div>
+
+    <div class="slide-wrapper">
+        <div class="slide">
             <img src="assets/images/studio/hugo-ball.png" />
         </div>
         <p>Hugo Ball, Karawane, 1916</p>
@@ -25,9 +32,16 @@
 
     <div class="slide-wrapper">
         <div class="slide">
-            <iframe width="560" height="315" src="//www.youtube.com/embed/jRHoKZRYBlY?rel=0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="420" height="315" src="//www.youtube.com/embed/SSulycqZH-U?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
         <p>John Cage's Sonatas and Interludes c. 1951 (aleatoric compositions)</p>
+    </div>
+
+    <div class="slide-wrapper">
+        <div class="slide">
+            <iframe width="560" height="315" src="//www.youtube.com/embed/jRHoKZRYBlY?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <p>John Cage's Water Walk (aleatoric compositions) [3:38]</p>
     </div>
 
     <div class="slide-wrapper">
@@ -92,6 +106,7 @@
 
         <h3>Project 3</h3>
         <p>Develop a website based on the dice game framework discussed in class. Begin by establishing the rules for your 'game' (number of 'players', number of dice, number of sides, number of rolls, etc. as a means for developing various game states that may occur over the course of a user's visit. From there, you will develop a system that responds to these various states in a dynamic fashion. The website doesn't need to take on the visual language of a game or even explicitly declare that the user is 'playing' a game, but the user should understand that their interactions influence the way the website behaves and over time, develop an understanding for the logic of the game.</p>
+        <p><a href="dice.zip">Download Dice package</a></p>
 </div>
 
 <div class="readings last">
