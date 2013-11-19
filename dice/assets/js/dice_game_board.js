@@ -10,8 +10,18 @@ $('.roll').click(function() {
 
 // Draws the game board on page load
 function initialize_game_board() {
+    $("#rules").append("<h4>Players: " + Game.players + "</h4>")
+    $("#rules").append("<h4>Rolls: " + Game.rolls + "</h4>")
+    $("#rules").append("<h4>Turns: " + Game.turns + "</h4>")
+    $("#rules").append("<h4>Dice: " + Game.dice + "</h4>")
+    $("#rules").append("<h4>Dice Sides: " + Game.dice_sides + "</h4>")
+    $("#rules").append("<h4>Winning Score: " + Game.winning_score + "</h4>")
+    $("#rules").append("<h4>Win Condition: " + Game.win_condition + "</h4>")
+    $("#rules").append("<h4>Initial Score: " + Game.initial_score + "</h4>")
+
+
     for (var i = 0; i < Game.players; i++) {
-        $("#game-board").append("<div class='player-" + i +"'></div>");
+        $("#game-board").append("<div class='player player-" + i +"'></div>");
         $(".player-" + i).append("<h2>Player: <span id='player-" + i +"'>" + i + "</span></h2>");
         $(".player-" + i).append("<h4>Current Roll: <span id='player-" + i +"-current'>" + players[i].current_roll + "</span></h4>");
         $(".player-" + i).append("<h4>Roll Score: <span id='player-" + i +"-roll-score'>" + players[i].roll_scores + "</span></h4>");
