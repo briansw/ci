@@ -28,6 +28,7 @@ function begin_roll() {
     set_roll_score(roll_dice());
     set_turn_score();
     check_for_winner();
+    increment_turn();
     render_roll();
 
 }
@@ -54,13 +55,11 @@ function initialize_game() {
 function set_current_player() {
     if (!permission_to_roll()) {
         if ((Game.current_player < Game.players - 1) && (Game.total_turns > 0)) {
-            Game.current_player += 1;
             players[Game.current_player].current_roll = 0;
             console.log('*** Player' + Game.current_player);
         } else {
             Game.current_player = 0;
             players[Game.current_player].current_roll = 0;
-            Game.total_turns += 1;
             console.log('*** ' + Game.current_player);
         }
     }
@@ -71,9 +70,15 @@ function permission_to_roll() {
     if (players[Game.current_player].current_roll < Game.rolls) {
         return true;
     } else {
-        Game.total_turns += 1;
         return false;
     }
+}
+
+function increment_turn() {
+    if (!(players[Game.current_player].current_roll < Game.rolls)) {
+        Game.total_turns += 1;
+    }
+    console.log(Game.total_turns);
 }
 
 function roll_dice() {
