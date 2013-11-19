@@ -2,9 +2,9 @@ var Game = {
     current_player: 0,
     next_player: 0,
     players: 2,
-    rolls: 2,
-    // total number of turns the game can have before determining a winner
-    turns: 0,
+    rolls: 3,
+    // total number of turns per player * number of players ie: 2 rounds with 2 players = 4. 0 = play until winner is found 
+    turns: 6,
     dice: 2,
     dice_sides: 6,
     winning_score: 21,
@@ -18,18 +18,19 @@ var Game = {
 var players = [];
 
 initialize_game();
+console.log('*** Player ' + Game.current_player);
 
 $('#roll').click(function() {
     begin_roll();
 });
 
 function begin_roll() {
+    console.log(Game.total_turns);
     set_current_player(); // Don't touch this!
     set_roll_score(roll_dice());
     set_turn_score();
-    increment_turn();
     check_for_winner();
-    render_roll();
+    //render_roll();
 }
 
 function initialize_game() {
@@ -39,64 +40,52 @@ function initialize_game() {
             roll_scores: [],
             total_score: 0
         };
-        $(".players").append("<div class='player-" + i +"'>");
-        $(".players").append("<h2>Player: <span id='player-" + i +"'>" + i + "</span></h2>");
-        $(".players").append("<h4>Current Roll: <span id='player-" + i +"-current'></span>");
-        $(".players").append("<h4>Roll Score: <span id='player-" + i +"-roll-score'></span>");
-        $(".players").append("<h4>Turn Score: <span id='player-" + i +"-turn-score'></span>");
-        $(".players").append("<h4>Total Score: <span id='player-" + i +"-total-score'></span>");
-        $(".players").append("</div>");
-
-
+        //$(".players").append("<div class='player-" + i +"'><h2>Player: <span id='player-" + i +"'>" + i + "</span></h2><h4>Current Roll: <span id='player-" + i +"-current'></span><h4>Roll Score: <span id='player-" + i +"-roll-score'></span><h4>Turn Score: <span id='player-" + i +"-turn-score'></span><h4>Total Score: <span id='player-" + i +"-total-score'></span></div>");
     }
 }
 
 function set_current_player() {
-    if (end_of_current_players_turn()) {
-        if ((Game.current_player < Game.players - 1)) {
+    if (!permission_to_roll()) {
+        if ((Game.current_player < Game.players - 1) && (Game.total_turns > 0)) {
             Game.current_player += 1;
+            players[Game.current_player].current_roll = 0;
+            console.log('*** Player' + Game.current_player);
         } else {
             Game.current_player = 0;
+            players[Game.current_player].current_roll = 0;
+            Game.total_turns += 1;
+            console.log('*** Player ' + Game.current_player);
         }
-        console.log('*** Player' + Game.current_player);
-        players[Game.current_player].current_roll = 0;
     }
 
 }
 
-function end_of_current_players_turn() {
-    if (players[Game.current_player].current_roll == Game.rolls) {
+function permission_to_roll() {
+    if (players[Game.current_player].current_roll < Game.rolls) {
+        console.log("*** permission_to_roll = true");
         return true;
     } else {
+        Game.total_turns += 1;
+        console.log("*** permission_to_roll = false");
         return false;
     }
 }
 
-function increment_turn() {
-    console.log('current-player: ' + Game.current_player);
-    console.log('current-roll: ' + players[Game.current_player].current_roll);
-    if (Game.current_player == (Game.players - 1) && (players[Game.current_player].current_roll == Game.rolls)) {
-        Game.total_turns += 1;
-    }
-    console.log(Game.total_turns);
-}
-
 function roll_dice() {
+    console.log('*** roll_dice');
+    players[Game.current_player].current_roll += 1;
     console.log('current player: ' + Game.current_player);
     console.log('current roll: ' + players[Game.current_player].current_roll);
-    players[Game.current_player].current_roll += 1;
     var dice = [];
     for (var i = 0; i < Game.dice; i++) {
         dice.push(Math.ceil(Math.random() * Game.dice_sides));
     }
+    console.log('dice: ' + dice);
+    console.log('*** end roll_dice');
     return dice;
 }
 
 function set_roll_score(dice) {
-
-    // depending on game variables, this calculation may need to change.
-    console.log("dice values: " + dice);
-
     // Edit this function to take on your
     // own scoring method
     // in this case we are summing the dice roll values and pushing the total to the current player's roll score
@@ -106,11 +95,10 @@ function set_roll_score(dice) {
     });
     players[Game.current_player].roll_scores.push(roll_score);
     console.log("dice sum: " + players[Game.current_player].roll_scores);
-
 }
 
 function set_turn_score() {
-    if (end_of_current_players_turn()) {
+    if (!permission_to_roll()) {
         $(players[Game.current_player].roll_scores).each(function(index, value) {
             if ((index + 1) % 2 == 0) {
                 players[Game.current_player].total_score -= value;
@@ -129,7 +117,7 @@ function set_turn_score() {
 }
 
 function check_for_winner() {
-    if ((Game.turns != 0) && (Game.total_turns == Game.turns)) {
+    if ((Game.turns != 0) && (Game.total_turns > Game.turns)) {
         if (Game.win_condition == 'highest') {
             find_highest_score();
         } else if (Game.win_condition == 'lowest') {
@@ -225,18 +213,17 @@ function find_closest_score() {
 }
 
 
-
 function announce_winner() {
     $(Game.winning_player).each(function(x) {
         // announce winners
-        alert('Game OVER');
         console.log('Player ' + Game.winning_player[x] + ' wins with a score of ' + players[Game.winning_player[x]].total_score + '!');
     });
 }
-
 
 function render_roll() {
     $("#player-" + Game.current_player + "-current").html(players[Game.current_player].current_roll);
     $("#player-" + Game.current_player + "-roll-score").html(players[Game.current_player].roll_scores + ',');
     $("#player-" + Game.current_player + "-turn-score").html(players[Game.current_player].total_score);
 }
+
+
