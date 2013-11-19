@@ -3,16 +3,16 @@ var Game = {
     next_player: 0,
     players: 2,
     rolls: 2,
-    // total number of turns the game can have before determining a winner
+    // total number of turns the game can have before determining a winner, 0 for infinite game
     turns: 0,
     dice: 2,
     dice_sides: 6,
-    winning_score: 21,
+    winning_score: 5,
     // allowed values: highest, lowest, or matching
     win_condition: 'highest',
     initial_score: 0,
     total_turns: 0,
-    winning_player: false
+    winning_player: []
 };
 
 var players = [];
@@ -137,7 +137,7 @@ function check_for_winner() {
         } else {
             find_closest_score();
         }
-    } else if ((Game.turns == 0) && ((Game.total_turns/Game.players) >= Game.players)) {
+    } else if ((Game.turns == 0) && (Game.current_player == Game.players - 1) && (players[Game.current_player].current_roll == Game.rolls)) {
         if (Game.win_condition == 'highest') {
             find_highest_score_for_infinite();
         } else if (Game.win_condition == 'lowest') {
@@ -184,6 +184,25 @@ function find_highest_score_for_infinite() {
     }
 }
 
+function find_lowest_score_for_infinite() {
+    var current_lowest_score = Game.winning_score;
+    $(players).each(function (x) {
+        if (players[x].total_score <= Game.winning_score) {
+            if (players[x].total_score < current_lowest_score) {
+                Game.winning_player.length = 0;
+                Game.winning_player.push(x);
+                current_lowest_score = players[x].total_score;
+            } else if (players[x].total_score == current_lowest_score) {
+                Game.winning_player.push(x);
+                current_lowest_score = players[x].total_score;
+            }
+        }     
+    });
+    if (Game.winning_player.length > 0) {
+        announce_winner();
+    }
+}
+
 
 
 function find_lowest_score() {
@@ -222,6 +241,17 @@ function find_closest_score() {
         }
     });
     announce_winner();
+}
+
+function find_exact_score_for_infinite() {
+    $(players).each(function (x) {
+        if (players[x].total_score == Game.winning_score) {
+            Game.winning_player.push(x);
+        }
+    });
+    if (Game.winning_player.length > 0) {
+        announce_winner();
+    }
 }
 
 
