@@ -98,10 +98,7 @@ textarea {
    ========================================================================== */
 
 button {
-    font-family: "Brush Script MT", cursive;
-    color: blue;
     font-weight: bold;
-    font-style: italic;
     padding:10px;
     font-size: 24px;
     border: 10px outset;
