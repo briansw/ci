@@ -2,9 +2,9 @@ var Game = {
     current_player: 0,
     next_player: 0,
     players: 2,
-    rolls: 3,
+    rolls: 2,
     // total number of turns the game can have before determining a winner
-    turns: 1,
+    turns: 3,
     dice: 2,
     dice_sides: 6,
     winning_score: 21,
@@ -54,22 +54,20 @@ function initialize_game() {
 }
 
 function set_current_player() {
-    if (!permission_to_roll()) {
+    if (end_of_current_players_turn()) {
         if ((Game.current_player < Game.players - 1)) {
-            players[Game.current_player].current_roll = 0;
             Game.current_player += 1;
-            console.log('*** Player' + Game.current_player);
         } else {
             Game.current_player = 0;
-            players[Game.current_player].current_roll = 0;
-            console.log('*** ' + Game.current_player);
         }
+        console.log('*** Player' + Game.current_player);
+        players[Game.current_player].current_roll = 0;
     }
 
 }
 
-function permission_to_roll() {
-    if (players[Game.current_player].current_roll < Game.rolls) {
+function end_of_current_players_turn() {
+    if (players[Game.current_player].current_roll == Game.rolls) {
         return true;
     } else {
         return false;
@@ -114,7 +112,7 @@ function set_roll_score(dice) {
 }
 
 function set_turn_score() {
-    if (!permission_to_roll()) {
+    if (end_of_current_players_turn()) {
         $(players[Game.current_player].roll_scores).each(function(index, value) {
             if ((index + 1) % 2 == 0) {
                 players[Game.current_player].total_score -= value;
