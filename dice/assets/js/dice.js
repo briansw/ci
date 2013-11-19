@@ -4,7 +4,7 @@ var Game = {
     players: 2,
     rolls: 3,
     // total number of turns the game can have before determining a winner
-    turns: 0,
+    turns: 1,
     dice: 2,
     dice_sides: 6,
     winning_score: 21,
@@ -76,6 +76,8 @@ function permission_to_roll() {
 }
 
 function increment_turn() {
+    console.log('current-player: ' + Game.current_player);
+    console.log('current-roll: ' + players[Game.current_player].current_roll);
     if (Game.current_player == (Game.players - 1) && (players[Game.current_player].current_roll == Game.rolls)) {
         Game.total_turns += 1;
     }
@@ -230,6 +232,7 @@ function find_closest_score() {
 function announce_winner() {
     $(Game.winning_player).each(function(x) {
         // announce winners
+        alert('Game OVER');
         console.log('Player ' + Game.winning_player[x] + ' wins with a score of ' + players[Game.winning_player[x]].total_score + '!');
     });
 }
