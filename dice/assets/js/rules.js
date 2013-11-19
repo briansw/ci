@@ -35,6 +35,7 @@ var Game = {
     // #####################################
     // ### Do not edit below this line! ####
     // #####################################
+    end: false,
     current_player: 0,
     total_turns: 0,
     winning_player: []

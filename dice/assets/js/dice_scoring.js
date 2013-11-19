@@ -2,14 +2,13 @@
 // #### Scoring #####################
 // ##################################
 
-
+// Edit this function to take on your own roll scoring
+// method. In this case we are summing the dice roll
+// values and pushing the total to the current player's
+// roll score.
 function set_roll_score(dice) {
-    // depending on game variables, this calculation may need to change.
     console.log("dice values: " + dice);
 
-    // Edit this function to take on your
-    // own scoring method
-    // in this case we are summing the dice roll values and pushing the total to the current player's roll score
     var roll_score = 0;
     $(dice).each(function(index, value) {
         roll_score += value;
@@ -18,7 +17,9 @@ function set_roll_score(dice) {
     console.log("dice sum: " + players[Game.current_player].roll_scores);
 }
 
-
+// Edit this function to take on your own turn scoring method.
+// In this case, we are subtracting every other roll from the
+// one that precedes it.
 function set_turn_score() {
     if (end_of_current_players_turn()) {
         $(players[Game.current_player].roll_scores).each(function(index, value) {

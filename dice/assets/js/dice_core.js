@@ -7,12 +7,14 @@ initialize_players();
 initialize_game_board();
 
 function begin_roll() {
-    set_current_player();
-    set_roll_score(roll_dice());
-    set_turn_score();
-    increment_turn();
-    check_for_winner();
-    render_roll();
+    if (Game.end != true) {
+        set_current_player();
+        set_roll_score(roll_dice());
+        set_turn_score();
+        increment_turn();
+        check_for_winner();
+        render_roll();
+    }
 }
 
 function initialize_players() {

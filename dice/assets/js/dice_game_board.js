@@ -1,4 +1,4 @@
-$('#roll').click(function() {
+$('.roll').click(function() {
     begin_roll();
 });
 
@@ -8,6 +8,7 @@ $('#roll').click(function() {
 // ##################################
 
 
+// Draws the game board on page load
 function initialize_game_board() {
     for (var i = 0; i < Game.players; i++) {
         $("#game-board").append("<div class='player-" + i +"'>");
@@ -21,6 +22,8 @@ function initialize_game_board() {
 }
 
 
+// Redraws the current player's portion of the game
+// board at the end of their turn
 function render_roll() {
     $("#player-" + Game.current_player + "-current").html(players[Game.current_player].current_roll);
     $("#player-" + Game.current_player + "-roll-score").html(players[Game.current_player].roll_scores + ',');
@@ -28,7 +31,10 @@ function render_roll() {
 }
 
 
+// If there is a winner, draw the results
 function announce_winner() {
+    $('.roll').html('Game over');
+    Game.end = true;
     alert('GAME OVER, check logs for winner(s)!');
     $(Game.winning_player).each(function(x) {
         console.log('Player ' + Game.winning_player[x] + ' wins with a score of ' + players[Game.winning_player[x]].total_score + '!');
