@@ -51,7 +51,7 @@
         <p>Linked by Air: AIGA 365 Exhibition Design</p>
     </div>
 
-<div class="slide-wrapper">
+    <div class="slide-wrapper">
         <div class="slide">
             <iframe src="//player.vimeo.com/video/5559525" width="700" height="490" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
@@ -61,6 +61,20 @@
                                You may not loop your own line or the line you looped in your last turn.
                                If you have no options left on one of the sides, that side is dead.
                                When both sides are dead, you may place a new line.</p>
+    </div>
+
+    <div class="slide-wrapper">
+        <div class="slide">
+            <a href="http://art.yale.edu" target="_blank"><img src="assets/images/studio/yale-art-school.png" /></a>
+        </div>
+        <p>Linked by Air: Yale School of Art website</p>
+    </div>
+
+    <div class="slide-wrapper">
+        <div class="slide">
+            <img src="assets/images/studio/dnd.jpg" />
+        </div>
+        <p>Dungeons &amp; Dragons</p>
     </div>
 
     <div class="slide-wrapper">

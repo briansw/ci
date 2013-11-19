@@ -6,11 +6,11 @@
 // method. In this case we are summing the dice roll
 // values and pushing the total to the current player's
 // roll score.
-function set_roll_score(dice) {
-    console.log("dice values: " + dice);
+function set_roll_score() {
+    console.log("dice values: " + players[Game.current_player].roll_results);
 
     var roll_score = 0;
-    $(dice).each(function(index, value) {
+    $(players[Game.current_player].roll_results).each(function(index, value) {
         roll_score += value;
     });
     players[Game.current_player].roll_scores.push(roll_score);

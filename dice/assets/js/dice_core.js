@@ -9,7 +9,8 @@ initialize_game_board();
 function begin_roll() {
     if (Game.end != true) {
         set_current_player();
-        set_roll_score(roll_dice());
+        roll_dice();
+        set_roll_score();
         if (end_of_current_players_turn()) {
             set_turn_score();
         }
@@ -23,6 +24,7 @@ function initialize_players() {
     for (var i = 0; i < Game.players; i++) {
         players[i] = {
             current_roll: 0,
+            roll_results: [],
             roll_scores: [],
             total_score: Game.initial_score
         };
@@ -38,6 +40,7 @@ function set_current_player() {
         }
         console.log('*** Player' + Game.current_player);
         players[Game.current_player].current_roll = 0;
+        players[Game.current_player].roll_results = [];
         players[Game.current_player].roll_scores = [];
     }
 
@@ -68,7 +71,7 @@ function roll_dice() {
     for (var i = 0; i < Game.dice; i++) {
         dice.push(Math.ceil(Math.random() * Game.dice_sides));
     }
-    return dice;
+    players[Game.current_player].roll_results = dice;
 }
 
 
