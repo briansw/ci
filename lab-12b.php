@@ -52,7 +52,7 @@
 			<div class="slide codesample">
 				<p>
 function myFunction() {<br/>
-&nbsp;&nbsp;&nbsp;console.log(‘Hello world!’);<br/>
+&nbsp;&nbsp;&nbsp;console.log("Hello world!");<br/>
 }
 </p>
 <p>
@@ -243,7 +243,7 @@ person.name = "Brian";<br/>
 			<div class="slide-wrapper">
 				<div class="slide left">
 					<p>Find elements (traverse the DOM):<br/><span class="codesample">
-$(&lt;selector&gt;);
+$("&lt;css selector&gt;");
 </span>
 				</p>
 				<p>Manipulate those elements:<br/>
@@ -262,7 +262,7 @@ $(&lt;selector&gt;);
 
 				
 				<p><span class="codesample">
-$(&lt;css selector&gt;);
+$("&lt;css selector&gt;");
 </span>
 				<br/>Returns results in array</p>
 
@@ -270,9 +270,9 @@ $(&lt;css selector&gt;);
 
 				<p>
 					<span class="codesample">
-$('h1');<br/>
+$("h1");<br/>
 // finds all h1 header elements<br/><br/>
-$('.header .nav');<br/>
+$(".header .nav");<br/>
 // finds class .nav in .header</span>
 				</p>
 				</div>
@@ -286,7 +286,7 @@ $('.header .nav');<br/>
 
 				
 				<p><span class="codesample">
-.html(&lt;html string&gt;)
+.html("&lt;html string&gt;")
 </span>
 				<br/>Inserts (overwrites) HTML in selected elements</p>
 
@@ -307,7 +307,7 @@ Returns all HTML of selected element as a string
 
 				
 				<p><span class="codesample">
-.css(&lt;propertyname&gt;,&lt;rule&gt;)
+.css({"&lt;propertyName&gt;" : "&lt;rule&gt;",<br />"&lt;otherPropertyName&gt;" : "&lt;otherRule&gt;"})
 </span>
 				<br/>Changes inline CSS values for selected elements</p>
 
@@ -315,7 +315,7 @@ Returns all HTML of selected element as a string
 
 				<p>
 					<span class="codesample">
-.css(&lt;property name&gt;)<br/></span>
+.css("&lt;propertyName&gt;")<br/></span>
 Returns value of CSS property as a string
 				</p>
 				</div>
@@ -361,23 +361,27 @@ Removes the matched element(s) from the DOM entirely</span>
 
 				
 				<p><span class="codesample">
-.addClass(className)
+.addClass("className")
 </span>
-				<br/>Adds class to all matched elements</p>
+				<br/>Adds class to all matched elements<br />
+			Note: in this case, you should not use a period preceding your class name
+
+</p>
 
 
 
 				<p>
 					<span class="codesample">
-.removeClass(className)</span><br/>
-Removes class from all matched elements
+.removeClass("className")</span><br/>
+Removes class from all matched elements<br/>
+
 				</p>
 
 
 				<p>
 					<span class="codesample">
-.toggleClass(className)<br/></span>
-Adds class if not currently applied, otherwise removes it</span>
+.toggleClass("className")<br/></span>
+Adds class if not currently applied, otherwise removes it<br/>
 				</p>
 				</div>
 				<p>Manipulating Classes</p>
@@ -390,7 +394,7 @@ Adds class if not currently applied, otherwise removes it</span>
 
 				
 				<p><span class="codesample">
-.append(content)
+.append("content")
 </span>
 				<br/>Inserts content at the end of each matched
 element</p>
@@ -399,7 +403,7 @@ element</p>
 
 				<p>
 					<span class="codesample">
-.prepend(content)</span><br/>
+.prepend("content")</span><br/>
 Inserts content at the beginning of each matched
 element
 				</p>
@@ -431,7 +435,9 @@ $(document).ready(function() {<br/>
 				<div class="slide left">
 
 				<p><span class="codesample">
-.click(function() {})
+.click(function() {<br/>
+	&nbsp;&nbsp;&nbsp;// do stuff<br/>
+})
 			</span><br/>
 User has pressed and released the mouse button
 </p>
@@ -478,8 +484,8 @@ Mouse has left the target element</p>
 			<div class="slide codesample">
 				<p>
 
-					$('.theElement').click(function(e) {<br/>
-&nbsp;&nbsp;&nbsp;e.preventDefault();<br/>
+					$(".theElement").click(function(event) {<br/>
+&nbsp;&nbsp;&nbsp;event.preventDefault();<br/>
 });
 
 </p>
