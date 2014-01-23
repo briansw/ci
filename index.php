@@ -49,7 +49,7 @@
     <ul> <!- start accordian -->
 
         <?#php include('snippets/studio-1a.php'); ?>
-        <?php include('snippets/lab-1b.php'); ?>
+        <?#php include('snippets/lab-1b.php'); ?>
         <?php include('readings.php'); ?>
         <?php include('students.php'); ?>
 
