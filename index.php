@@ -59,7 +59,6 @@
         <ul>
             <li><a href="mailto:wattersb@newschool.edu">wattersb@newschool.edu</a></li>
             <li><a href="mailto:griffitb@newschool.edu">griffitb@newschool.edu</a></li>
-            <li><a href="mailto:charj949@newschool.edu">charj949@newschool.edu</a></li>
             <li><img src="assets/images/crab.gif" width="33" height="15" />
         </ul>
     </div>
