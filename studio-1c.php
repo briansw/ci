@@ -5,7 +5,7 @@
                 <img src="assets/images/studio/discussion-thumbs/lissitzky-typography.jpg" width="75" />
                 <img src="assets/images/studio/discussion-thumbs/nagy-typophoto.jpg" width="75" />
             </div>
-            <p>Presentations by <a target="_blank" href="http://a.parsons.edu/~adkik756">Kathryn</a> and <a target="_blank" href="http://a.parsons.edu/~tscj092">Joel</a></p>
+            <p>Presentations by <a target="_blank" href="http://a.parsons.edu/~hydel073">Louise</a> and <a target="_blank" href="http://a.parsons.edu/~tohp591">Peter</a></p>
         </div>
     </div>
 
