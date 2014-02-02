@@ -124,7 +124,7 @@
 			
 			<h3>Exercise 2</h3>
 			<p>With the addition of CSS, refine your composition. Do <em>not</em> overwrite your original composition. What were you trying to achieve in the original? How we can use CSS attributes to push those ideas further.</p>
-			<p class="lab-due-date last">Due Week 4B</p>
+			<p class="lab-due-date last">Due Week 3A</p>
 		</div>
 		
 		<div class="readings">
@@ -133,7 +133,7 @@
 			<div class="column-3up"> <!- start column -->
 				<div class="file-wrapper">
 					<p><a href="http://learn.shayhowe.com/html-css/box-model"><em>Box Model & Positioning</em>, Shay Howe</a></p>
-					<p class="lab-due-date last">Due Week 4B</p>
+					<p class="lab-due-date last">Due Week 3A</p>
 				</div>
 			</div> <!- end column -->
 

@@ -1,7 +1,7 @@
-<li class="accordion-row" data-url="lab-3b.php">
+<li class="accordion-row" data-url="lab-2a.php">
 	<div class="accordion-header">
 		<div class="icon lab-icon"></div>
-		<div class="title">Week 3B</div>
+		<div class="title">Week 2A</div>
 		<span class="accordion-icon-closed">&ndash;</span>
 		<span class="accordion-icon-open">+</span>
 	</div>			
