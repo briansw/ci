@@ -9,16 +9,14 @@
         <div class="accordion-content">
             <ol>
                 <li><a target="_blank" href="http://a.parsons.edu/~barrm138">Miles Barretto</a></li>
+                <li><a target="_blank" href="http://a.parsons.edu/~chanj764">Janet Chan Chen</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~chois107">Sung Ji Choi</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~emred733">Dilan Emre</a></li>
-                <li><a target="_blank" href="http://a.parsons.edu/~gej976">Corrina Ge</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~hydel073">Louise Hyde</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~kims568">Sharon Kim</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~kleid973">David Klein</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~linh545">Haowei Lin</a></li>
-                <li><a target="_blank" href="http://a.parsons.edu/~liuc657">Caroline Liu</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~mudas924">Samah Mudasar</a></li>
-                <li><a target="_blank" href="http://a.parsons.edu/~ngaos757">Supisara Ngaovithunvong</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~romef235">Fernanda Romero</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~sungm429">Minji Sung</a></li>
                 <li><a target="_blank" href="http://a.parsons.edu/~tohp591">Peter Toh</a></li>
