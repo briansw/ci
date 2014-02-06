@@ -48,6 +48,21 @@
 
     <ul> <!- start accordian -->
 
+
+    <?#php include('snippets/studio-12a.php'); ?>
+    <?#php include('snippets/studio-10a.php'); ?>
+    <?#php include('snippets/lab-9b.php'); ?>
+    <?#php include('snippets/studio-9a.php'); ?>
+    <?#php include('snippets/studio-8c.php'); ?>
+    <?#php include('snippets/studio-8a.php'); ?>
+    <?#php include('snippets/studio-7c.php'); ?>
+    <?#php include('snippets/lab-4b.php'); ?>
+    <?#php include('snippets/studio-4a.php'); ?>
+    <?#php include('snippets/studio-3c.php'); ?>
+    <?#php include('snippets/lab-3b.php'); ?>
+
+
+        <?php include('snippets/studio-3a.php'); ?>
         <?php include('snippets/studio-2a.php'); ?>
         <?php include('snippets/lab-2a.php'); ?>
         <?php include('snippets/studio-1c.php'); ?>

@@ -4,7 +4,7 @@
         <div class="discussion-slide">
             <img src="assets/images/studio/discussion-thumbs/koolhaas-junkspace.jpg" width="75" />
         </div>
-        <p class="last">Presentations by <a href="http://a.parsons.edu/~fossm993/">Mark Foss</a> and <a href="http://a.parsons.edu/~dangm024/">Minh Huy Dang</a></p>
+        <p class="last">Presentations by <a target="_blank" href="http://a.parsons.edu/~kleid973/">David</a> and <a target="_blank" href="http://a.parsons.edu/~mudas924/">Samah</a></p>
     </div>
 </div>
 
