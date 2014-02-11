@@ -7,9 +7,6 @@
         <h2>Assignments</h2>
         <h3>Project 1</h3>
         <p>Continue to develop and refine your proposal based on the feedback given in class. All outstanding pages and interactions should be fully developed at this point.</p>
-
-        <h3>Gallery Visit</h3>
-        <p>Visit Paul Elliman&rsquo;s <em>Hermes the Thief</em> at <a target="_blank" href="http://www.wallspacegallery.com/exhibitions.html?id=3,18,244">Wallspace</a> and make note of what you find interesting for discussion next week.</p>
     </div>
 
     <div class="readings">
