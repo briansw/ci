@@ -5,7 +5,7 @@
             <img src="assets/images/studio/discussion-thumbs/martens-what-design-means-for-me.gif" width="75" />
             <img src="assets/images/studio/discussion-thumbs/metz-ood.gif" width="75" />
         </div>
-        <p class="last">Presentations by <a target="_blank" href="http://a.parsons.edu/~ballk483">Kevin Ballon</a> and <a target="_blank" href="http://a.parsons.edu/~grygd330/">Derek Gryga</a></p>
+        <p class="last">Presentations by <a target="_blank" href="http://a.parsons.edu/~chois107">Sung Ji</a> and <a target="_blank" href="http://a.parsons.edu/~kims568/">Sharon</a></p>
     </div>
 </div>
 <div class="lecture">
