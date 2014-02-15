@@ -10,6 +10,8 @@ ideas, and strategies for web-based projects. Lectures,
 readings, and student-led group discussions will reinforce
 concepts learned through projects.
 
-- Current semester site can be found in ```spring2014``` branch
+http://parsons.brianwatterson.com
 
-- Previous version of the site can be found in their respective branches
+- The current semester's site can be found in the ```spring2014``` branch
+
+- Previous versions of the site can be found in their respective branches
