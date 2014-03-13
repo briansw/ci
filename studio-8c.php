@@ -5,7 +5,7 @@
             <img src="assets/images/studio/discussion-thumbs/research-and-destroy.gif" width="75" />
             <img src="assets/images/studio/discussion-thumbs/metz-ood.gif" width="75" />
         </div>
-        <p class="last">Presentations by <a target="_blank" href="http://a.parsons.edu/~barrm138/">Miles Barretto</a> and <a target="_blank" href="http://a.parsons.edu/~linh545/">Haowei Lin</a></p>
+        <p class="last">Presentations by <a target="_blank" href="http://a.parsons.edu/~barrm138/">Miles Barretto</a> and <a target="_blank" href="http://a.parsons.edu/~sungm429/">Minji Sung</a></p>
     </div>
 </div>
 
