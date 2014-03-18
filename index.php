@@ -46,15 +46,15 @@
         </ul>
     </div>
 
-    <ul> <!- start accordian -->
+    <ul> <!-- start accordian -->
 
 
     <?#php include('snippets/studio-12a.php'); ?>
     <?#php include('snippets/studio-10a.php'); ?>
     <?#php include('snippets/lab-9b.php'); ?>
-    <?#php include('snippets/studio-9a.php'); ?>
     <?#php include('snippets/lab-4b.php'); ?>
 
+        <?php include('snippets/studio-9a.php'); ?>
         <?php include('snippets/studio-8c.php'); ?>
         <?php include('snippets/studio-8a.php'); ?>
         <?php include('snippets/studio-6c.php'); ?>
@@ -70,7 +70,7 @@
         <?php include('readings.php'); ?>
         <?php include('students.php'); ?>
 
-    </ul> <!- end accordian -->
+    </ul> <!-- end accordian -->
 
     <div id="footer">
         <ul>
