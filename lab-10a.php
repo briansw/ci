@@ -531,5 +531,5 @@ for (var counter = 0; counter < array.length; counter++) {<br>
 			<h3>Exercise</h3>
 			<p>Write a JavaScript program which uses loops, if statements, and relational operators to log (print) a pattern to the console. Consider how the program might change as it iterates through an array or number of increasing value. Upload your JavaScript program to your web space before the next time we meet. 
 			</p>
-			<p class="lab-due-date last">Due Week 10B</p>
+			<p class="lab-due-date last">Due Week 11A</p>
 		</div>
