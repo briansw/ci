@@ -34,14 +34,14 @@
         <div class="slide">
             <iframe width="420" height="315" src="//www.youtube.com/embed/SSulycqZH-U?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
-        <p>John Cage's Sonatas and Interludes c. 1951 (aleatoric compositions)</p>
+        <p>John Cage's Water Walk (aleatoric compositions) [3:38]</p>
     </div>
 
     <div class="slide-wrapper">
         <div class="slide">
             <iframe width="560" height="315" src="//www.youtube.com/embed/jRHoKZRYBlY?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
-        <p>John Cage's Water Walk (aleatoric compositions) [3:38]</p>
+        <p>John Cage's Sonatas and Interludes c. 1951 (aleatoric compositions)</p>
     </div>
 
     <div class="slide-wrapper">
