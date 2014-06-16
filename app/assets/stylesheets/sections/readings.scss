@@ -1,0 +1,39 @@
+#readings {
+  @extend %whitespacefix;
+
+  .reading {
+    vertical-align: bottom;
+    @extend %c2;
+    @extend %inlineblock;
+    @extend %regular;
+  }
+
+  .reading-button {
+    display: block;
+    border: 1px solid;
+    padding: $gutter;
+    position: relative;
+    margin-bottom: $gutters;
+
+    &:after {
+      display: none;
+      position: absolute;
+      top: -1px;
+      right: -1px;
+      border: 1px solid $light_yellow;
+      border-left-color: $black;
+      background: $light_yellow;
+      width: 68px;
+      height: 101%;
+      content: '';
+      @include set_background('arrow-down', 'png', '15px 13px', 'center center');
+    }
+
+    &:hover {
+      color: $black;
+      background: $white;
+      &:after { display: block; }
+    }
+  }
+
+}

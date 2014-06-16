@@ -1,0 +1,7 @@
+.lectures {
+  @extend %c6;
+}
+
+#lecture {
+  .heading { @extend %c6; }
+}

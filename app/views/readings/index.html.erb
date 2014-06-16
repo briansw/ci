@@ -1,0 +1,12 @@
+<div id="readings">
+  <% @readings.each do |reading| %>
+    <div class="reading">
+      <%= link_to(pdf_or_url(reading), target: '_blank', class: 'reading-button') do %>
+        <%= section_bug(reading) %><br /><br />
+        <%= reading.year %><br />
+        <%= reading.title %><br />
+        &mdash;<%= reading.author %>
+      <% end %>
+    </div>
+  <% end %>
+</div>

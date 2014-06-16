@@ -11,7 +11,3 @@ readings, and student-led group discussions will reinforce
 concepts learned through projects.
 
 http://parsons.brianwatterson.com
-
-- The current semester's site can be found in the ```spring2014``` branch
-
-- Previous versions of the site can be found in their respective branches

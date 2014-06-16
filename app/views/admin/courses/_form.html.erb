@@ -1,0 +1,14 @@
+<div class="field">
+  <%= f.label :year %>
+  <%= f.select(:year, options_for_select(Course.years, {selected: @course.year}), {}, class: 'select2') %>
+</div>
+
+<div class="field">
+  <%= f.label :semester %>
+  <%= f.select(:semester, options_for_select(Course.semesters, {selected: @course.semester}), {}, class: 'select2') %>
+</div>
+
+<div class="field">
+  <%= f.label :active %>
+  <%= f.check_box :active %>
+</div>

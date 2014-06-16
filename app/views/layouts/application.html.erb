@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ci</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div id="wrapper">
+    <div id="header">
+      <%= render 'shared/header' %>
+    </div>
+
+    <div id="content">
+      <%= yield %>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div id="footer-inner">
+      <%= render 'shared/footer' %>
+    </div>
+  </div>
+
+</body>
+</html>
