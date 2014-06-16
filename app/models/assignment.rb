@@ -6,7 +6,7 @@ class Assignment < ActiveRecord::Base
 
   adminable position: 4
 
-  has_heading 'Name', link: 'title', default: true
+  has_heading 'Name', link: 'name', default: true
   has_heading 'Section', link: 'section'
   has_heading 'Active', link: 'active'
 
