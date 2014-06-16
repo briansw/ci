@@ -512,5 +512,5 @@ Mouse has left the target element</p>
 			</p>
 			        <p><a href="assets/files/jquery_exercise.zip">Download jQuery exercise package</a></p>
 
-			<p class="lab-due-date last">Due Week 14B</p>
+			<p class="lab-due-date last">Due Week 12A</p>
 		</div>
