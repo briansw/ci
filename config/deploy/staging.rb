@@ -16,5 +16,5 @@ role :db,  %w{briansw@briansw.net}
 # extended properties on the server.
 server 'briansw.net', user: 'briansw', roles: %w{web app}
 
-set :deploy_to, '/home/briansw/dev.ci.brianwatterson.com'
+set :deploy_to, '/home/briansw/ci.brianwatterson.com'
 set :branch, :dev
