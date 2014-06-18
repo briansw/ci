@@ -7,7 +7,9 @@
   </div>
 
   <div class="content">
-    here we go.
+    <% @lecture.content_blocks.each do |cb| %>
+      <%= render "content_blocks/#{cb.path_name}/show", cb: cb.send(cb.path_name) %>
+    <% end %>
   </div>
 
 </div>
