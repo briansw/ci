@@ -1,6 +1,7 @@
 class Lecture < ActiveRecord::Base
   include Concerns::Adminable
   include Concerns::CRUDTable
+  include Concerns::HasContentBlocks
 
   validates_presence_of :title
 
@@ -11,6 +12,10 @@ class Lecture < ActiveRecord::Base
   has_heading 'Active', link: 'active'
 
   belongs_to :course
+
+  has_content_block 'TextBlock'
+  has_content_block 'ImageBlock'
+  has_content_block 'VideoBlock'
 
   def self.active
     where(active: true).order('publish_on DESC')

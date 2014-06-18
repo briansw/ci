@@ -1,6 +1,7 @@
 class Assignment < ActiveRecord::Base
   include Concerns::Adminable
   include Concerns::CRUDTable
+  include Concerns::HasContentBlocks
 
   validates_presence_of :name
 
@@ -9,6 +10,10 @@ class Assignment < ActiveRecord::Base
   has_heading 'Name', link: 'name', default: true
   has_heading 'Section', link: 'section'
   has_heading 'Active', link: 'active'
+
+  has_content_block 'TextBlock'
+  has_content_block 'ImageBlock'
+  has_content_block 'VideoBlock'
 
   belongs_to :course
 
