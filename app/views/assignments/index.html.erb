@@ -1,1 +1,10 @@
-assignments
+<div class="assignments">
+  <% @assignments.each do |assignment| %>
+    <%= link_to(assignment_path(assignment), class: "band-button #{current_record(assignment)}") do %>
+      <span class="bug-wrapper">
+        <%= section_bug(assignment) %>
+      </span>
+      <%= assignment.name %>
+    <% end %>
+  <% end %>
+</div>

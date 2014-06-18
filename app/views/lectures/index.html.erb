@@ -1,6 +1,6 @@
 <div class="lectures">
   <% @lectures.each do |lecture| %>
-    <%= link_to(lecture_path(lecture), class: "band-button #{current_lecture(lecture)}") do %>
+    <%= link_to(lecture_path(lecture), class: "band-button #{current_record(lecture)}") do %>
       <span class="bug-wrapper">
         <%= section_bug(lecture) %>
       </span>

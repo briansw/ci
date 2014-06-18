@@ -9,4 +9,11 @@ module ApplicationHelper
       'current'
     end
   end
+
+  def current_record(record)
+    if record == record.class.current_studio || record == record.class.current_lab
+      'current'
+    end
+  end
+
 end
