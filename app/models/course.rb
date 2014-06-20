@@ -4,7 +4,7 @@ class Course < ActiveRecord::Base
 
   validates_presence_of :year, :semester
 
-  adminable position: 1
+  is_adminable
 
   has_heading 'Year', link: 'year', default: true
   has_heading 'Semester', link: 'semester'

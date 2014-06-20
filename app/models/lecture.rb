@@ -5,7 +5,7 @@ class Lecture < ActiveRecord::Base
 
   validates_presence_of :title
 
-  adminable position: 2
+  is_adminable
 
   has_heading 'Title', link: 'title', default: true
   has_heading 'Section', link: 'section'
@@ -13,9 +13,9 @@ class Lecture < ActiveRecord::Base
 
   belongs_to :course
 
-  has_content_block 'TextBlock'
-  has_content_block 'ImageBlock'
-  has_content_block 'VideoBlock'
+  has_content_block :text_block
+  has_content_block :image_block
+  has_content_block :video_block
 
   def self.active
     where(active: true).order('publish_on DESC')

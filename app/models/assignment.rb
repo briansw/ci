@@ -5,15 +5,15 @@ class Assignment < ActiveRecord::Base
 
   validates_presence_of :name
 
-  adminable position: 4
+  is_adminable
 
   has_heading 'Name', link: 'name', default: true
   has_heading 'Section', link: 'section'
   has_heading 'Active', link: 'active'
 
-  has_content_block 'TextBlock'
-  has_content_block 'ImageBlock'
-  has_content_block 'VideoBlock'
+  has_content_block :text_block
+  has_content_block :image_block
+  has_content_block :video_block
 
   belongs_to :course
 

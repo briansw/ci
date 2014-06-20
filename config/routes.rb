@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   resources :readings, only: :index
 
 
-  admin_for :users, :courses, :students, :lectures, :readings, :assignments
+  admin_for :lectures, :assignments, :readings, :students, :courses, :users
 
   # TODO: This should have routes but no interface. How to configure?
   admin_for :images

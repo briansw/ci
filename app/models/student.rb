@@ -12,7 +12,7 @@ class Student < ActiveRecord::Base
     order(:last_name)
   }
 
-  adminable position: 2
+  is_adminable
 
   has_heading 'First Name', link: 'first_name'
   has_heading 'Last Name', link: 'last_name', default: true

@@ -8,10 +8,11 @@ GIT
 
 GIT
   remote: git@github.com:briansw/brb.git
-  revision: 6a380c34e433cb27662313af8488b38dd1f5ca03
+  revision: 79aed9e6222f53eb07d3ec31fc120a7965aea904
   specs:
     brb (0.0.1)
       acts-as-taggable-on
+      bcrypt-ruby (~> 3.1.2)
       carrierwave
       inherited_resources
       jquery-fileupload-rails
@@ -186,7 +187,7 @@ GEM
     mini_magick (3.7.0)
       subexec (~> 0.2.1)
     mini_portile (0.6.0)
-    minitest (5.3.4)
+    minitest (5.3.5)
     multi_json (1.10.1)
     multipart-post (2.0.0)
     mysql2 (0.3.16)

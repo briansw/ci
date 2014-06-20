@@ -5,7 +5,8 @@ class Reading < ActiveRecord::Base
 
   has_and_belongs_to_many :courses, join_table: 'course_readings'
 
-  adminable position: 1
+  is_adminable
+
   has_heading 'Title', link: 'title', default: true
   has_heading 'Author(s)', link: 'author'
   has_heading 'Year', link: 'year'
