@@ -1,11 +1,7 @@
 class Assignment < ActiveRecord::Base
-  include Concerns::Adminable
-  include Concerns::CRUDTable
-  include Concerns::HasContentBlocks
+  include Brb::Model::Full
 
   validates_presence_of :name
-
-  is_adminable
 
   has_heading 'Name', link: 'name', default: true
   has_heading 'Section', link: 'section'

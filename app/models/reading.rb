@@ -1,11 +1,7 @@
 class Reading < ActiveRecord::Base
-  include Concerns::Adminable
-  include Concerns::CRUDTable
-  include Concerns::HasImage
+  include Brb::Model::Full
 
   has_and_belongs_to_many :courses, join_table: 'course_readings'
-
-  is_adminable
 
   has_heading 'Title', link: 'title', default: true
   has_heading 'Author(s)', link: 'author'

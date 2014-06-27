@@ -1,6 +1,5 @@
 class Student < ActiveRecord::Base
-  include Concerns::Adminable
-  include Concerns::CRUDTable
+  include Brb::Model::Basic
 
   validates_presence_of :first_name, :last_name, :username
 
@@ -11,8 +10,6 @@ class Student < ActiveRecord::Base
   scope :by_name, -> {
     order(:last_name)
   }
-
-  is_adminable
 
   has_heading 'First Name', link: 'first_name'
   has_heading 'Last Name', link: 'last_name', default: true

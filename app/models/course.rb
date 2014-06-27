@@ -1,10 +1,7 @@
 class Course < ActiveRecord::Base
-  include Concerns::Adminable
-  include Concerns::CRUDTable
+  include Brb::Model::Full
 
   validates_presence_of :year, :semester
-
-  is_adminable
 
   has_heading 'Year', link: 'year', default: true
   has_heading 'Semester', link: 'semester'

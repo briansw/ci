@@ -1,11 +1,7 @@
 class Lecture < ActiveRecord::Base
-  include Concerns::Adminable
-  include Concerns::CRUDTable
-  include Concerns::HasContentBlocks
+  include Brb::Model::Full
 
   validates_presence_of :title
-
-  is_adminable
 
   has_heading 'Title', link: 'title', default: true
   has_heading 'Section', link: 'section'

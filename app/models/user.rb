@@ -1,6 +1,5 @@
 class User < ActiveRecord::Base
-  include Concerns::Adminable
-  include Concerns::CRUDTable
+  include Brb::Model::Full
 
   validates_presence_of :first_name
   validates_presence_of :last_name
@@ -8,8 +7,6 @@ class User < ActiveRecord::Base
   validates_uniqueness_of :username
   validates_presence_of :email
   validates_uniqueness_of :email
-
-  is_adminable
 
   has_secure_password
 
@@ -20,10 +17,6 @@ class User < ActiveRecord::Base
 
   def name
     "#{first_name} #{last_name}"
-  end
-
-  def self.per_page
-    self.per_page = 10
   end
 
 end
