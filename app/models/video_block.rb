@@ -11,7 +11,7 @@ class VideoBlock < ActiveRecord::Base
   private
 
   def is_a_youtube_link
-    unless self.url.include?('youtube.com')
+    unless self.url.include?('youtu.be.com')
       errors.add(:url, 'must be from YouTube')
     end
   end
