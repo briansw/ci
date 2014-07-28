@@ -18,4 +18,10 @@
       @extend %regular;
     }
   }
+
+  .version-number {
+    @extend %tiny-margin-above;
+    color: $gray;
+    @extend %small;
+  }
 }

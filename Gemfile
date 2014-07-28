@@ -1,17 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.1.2'
+gem 'rails', '4.1.4'
 gem 'mysql2'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
+gem 'execjs'
 gem 'jquery-rails'
-gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-
-
-gem 'bcrypt-ruby', '~> 3.1.2'
-
+gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'bcrypt-ruby', '~> 3.1.5'
 gem 'brb', git: 'git@github.com:briansw/brb.git'
 
 # Image manipulation dependencies
@@ -20,14 +18,6 @@ gem 'mini_magick'
 # Search dependencies
 gem 'elasticsearch-model'
 gem 'elasticsearch-rails'
-
-# Public dependencies
-gem 'jquery-turbolinks'
-
-
-group :doc do
-  gem 'sdoc', '~> 0.4.0'
-end
 
 group :development do
   gem 'spring'

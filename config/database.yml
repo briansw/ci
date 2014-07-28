@@ -1,0 +1,21 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password:
+  host: localhost
+
+development:
+  <<: *default
+  database: ci_dev
+
+test:
+  <<: *default
+  database: ci_test
+
+production:
+  <<: *default
+  database: ci
+  username: root
+  password: <%= Rails.application.secrets.mysql_password %>
