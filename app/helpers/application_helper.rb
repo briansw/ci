@@ -16,4 +16,12 @@ module ApplicationHelper
     end
   end
 
+  def section_label(record)
+    if record.section == 'Studio'
+      'studio-section'
+    else
+      'lab-section'
+    end
+  end
+
 end
