@@ -1,7 +1,5 @@
 <div class="content-block <%= css_class(cb) %>" id="<%= css_id(cb) %>">
-  <iframe id="ytplayer" type="text/html" width="708" height="500"
-    src="http://www.youtube.com/embed/<%= cb.video_id %>"
-    frameborder="0"/>
+  <iframe id="ytplayer" type="text/html" width="708" height="500" src="http://www.youtube.com/embed/<%= cb.video_id %>" frameborder="0"/>
   <div class="caption">
     <%= f(cb.caption) %>
   </div>

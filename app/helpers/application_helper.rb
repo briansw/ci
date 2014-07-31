@@ -5,7 +5,7 @@ module ApplicationHelper
   end
 
   def current_class(path)
-    if current_page?(path)
+    if path.gsub('/', '') == request.path.split('/')[1]
       'current'
     end
   end
