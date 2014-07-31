@@ -12,6 +12,8 @@
       @extend %inlineblock;
       margin-right: 3px;
     }
+
+    .bug:hover { cursor: pointer; }
   }
 
   #navigation {
