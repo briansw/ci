@@ -14,19 +14,14 @@ class ImageUploader < Admin::AttachmentUploader
     "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
   end
 
-  version :c1, if: :image? do
+  version :c6, if: :image? do
     process quality: 90
-    process resize_to_fit: [400, 750]
+    process resize_to_fit: [1400, 2500]
   end
 
-  version :c2, if: :image? do
+  version :lightbox, if: :image? do
     process quality: 90
-    process resize_to_fit: [800, 1500]
-  end
-
-  version :c3, if: :image? do
-    process quality: 90
-    process resize_to_fit: [2000, 3700]
+    process resize_to_fit: [2000, 3500]
   end
 
 end

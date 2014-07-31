@@ -2,3 +2,5 @@
 /db/*.yml
 /log/*.log
 /tmp
+
+public/uploads/*

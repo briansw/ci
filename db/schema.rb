@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140728234854) do
+ActiveRecord::Schema.define(version: 20140731005409) do
 
   create_table "assignments", force: true do |t|
     t.integer  "course_id"
@@ -147,6 +147,7 @@ ActiveRecord::Schema.define(version: 20140728234854) do
     t.integer  "content_block_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "service"
   end
 
 end

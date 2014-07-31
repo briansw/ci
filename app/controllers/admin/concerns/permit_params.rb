@@ -98,6 +98,7 @@ module Admin::Concerns::PermitParams
         :id,
         :url,
         :video_id,
+        :service,
         :title,
         :caption
       ]

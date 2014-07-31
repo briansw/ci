@@ -11,3 +11,9 @@
 @import "sections/lectures";
 @import "sections/readings";
 @import "sections/assignments";
+
+@import "content_blocks/base";
+@import "content_blocks/text_block";
+@import "content_blocks/image_block";
+@import "content_blocks/gist_block";
+@import "content_blocks/video_block";

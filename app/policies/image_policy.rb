@@ -1,2 +1,0 @@
-class ImagePolicy < ApplicationPolicy
-end
