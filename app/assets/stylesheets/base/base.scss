@@ -13,6 +13,8 @@ body {
   padding: 0;
   position: relative;
   @extend %regular;
+  font-family: 'caslon', Times New Roman, Times, serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 div, ul {

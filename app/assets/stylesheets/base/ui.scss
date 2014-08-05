@@ -3,7 +3,7 @@
   @extend %large;
   border: 1px solid;
   position: relative;
-  padding: $gutter;
+  padding: $gutter $gutter 11px $gutter;
   margin-bottom: $small_margin;
   &:last-child { margin-bottom: 0; }
   display: block;
@@ -23,7 +23,7 @@
     border-left-color: $black;
     background: $light_yellow;
     width: 68px;
-    height: 71px;
+    height: 67px;
     content: '';
     @include set_background('arrow-right', 'png', '13px 15px', 'center center');
   }
