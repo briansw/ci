@@ -5,10 +5,12 @@ Rails.application.routes.draw do
   scope only: [:index, :show] do
     resources :lectures
     resources :assignments
-    resources :resources
   end
 
-  resources :readings, only: :index
+  scope only: :index do
+    resources :readings
+    resources :resources
+  end
 
   admin_for :lectures, :assignments, :readings, :students, :courses, :users
   admin_for :images, private: true

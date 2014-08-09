@@ -1,4 +1,5 @@
 class Admin::CoursesController < Admin::ApplicationController
+  include Admin::Concerns::PermitParams
 
   private
 
@@ -7,7 +8,8 @@ class Admin::CoursesController < Admin::ApplicationController
         :year,
         :semester,
         :name,
-        :active
+        :active,
+        standalone_images_params
       )
     end
 end

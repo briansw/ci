@@ -7,6 +7,9 @@ class Course < ActiveRecord::Base
   has_heading 'Semester', link: 'semester'
   has_heading 'Active', link: 'active'
 
+  has_image :studio_syllabus
+  has_image :lab_syllabus
+
   has_many :students
   has_many :lectures
   has_many :assignments

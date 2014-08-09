@@ -10,6 +10,12 @@ module Admin::Concerns::PermitParams
       ],
       poster_frame_attributes: [
         image_params
+      ],
+      lab_syllabus_attributes: [
+        image_params
+      ],
+      studio_syllabus_attributes: [
+        image_params
       ]
     }
   end
