@@ -16,11 +16,10 @@
 
 <% content_for :init_student_list do %>
 <script type="text/javascript">
-
-    var students = [];
-        students = <%= raw(@course.students.flat_list) %>;
-    if (students.length > 0) {
-      // Thing.initialize(students);
-    }
+  var students = [];
+      students = <%= raw(@course.students.flat_list) %>;
+  if (students.length > 0) {
+    // Thing.initialize(students);
+  }
 </script>
 <% end %>
