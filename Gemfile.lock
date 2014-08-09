@@ -8,9 +8,9 @@ GIT
 
 GIT
   remote: git@github.com:briansw/brb.git
-  revision: 3f92350c05dfc2b3d3ca7fe039107d188d2251c6
+  revision: 5931bfacd079025e2abdabde1f1c5539dc906554
   specs:
-    brb (0.0.1)
+    brb (0.0.2)
       acts-as-taggable-on
       bcrypt-ruby (~> 3.1.5)
       carrierwave
@@ -314,7 +314,7 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt-ruby (~> 3.1.5)
-  brb!
+  brb (= 0.0.2)!
   capistrano
   capistrano-bundler
   capistrano-rails
