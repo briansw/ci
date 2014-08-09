@@ -20,7 +20,7 @@ class Student < ActiveRecord::Base
   end
 
   def self.flat_list
-    by_name.collect{ |s| s.full_name }
+    by_name.collect{ |s| [s.full_name, s.url] }
   end
 
   private
