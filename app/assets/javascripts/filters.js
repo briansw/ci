@@ -1,22 +1,21 @@
 $('.bug').click(function() {
-  var target   = $(this).data('target'),
-      filtered = $('.filter.active');
-
-  if (filtered.length > 0 && !$(this).hasClass('active')) {
-    filtered.removeClass('active');
-    if (target == 'studio') {
-      $('.studio-section').slideDown('fast');
-      $('.lab-section').slideUp('fast');
-    } else {
-      $('.studio-section').slideUp('fast');
-      $('.lab-section').slideDown('fast');
-    }
+  var target   = $(this).data('target');
+  if ($(this).hasClass('off')) {
+    $('.studio-section, .lab-section').fadeTo('fast','1').find('a').removeClass('disabled');
+    $(this).removeClass('off');
   } else {
     if (target == 'studio') {
-      $('.lab-section').slideToggle('fast');
+      $('.lab-section').fadeTo('fast','0').find('a').addClass('disabled');
+      $('.studio-section').fadeTo('fast','1').find('a').removeClass('disabled');
     } else {
-      $('.studio-section').slideToggle('fast');
+      $('.studio-section').fadeTo('fast','0').find('a').addClass('disabled');
+      $('.lab-section').fadeTo('fast','1').find('a').removeClass('disabled');
     }
+    $('#filters .bug').not(this).addClass('off');
+    $(this).removeClass('off');
   }
-  $(this).toggleClass('active');
+});
+
+$("body").on( 'click', '.disabled', function(e) {
+  e.preventDefault();
 });

@@ -62,5 +62,13 @@
          -o-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
-  &.active { background: transparent; border: 1px solid; color: $black; }
+  &.off { 
+    background: transparent; 
+    border: 1px solid; 
+    color: $black; 
+  }
+}
+
+.disabled {
+  cursor: default !important;
 }

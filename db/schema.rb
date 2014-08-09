@@ -87,7 +87,7 @@ ActiveRecord::Schema.define(version: 20140731005409) do
     t.string   "section"
     t.integer  "course_id"
     t.string   "slug"
-    t.datetime "publish_on", default: '2014-06-12 01:11:19'
+    t.datetime "publish_on", default: '2014-08-09 20:10:34'
     t.boolean  "active",     default: true
     t.datetime "created_at"
     t.datetime "updated_at"
