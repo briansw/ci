@@ -19,7 +19,7 @@
   var students = [];
       students = <%= raw(@course.students.flat_list) %>;
   if (students.length > 0) {
-    // Thing.initialize(students);
+    init_wheel_of_fortune(students);
   }
 </script>
 <% end %>
