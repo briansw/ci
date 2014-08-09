@@ -24,8 +24,10 @@
     </div>
   </div>
 
-  <%= yield :init_student_list %>
+  <%= render 'shared/wheel_of_fortune' %>
+  
   <%= javascript_include_tag 'application' %>
+  <%= yield :init_student_list %>
 
 </body>
 </html>
