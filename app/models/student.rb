@@ -19,6 +19,10 @@ class Student < ActiveRecord::Base
     "#{first_name} #{last_name}"
   end
 
+  def flat_list
+    by_name.collect{ |s| s.full_name }
+  end
+
   private
 
   def add_email_and_url
