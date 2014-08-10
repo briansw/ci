@@ -16,6 +16,6 @@ test:
 
 production:
   <<: *default
-  database: ci
+  database: bw_ci
   username: <%= Rails.application.secrets.mysql_username %>
   password: <%= Rails.application.secrets.mysql_password %>
