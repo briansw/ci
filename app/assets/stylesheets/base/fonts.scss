@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'caslon';
+  src: asset-url('fonts/ACaslonPro-Regular.eot');
+  src: asset-url('fonts/ACaslonPro-Regular.eot?#iefix') format('embedded-opentype'),
+//       asset-url('fonts/ACaslonPro-Regular.otf') format('opentype'),
+       asset-url('fonts/ACaslonPro-Regular.woff') format('woff'),
+       asset-url('fonts/ACaslonPro-Regular.ttf') format('truetype'),
+       asset-url('fonts/ACaslonPro-Regular.svg#ACaslonPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'caslon';
+  src: asset-url('fonts/ACaslonPro-Italic.eot');
+  src: asset-url('fonts/ACaslonPro-Italic.eot?iefix') format('embedded-opentype'),
+//       asset-url('fonts/ACaslonPro-Italic.otf') format('opentype'),
+       asset-url('fonts/ACaslonPro-Italic.woff') format('woff'),
+       asset-url('fonts/ACaslonPro-Italic.ttf') format('truetype'),
+       asset-url('fonts/ACaslonPro-Italic.svg#ACaslonPro-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}

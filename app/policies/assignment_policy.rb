@@ -1,0 +1,2 @@
+class AssignmentPolicy < ApplicationPolicy
+end

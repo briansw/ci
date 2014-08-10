@@ -1,0 +1,36 @@
+<div class="field">
+  <%= f.label :courses %>
+  <%= f.relation_field :courses, label_field: 'name', name: 'reading[courses]' %>
+</div>
+
+<div class="field">
+  <%= f.label :section %>
+  <%= f.select(:section, options_for_select(Course.sections, {selected: @reading.section}), {}, class: 'select2') %>
+</div>
+
+<div class="field">
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+</div>
+
+<div class="field">
+  <%= f.label :author, 'Author(s)' %>
+  <%= f.text_field :author %>
+</div>
+
+<div class="field">
+  <%= f.label :year %>
+  <%= f.select(:year, options_for_select(Reading.years, {selected: @reading.year}), {}, class: 'select2') %>
+</div>
+
+<div class="field">
+  <%= f.label :pdf, 'PDF/URL' %>
+  <%= f.image_field :pdf %><br />
+  <%= f.label :link, '&nbsp;'.html_safe %>
+  <%= f.text_field :link, placeholder: 'URL' %>
+</div>
+
+<div class="field">
+  <%= f.label :active %>
+  <%= f.check_box :active %>
+</div>

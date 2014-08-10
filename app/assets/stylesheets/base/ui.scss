@@ -1,0 +1,74 @@
+.band-button {
+  vertical-align: middle;
+  @extend %large;
+  border: 1px solid;
+  position: relative;
+  padding: $gutter $gutter 11px $gutter;
+  margin-bottom: $small_margin;
+  &:last-child { margin-bottom: 0; }
+  display: block;
+  &:hover {
+    color: $black;
+    background: $white;
+    &:after { display: block; }
+    .bug { color: $white; }
+  }
+
+  &:after {
+    display: none;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    border: 1px solid $light_yellow;
+    border-left-color: $black;
+    background: $light_yellow;
+    width: 68px;
+    height: 67px;
+    content: '';
+    @include set_background('arrow-right', 'png', '13px 15px', 'center center');
+  }
+
+  &.expanded:after {
+    display: block;
+    @include set_background('arrow-down', 'png', '15px 13px', 'center center');
+  }
+
+  .bug { margin-right: $gutter; }
+
+  &.current {
+    background: $white;
+    .bug { color: $white; }
+  }
+}
+
+.bug {
+  @extend %inlineblock;
+  position: relative;
+  width: 18px;
+  height: 18px;
+  background: $black;
+  color: $light_yellow;
+  @include typeface($sans);
+  @extend %tiny;
+  border-radius: 9px;
+  .letter {
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  &.off { 
+    background: transparent; 
+    border: 1px solid; 
+    color: $black; 
+  }
+}
+
+.disabled {
+  cursor: default !important;
+}

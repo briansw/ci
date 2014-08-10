@@ -1,0 +1,15 @@
+<div id="lecture">
+  <div class="heading">
+    <h2 class="band-button current expanded">
+      <%= section_bug(@lecture) %>
+      <%= ft(@lecture.title) %>
+    </h2>
+  </div>
+
+  <div class="content">
+    <% @lecture.content_blocks.each do |cb| %>
+      <%= render "content_blocks/#{cb.path_name}/show", cb: cb.send(cb.path_name) %>
+    <% end %>
+  </div>
+
+</div>

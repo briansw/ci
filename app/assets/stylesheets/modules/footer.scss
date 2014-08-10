@@ -1,0 +1,27 @@
+#footer {
+  padding: $gutter $gutter $large_margin*2 $gutter;
+
+  #footer-inner {
+    @extend %c6;
+    @extend %nogutters;
+    @extend %whitespacefix;
+
+    .course-info {
+      @extend %c2;
+      @extend %inlineblock;
+      @extend %regular;
+    }
+
+    .students {
+      @extend %c4;
+      @extend %inlineblock;
+      @extend %regular;
+    }
+  }
+
+  .version-number {
+    @extend %tiny-margin-above;
+    color: $gray;
+    @extend %small;
+  }
+}

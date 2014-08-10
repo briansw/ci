@@ -1,0 +1,70 @@
+// Colors
+$black:        #333;
+$rich_black:   #000;
+$gray:         #808080;
+$white:        #fff;
+$default:      #00f;
+$light_yellow: #fffcd9;
+
+// Fonts
+$sans: Helvetica, Arial, sans-serif;
+$serif: Times New Roman, Times, serif;
+
+// Type Sizes
+$large_size:      30px;
+$large_leading:   1.3em;
+$regular_size:    19px;
+$regular_leading: 1.3em;
+$small_size:      13px;
+$small_leading:   1.3em;
+$tiny_size:       9px;
+$tiny_leading:    0;
+
+// Spacing
+$gutter:  15px;
+$gutters: $gutter * 2;
+
+// Margins
+$large_margin:  50px;
+$medium_margin: 25px;
+$small_margin:  14px;
+$tiny_margin:   7px;
+
+// Column width
+$unit_width: 123px;
+
+%whitespacefix {
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -4px;
+}
+
+%inlineblock {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  letter-spacing: 0;
+}
+
+
+// @include set_background('slideshow_block/arrow-left', 'gif', 'Wpx Hpx', 'posx posy');
+@mixin set_background($img, $file_type, $size, $position) {
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 192dpi) {
+    background-image: image-url($img + '@2x.' + $file_type) !important;
+    background-repeat: no-repeat;
+    background-position: #{$position};
+    -moz-background-size: #{$size};
+         background-size: #{$size} !important;
+  }
+  background-image: image-url($img + '.' + $file_type);
+  background-repeat: no-repeat;
+  background-position: #{$position};
+}
+
+// @include prettyhover(background-color, 150ms, ease-out);
+@mixin prettyhover($attribute, $time, $easing) {
+  -webkit-transition: $attribute $time $easing;
+     -moz-transition: $attribute $time $easing;
+       -o-transition: $attribute $time $easing;
+          transition: $attribute $time $easing;
+}

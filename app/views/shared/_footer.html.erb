@@ -1,0 +1,25 @@
+<div class="course-info">
+  Core Interaction<br />
+  2014
+  <div class="version-number">
+    <%= image_tag('crab.gif') %>
+  </div>
+</div>
+
+<div class="students">
+  <ul>
+    <% @course.students.by_name.each do |student| %>
+      <li><%= link_to(student.full_name, student.url, target: '_blank') %></li>
+    <% end %>
+  </ul>
+</div>
+
+<% content_for :init_student_list do %>
+<script type="text/javascript">
+  var students = [];
+      students = <%= raw(@course.students.flat_list) %>;
+  if (students.length > 0) {
+    init_wheel_of_fortune(students);
+  }
+</script>
+<% end %>

@@ -1,0 +1,7 @@
+.assignments {
+  @extend %c6;
+}
+
+#assignment {
+  .heading { @extend %c6; }
+}

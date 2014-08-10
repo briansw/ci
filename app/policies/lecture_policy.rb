@@ -1,0 +1,2 @@
+class LecturePolicy < ApplicationPolicy
+end

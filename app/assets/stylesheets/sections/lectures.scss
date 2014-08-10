@@ -1,0 +1,10 @@
+.lectures {
+  @extend %c6;
+}
+
+#lecture {
+  .heading {
+    @extend %c6;
+    @extend %large-margin-below;
+  }
+}

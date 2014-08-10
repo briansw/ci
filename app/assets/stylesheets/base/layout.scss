@@ -1,0 +1,19 @@
+%c1 { width: $unit_width * 1; padding-left: $gutter; padding-right: $gutter; }
+%c2 { width: $unit_width * 2; padding-left: $gutter; padding-right: $gutter; }
+%c3 { width: $unit_width * 3; padding-left: $gutter; padding-right: $gutter; }
+%c4 { width: $unit_width * 4; padding-left: $gutter; padding-right: $gutter; }
+%c5 { width: $unit_width * 5; padding-left: $gutter; padding-right: $gutter; }
+%c6 { width: $unit_width * 6; padding-left: $gutter; padding-right: $gutter; margin-left: auto; margin-right: auto; }
+
+%large-margin-below  { margin-bottom: $large_margin; }
+%medium-margin-below { margin-bottom: $medium_margin; }
+%small-margin-below  { margin-bottom: $small_margin; }
+%tiny-margin-below   { margin-bottom: $tiny_margin; }
+
+%large-margin-above  { margin-top: $large_margin; }
+%medium-margin-above { margin-top: $medium_margin; }
+%small-margin-above  { margin-top: $small_margin; }
+%tiny-margin-above   { margin-top: $tiny_margin; }
+
+%withgutters { padding-left: $gutter; padding-right: $gutter; }
+%nogutters { padding-left: 0; padding-right: 0; }
