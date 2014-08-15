@@ -17,8 +17,8 @@ class VideoBlock < ActiveRecord::Base
   end
 
   def set_video_id
-    self.video_id = url.gsub(/http:\/\/youtu.be\/(.*)/, $1.to_s)
     self.service = 'YouTube'
+    self.video_id = url.gsub(/http:\/\/youtu.be\//, '')
   end
   
   def as_json(options = {})
