@@ -1,8 +1,8 @@
 <div id="resources">
   <ul>
     <li>Syllabi</li>
-    <li><%= link_to('Studio Syllabus', @course.studio_syllabus.attachment_url, target: '_blank') if @core.studio_syllabus.attachment_url.present? %></li>
-    <li><%= link_to('Lab Syllabus', @course.lab_syllabus.attachment_url, target: '_blank') if @core.lab_syllabus.attachment_url.present? %></li>
+    <li><%= link_to('Studio Syllabus', @course.studio_syllabus.attachment_url, target: '_blank') if @course.studio_syllabus.attachment_url.present? %></li>
+    <li><%= link_to('Lab Syllabus', @course.lab_syllabus.attachment_url, target: '_blank') if @course.lab_syllabus.attachment_url.present? %></li>
   </ul>
 
   <ul>
