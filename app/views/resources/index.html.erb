@@ -1,1 +1,24 @@
-<%= @course.name %>
+<div id="resources">
+  <ul>
+    <li>Syllabi</li>
+    <li><%= link_to('Studio Syllabus', @course.studio_syllabus.attachment_url, target: '_blank') if @core.studio_syllabus.attachment_url.present? %></li>
+    <li><%= link_to('Lab Syllabus', @course.lab_syllabus.attachment_url, target: '_blank') if @core.lab_syllabus.attachment_url.present? %></li>
+  </ul>
+
+  <ul>
+    <li>Software</li>
+    <li><a href="http://www.sublimetext.com/" target="_blank">Sublime Text</a></li>
+    <li><a href="http://fugu.en.softonic.com/mac" target="_blank">Fugu FTP</a></li>
+    <li><a href="http://cyberduck.ch/" target="_blank">CyberDuck FTP</a></li>
+  </ul>
+
+  <ul>
+    <li>Programming</li>
+    <li><a href="http://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
+    <li><a href="http://dochub.io/" target="_blank">Dochub</a></li>
+    <li><a href="http://discover-devtools.codeschool.com/" target="_blank">Discover Devtools</a></li>
+    <li><a href="http://learnlayout.com/" target="_blank">CSS Layout</a></li>
+    <li><a href="http://jsbin.com/" target="_blank">JSBin</a></li>
+    <li><a href="http://copypastecharacter.com/" target="_blank">Copy Paste Character</a></li>
+  </ul>
+</div>

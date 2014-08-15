@@ -1,0 +1,7 @@
+#resources {
+  @extend %c6;
+
+  ul {
+    @extend %large-margin-below;
+  }
+}
