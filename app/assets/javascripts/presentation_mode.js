@@ -16,7 +16,7 @@ $(document).keydown(function(e) {
         slidesToScroll: 1,
         autoplay: false,
         autoplaySpeed: 2000,
-        arrows: true,
+        arrows: false,
         dots: false,
         infinite: true,
         speed: 1000,
