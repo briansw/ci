@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140731005409) do
+ActiveRecord::Schema.define(version: 20140826015052) do
 
   create_table "assignments", force: true do |t|
     t.integer  "course_id"
@@ -87,11 +87,21 @@ ActiveRecord::Schema.define(version: 20140731005409) do
     t.string   "section"
     t.integer  "course_id"
     t.string   "slug"
-    t.datetime "publish_on", default: '2014-08-09 20:10:34'
+    t.datetime "publish_on", default: '2014-06-12 01:11:19'
     t.boolean  "active",     default: true
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "note_blocks", force: true do |t|
+    t.string   "title"
+    t.text     "body"
+    t.integer  "content_block_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "note_blocks", ["content_block_id"], name: "index_note_blocks_on_content_block_id", using: :btree
 
   create_table "readings", force: true do |t|
     t.string   "title"

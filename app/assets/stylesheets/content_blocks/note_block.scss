@@ -1,0 +1,9 @@
+.note-block {
+  .content {
+    @extend %c3;
+    background: $rich_black;
+    color: $light_yellow;
+    padding: $gutter;
+    min-height: 369px;
+  }
+}

@@ -13,6 +13,7 @@ class Lecture < ActiveRecord::Base
   has_content_block :image_block
   has_content_block :video_block
   has_content_block :gist_block
+  has_content_block :note_block
 
   def self.active
     where(active: true).order('publish_on DESC')

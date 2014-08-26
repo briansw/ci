@@ -49,7 +49,8 @@ module Admin::Concerns::PermitParams
         image_block_params,
         slideshow_block_params,
         video_block_params,
-        gist_block_params
+        gist_block_params,
+        note_block_params
       ]
     }
   end
@@ -116,6 +117,16 @@ module Admin::Concerns::PermitParams
       gist_block_attributes: [
         :id,
         :embed,
+      ]
+    }
+  end
+
+  def note_block_params
+    {
+      note_block_attributes: [
+        :id,
+        :title,
+        :body
       ]
     }
   end
