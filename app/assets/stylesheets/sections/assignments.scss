@@ -3,5 +3,8 @@
 }
 
 #assignment {
-  .heading { @extend %c6; }
+  .heading {
+    @extend %c6;
+    @extend %large-margin-below;
+  }
 }
