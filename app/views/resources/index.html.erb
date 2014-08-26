@@ -1,19 +1,21 @@
 <div id="resources">
   <ul>
-    <li>Syllabi</li>
-    <li><%= link_to('Studio Syllabus', @course.studio_syllabus.attachment_url, target: '_blank') if @course.studio_syllabus.attachment_url.present? %></li>
-    <li><%= link_to('Lab Syllabus', @course.lab_syllabus.attachment_url, target: '_blank') if @course.lab_syllabus.attachment_url.present? %></li>
+    <li><h2>Schedule</h2></li>
+    <li><span class="date">Sept 23...</span> Project 1 Presentations</li>
+    <li><span class="date">Oct 10...</span> Midterm Evaluations</li>
+    <li><span class="date">Nov 4...</span> Project 2 Presentations</li>
+    <li><span class="date">Dec 12...</span> Project 3 Presentations</li>
   </ul>
 
   <ul>
-    <li>Software</li>
+    <li><h2>Software</h2></li>
     <li><a href="http://www.sublimetext.com/" target="_blank">Sublime Text</a></li>
     <li><a href="http://fugu.en.softonic.com/mac" target="_blank">Fugu FTP</a></li>
     <li><a href="http://cyberduck.ch/" target="_blank">CyberDuck FTP</a></li>
   </ul>
 
   <ul>
-    <li>Programming</li>
+    <li><h2>Programming</h2></li>
     <li><a href="http://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
     <li><a href="http://dochub.io/" target="_blank">Dochub</a></li>
     <li><a href="http://discover-devtools.codeschool.com/" target="_blank">Discover Devtools</a></li>
@@ -21,4 +23,11 @@
     <li><a href="http://jsbin.com/" target="_blank">JSBin</a></li>
     <li><a href="http://copypastecharacter.com/" target="_blank">Copy Paste Character</a></li>
   </ul>
+
+  <ul>
+    <li><h2>Syllabi</h2></li>
+    <li><%= link_to('Studio', @course.studio_syllabus.attachment_url, target: '_blank') if @course.studio_syllabus.attachment_url.present? %></li>
+    <li><%= link_to('Lab', @course.lab_syllabus.attachment_url, target: '_blank') if @course.lab_syllabus.attachment_url.present? %></li>
+  </ul>
+
 </div>

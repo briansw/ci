@@ -1,6 +1,11 @@
 #resources {
   @extend %c6;
 
+  .date {
+    @extend %inlineblock;
+    width: 85px;
+  }
+
   ul {
     @extend %large-margin-below;
   }
