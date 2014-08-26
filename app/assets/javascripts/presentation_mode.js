@@ -19,7 +19,7 @@ $(document).keydown(function(e) {
         arrows: false,
         dots: false,
         infinite: true,
-        speed: 1000,
+        speed: 800,
         pauseOnHover: false,
         swipe: true
       });
