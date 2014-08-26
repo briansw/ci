@@ -2,7 +2,7 @@ class LecturesController < ApplicationController
 
   def index
     @course = Course.current
-    @lectures = @course.lectures.active
+    @lectures = @course.lectures.published
   end
 
   def show

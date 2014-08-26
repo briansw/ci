@@ -2,7 +2,7 @@ class AssignmentsController < ApplicationController
 
   def index
     @course = Course.current
-    @assignments = @course.assignments.active
+    @assignments = @course.assignments.published
   end
 
   def show

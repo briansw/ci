@@ -17,6 +17,10 @@ class Assignment < ActiveRecord::Base
     where(active: true).order('publish_on DESC')
   end
 
+  def self.published
+    where('publish_on <= NOW()').active
+  end
+
   def self.studios
     active.where(section: 'Studio')
   end
