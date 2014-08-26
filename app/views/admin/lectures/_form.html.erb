@@ -20,6 +20,12 @@
 </div>
 
 <div class="field">
+  <%= f.label :readings %>
+  <%= f.relation_field :readings, label_field: 'title', name: 'lecture[readings]' %>
+</div>
+
+
+<div class="field">
   <%= f.label :active %>
   <%= f.check_box :active %>
 </div>

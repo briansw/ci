@@ -2,6 +2,7 @@ class Reading < ActiveRecord::Base
   include Brb::Model::Full
 
   has_and_belongs_to_many :courses, join_table: 'course_readings'
+  has_and_belongs_to_many :lectures, join_table: 'lecture_readings'
 
   has_heading 'Title', link: 'title', default: true
   has_heading 'Author(s)', link: 'author'

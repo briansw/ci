@@ -11,6 +11,7 @@ class Admin::LecturesController < Admin::ApplicationController
       :publish_on,
       :slug,
       :active,
+      :readings,
       content_block_params,
       standalone_images_params
     )

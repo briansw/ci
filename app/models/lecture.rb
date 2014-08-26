@@ -7,6 +7,7 @@ class Lecture < ActiveRecord::Base
   has_heading 'Section', link: 'section'
   has_heading 'Active', link: 'active'
 
+  has_and_belongs_to_many :readings, join_table: 'lecture_readings'
   belongs_to :course
 
   has_content_block :text_block
@@ -35,4 +36,14 @@ class Lecture < ActiveRecord::Base
   def self.current_lab
     labs.first
   end
+
+  def readings=(records)
+    if records.is_a? String
+      courses = Reading.where(id: records.split(',').map(&:to_i))
+      super courses
+    else
+      super
+    end
+  end
+
 end

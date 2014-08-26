@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140826015052) do
+ActiveRecord::Schema.define(version: 20140826021929) do
 
   create_table "assignments", force: true do |t|
     t.integer  "course_id"
@@ -81,6 +81,11 @@ ActiveRecord::Schema.define(version: 20140826015052) do
   end
 
   add_index "images", ["parent_id", "parent_type"], name: "index_images_on_parent_id_and_parent_type", using: :btree
+
+  create_table "lecture_readings", force: true do |t|
+    t.integer "lecture_id"
+    t.integer "reading_id"
+  end
 
   create_table "lectures", force: true do |t|
     t.string   "title"

@@ -10,6 +10,24 @@
     <% @lecture.content_blocks.each do |cb| %>
       <%= render "content_blocks/#{cb.path_name}/show", cb: cb.send(cb.path_name) %>
     <% end %>
+
+    <% if @lecture.readings.present? %>
+      <div class="note-block">
+        <div class="body">
+          <h2>Readings</h2>
+          <ol>
+          <% @lecture.readings.each do |reading| %>
+            <li>
+              <%= link_to(pdf_or_url(reading), target: '_blank') do %>
+                <%= reading.title %>, <%= reading.author %>
+              <%end %>
+            </li>
+          <% end %>
+          </ol>
+        </div>
+      </div>
+    <% end %>
+
   </div>
 
 </div>

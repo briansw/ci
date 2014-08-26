@@ -7,4 +7,8 @@
     @extend %c6;
     @extend %large-margin-below;
   }
+
+  .content {
+    @extend %whitespacefix;
+  }
 }

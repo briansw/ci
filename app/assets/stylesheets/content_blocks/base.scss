@@ -1,6 +1,7 @@
 .content-block {
   @extend %c6;
   @extend %large-margin-below;
+  @extend %regular;
 
   .caption { color: $gray; }
 

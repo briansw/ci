@@ -1,9 +1,24 @@
 .note-block {
-  .content {
-    @extend %c3;
+  @extend %inlineblock;
+  @extend %c3;
+
+  .body {
+    h2 { @extend %regular; @extend %medium-margin-below; }
+    @extend %regular;
     background: $rich_black;
     color: $light_yellow;
     padding: $gutter;
     min-height: 369px;
+
+    a {
+      color: $light_yellow;
+      &:hover { color: $white; }
+    }
+
+    ol, ul {
+      list-style: initial;
+      margin-left: $gutter;
+    }
   }
+
 }
