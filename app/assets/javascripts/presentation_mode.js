@@ -24,6 +24,8 @@ $(document).keydown(function(e) {
         swipe: true
       });
     }
+  } else if (e.which == 27) {
+    $('#overlay').html('').removeClass('visible');
   }
 
 });
