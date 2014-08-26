@@ -65,6 +65,8 @@ $opacity-not-active: .25;
             transform: translate(-50%, -50%) !important;
   }
 
+  .caption { display: none; }
+
   .close-button {
     position: fixed;
     z-index: 101;
