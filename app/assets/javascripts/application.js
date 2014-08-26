@@ -14,3 +14,5 @@
 //= require jquery_ujs
 //= require filters
 //= require students
+//= require slick
+//= require presentation_mode
