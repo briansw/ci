@@ -2,7 +2,12 @@ class LecturesController < ApplicationController
 
   def index
     @course = Course.current
-    @lectures = @course.lectures.published
+    if @current_user.present?
+      @lectures = @course.lectures.active
+    else
+      @lectures = @course.lectures.published
+    end
+
   end
 
   def show
