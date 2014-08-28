@@ -1,5 +1,7 @@
 <div class="content-block <%= css_class(cb) %>" id="<%= css_id(cb) %>">
-  <%= image_tag(cb.image.attachment_url, class: 'lightboxable', alt: strip_tags(cb.caption), data: { id: css_lightbox_id(cb), hires: cb.image.attachment_url(:lightbox), caption: strip_tags(ft(cb.caption)) }) %>
+  <div class="image-area">
+    <%= image_tag(cb.image.attachment_url, class: 'lightboxable', alt: strip_tags(cb.caption), data: { id: css_lightbox_id(cb), hires: cb.image.attachment_url(:lightbox), caption: strip_tags(ft(cb.caption)) }) %>
+  </div>
   <div class="caption">
     <%= ft(cb.caption) %>
   </div>

@@ -1,5 +1,6 @@
 .image-block {
   text-align: center;
+  .image-area { border: 1px solid $light_gray; @extend %whitespacefix; padding: $gutter; @extend %tiny-margin-below; }
   img { max-width: 100%; }
   .caption { text-align: left; }
 }
