@@ -50,6 +50,7 @@ $opacity-not-active: .25;
 
   .slick-slide {
     position: relative;
+    .image-area { border: none; margin: 0; padding: 0; }
   }
 
   img {
