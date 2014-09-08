@@ -1,3 +1,13 @@
 .text-block {
-
+  p {
+    margin-bottom: 1.3em;
+    &:last-child { margin-bottom: 0; }
+  }
+  code {
+    font-size: 17px;
+    background: $white;
+    border-radius: 3px;
+    font-family: monospace;
+    white-space: pre;
+  }
 }
