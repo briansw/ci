@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git@github.com:briansw/brb.git
-  revision: 815a0d3c8d4be6761610f5cdcc41d4db2c750edf
+  revision: 015b0c6f98d331d15070823f854db2100c1e15ec
   specs:
     brb (0.0.2)
       acts-as-taggable-on

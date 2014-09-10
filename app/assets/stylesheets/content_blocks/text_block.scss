@@ -5,12 +5,13 @@
   }
 
   code {
-    font-size: 17px;
+    font-size: 13px;
     background: $white;
     border-radius: 3px;
-    font-family: monospace;
+    font-family: menlo, monospace;
     white-space: pre;
     padding: 3px;
+    color: $dark_gray;
   }
 
   ul {
