@@ -28,7 +28,7 @@ class Student < ActiveRecord::Base
   def add_email_and_url
     if username.present?
       self.email = "#{username}@newschool.edu"
-      self.url = "http://a.parsons.edu/~#{username}"
+      self.url = "#{username}.github.io"
     end
   end
 
