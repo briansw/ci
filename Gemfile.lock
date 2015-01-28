@@ -6,9 +6,8 @@ GIT
       rails (>= 3.0.0, < 5)
       spork (>= 1.0rc0)
 
-GIT
-  remote: git@github.com:briansw/brb.git
-  revision: 187757b1eb24443afdea848d7c7eeb548dfbddd3
+PATH
+  remote: vendor/brb-0.0.2
   specs:
     brb (0.0.2)
       acts-as-taggable-on
@@ -56,8 +55,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    acts-as-taggable-on (3.3.0)
-      activerecord (>= 3, < 5)
+    acts-as-taggable-on (3.4.3)
+      activerecord (>= 3.2, < 5)
     addressable (2.3.6)
     arel (5.0.1.20140414130214)
     awesome_print (1.2.0)
@@ -152,19 +151,22 @@ GEM
     hashie (3.2.0)
     hike (1.2.3)
     i18n (0.6.11)
-    inherited_resources (1.5.0)
+    inherited_resources (1.5.1)
+      actionpack (>= 3.2, < 4.2)
       has_scope (~> 0.6.0.rc)
+      railties (>= 3.2, < 4.2)
       responders (~> 1.0)
     jbuilder (2.1.3)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
-    jquery-fileupload-rails (0.4.1)
+    jquery-fileupload-rails (0.4.3)
       actionpack (>= 3.1)
       railties (>= 3.1)
+      sass (>= 3.2)
     jquery-rails (3.1.1)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
-    jquery-ui-rails (5.0.0)
+    jquery-ui-rails (5.0.3)
       railties (>= 3.2.16)
     json (1.8.1)
     kaminari (0.16.1)
@@ -232,10 +234,10 @@ GEM
       ffi (>= 0.5.0)
     rdoc (4.1.1)
       json (~> 1.4)
-    redcarpet (3.1.2)
+    redcarpet (3.2.2)
     require_all (1.3.2)
-    responders (1.1.0)
-      railties (>= 3.2, < 5)
+    responders (1.1.2)
+      railties (>= 3.2, < 4.2)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
@@ -263,9 +265,9 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
-    select2-rails (3.5.9)
+    select2-rails (3.5.9.1)
       thor (~> 0.14)
-    selectize-rails (0.9.1)
+    selectize-rails (0.11.2)
     selenium-webdriver (2.35.1)
       childprocess (>= 0.2.5)
       multi_json (~> 1.0)
@@ -309,7 +311,7 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt-ruby (~> 3.1.5)
-  brb (= 0.0.2)!
+  brb (~> 0.0.2)!
   capistrano
   capistrano-bundler
   capistrano-rails

@@ -10,7 +10,8 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt-ruby', '~> 3.1.5'
-gem 'brb', '0.0.2', git: 'git@github.com:briansw/brb.git'
+
+gem 'brb', '~> 0.0.2', path: 'vendor/brb-0.0.2'
 
 # Image manipulation dependencies
 gem 'mini_magick'
