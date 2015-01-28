@@ -116,6 +116,7 @@ module Admin::Concerns::PermitParams
     {
       gist_block_attributes: [
         :id,
+        :title,
         :embed,
       ]
     }

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140826021929) do
+ActiveRecord::Schema.define(version: 20150128181904) do
 
   create_table "assignments", force: true do |t|
     t.integer  "course_id"
@@ -56,6 +56,7 @@ ActiveRecord::Schema.define(version: 20140826021929) do
     t.integer  "content_block_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "title"
   end
 
   add_index "gist_blocks", ["content_block_id"], name: "index_gist_blocks_on_content_block_id", using: :btree
@@ -78,6 +79,10 @@ ActiveRecord::Schema.define(version: 20140826021929) do
     t.text     "caption"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "position"
+    t.string   "content_type"
+    t.integer  "width"
+    t.integer  "height"
   end
 
   add_index "images", ["parent_id", "parent_type"], name: "index_images_on_parent_id_and_parent_type", using: :btree
@@ -92,7 +97,7 @@ ActiveRecord::Schema.define(version: 20140826021929) do
     t.string   "section"
     t.integer  "course_id"
     t.string   "slug"
-    t.datetime "publish_on", default: '2014-06-12 01:11:19'
+    t.datetime "publish_on", default: '2014-08-09 20:10:34'
     t.boolean  "active",     default: true
     t.datetime "created_at"
     t.datetime "updated_at"
