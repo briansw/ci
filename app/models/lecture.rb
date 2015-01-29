@@ -34,11 +34,11 @@ class Lecture < ActiveRecord::Base
 
 
   def self.current_studio
-    studios.first
+    studios.published.first
   end
 
   def self.current_lab
-    labs.first
+    labs.published.first
   end
 
   def readings=(records)
