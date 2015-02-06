@@ -3,7 +3,8 @@ class Assignment < ActiveRecord::Base
 
   validates_presence_of :name
 
-  has_heading 'Name', link: 'name', default: true
+  has_heading 'Publish On', link: 'publish_on', default: true
+  has_heading 'Name', link: 'name'
   has_heading 'Section', link: 'section'
   has_heading 'Active', link: 'active'
 

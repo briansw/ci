@@ -3,7 +3,8 @@ class Lecture < ActiveRecord::Base
 
   validates_presence_of :title
 
-  has_heading 'Title', link: 'title', default: true
+  has_heading 'Publish On', link: 'publish_on', default: true
+  has_heading 'Title', link: 'title'
   has_heading 'Section', link: 'section'
   has_heading 'Active', link: 'active'
 
