@@ -19,13 +19,15 @@ $(document).keydown(function(e) {
         arrows: false,
         dots: false,
         infinite: true,
-        speed: 800,
+        speed: 600,
         pauseOnHover: false,
         swipe: true
       });
+
+      $('.slick-list').focus();
     }
   } else if (e.which == 27) {
-    $('#overlay').html('').removeClass('visible');
+    $('#overlay').html('<div class="slides"></div>').removeClass('visible');
   }
 
 });
