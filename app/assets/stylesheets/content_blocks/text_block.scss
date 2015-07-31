@@ -1,6 +1,6 @@
 .text-block {
   p {
-    margin-bottom: 1.3em;
+    margin-bottom: 1.5em;
     &:last-child { margin-bottom: 0; }
   }
 
@@ -26,11 +26,11 @@
     white-space: pre;
     padding: 20px;
     color: $blue;
-    margin-bottom: 20px;
+    margin-bottom: 2em;
   }
 
   ul {
     list-style: initial;
-    margin: 20px 0 0 50px
+    margin: 1.5em 0 1.5em 50px
   }
 }

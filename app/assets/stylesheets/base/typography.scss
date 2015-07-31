@@ -3,6 +3,7 @@
 }
 
 %large   { font-size: $large_size;   line-height: $large_leading;   letter-spacing: 0; }
+%medium  { font-size: $medium_size;  line-height: $medium_leading; letter-spacing: 0; }
 %regular { font-size: $regular_size; line-height: $regular_leading; letter-spacing: 0; }
 %small   { font-size: $small_size;   line-height: $small_leading;   letter-spacing: 0; }
 %tiny    { font-size: $tiny_size;    line-height: $tiny_leading;    letter-spacing: 0; }
@@ -20,4 +21,10 @@ h1, h2, h3, h4, h5, h6 {
   @extend %large;
   border-bottom: 1px solid $gray;
   margin-bottom: 20px;
+}
+
+h3 {
+  @extend %medium;
+  border: none;
+  margin-bottom: 10px;
 }
