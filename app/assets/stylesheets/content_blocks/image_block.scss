@@ -1,13 +1,13 @@
 .image-block {
   text-align: center;
   .image-area {
-    border: 1px solid $light_gray;
+    background: $light_gray;
     @extend %whitespacefix;
     padding: $gutter;
     @extend %tiny-margin-below;
-    -webkit-border-radius: 10px;
-       -moz-border-radius: 10px;
-            border-radius: 10px;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
   }
   img { max-width: 100%; }
   .caption { text-align: left; }
