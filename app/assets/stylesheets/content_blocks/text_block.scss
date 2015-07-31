@@ -5,13 +5,28 @@
   }
 
   code {
-    font-size: 13px;
-    background: $white;
+    @extend %inlineblock;
+    @extend %mono;
+    background: $light_gray;
     border-radius: 3px;
-    font-family: menlo, monospace;
     white-space: pre;
-    padding: 3px;
-    color: $dark_gray;
+    padding: 5px;
+    color: $blue;
+  }
+
+  pre {
+    & code {
+      padding: 0;
+      border-radius: initial;
+      background: transparent;
+    }
+    display: block;
+    background: $light_gray;
+    border-radius: 3px;
+    white-space: pre;
+    padding: 20px;
+    color: $blue;
+    margin-bottom: 20px;
   }
 
   ul {

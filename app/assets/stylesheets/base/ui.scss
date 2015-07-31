@@ -1,71 +1,45 @@
 .band-button {
   vertical-align: middle;
   @extend %large;
-  border: 1px solid;
+  border-bottom: 1px solid $gray;
   position: relative;
   padding: $gutter $gutter 11px $gutter;
-  margin-bottom: $small_margin;
   &:last-child { margin-bottom: 0; }
   display: block;
   &:hover {
+    @include transition(all, 300ms, ease);
     color: $black;
-    background: $white;
-    &:after { display: block; }
-    .bug { color: $white; }
+    background: $yellow;
   }
-
-  &:after {
-    display: none;
-    position: absolute;
-    top: -1px;
-    right: -1px;
-    border: 1px solid $light_yellow;
-    border-left-color: $black;
-    background: $light_yellow;
-    width: 68px;
-    height: 67px;
-    content: '';
-    @include set_background('arrow-right', 'png', '13px 15px', 'center center');
-  }
-
-  &.expanded:after {
-    display: block;
-    @include set_background('arrow-down', 'png', '15px 13px', 'center center');
-  }
-
-  .bug { margin-right: $gutter; }
 
   &.current {
-    background: $white;
-    .bug { color: $white; }
+    background: transparentize($yellow, .35);
+    &:hover { background: $yellow; }
   }
 }
 
+.bug-wrapper {
+  @extend %inlineblock;
+  min-width: 50px;
+  text-align: right;
+  margin-right: $gutter;
+}
 .bug {
   @extend %inlineblock;
+  border: 1px solid $black;
   position: relative;
-  width: 18px;
-  height: 18px;
   background: $black;
-  color: $light_yellow;
-  @include typeface($sans);
+  color: $white;
+  font-weight: 400;
+  text-transform: uppercase;
   @extend %tiny;
-  border-radius: 9px;
-  .letter {
-    font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-       -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-         -o-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-  }
-  &.off { 
-    background: transparent; 
-    border: 1px solid; 
-    color: $black; 
+  padding: 5px 5px 4px 5px;
+  border-radius: 2px;
+  top: -5px;
+  &.off {
+    background: transparent;
+    border: 1px solid;
+    color: $black;
   }
 }
 

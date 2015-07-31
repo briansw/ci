@@ -1,26 +1,29 @@
 // Colors
 $black:        #333;
 $rich_black:   #000;
-$light_gray:   #CFCFCF;
+$light_gray:   #f7f7f7;
 $dark_gray:    #525252;
-$gray:         #808080;
+$gray:         #eee;
 $white:        #fff;
-$default:      #00f;
-$light_yellow: #fffcd9;
+$default:      #2e4eae;
+$blue:         #2e4eae;
+$yellow:       #fffdd3;
 
 // Fonts
-$sans: Helvetica, Arial, sans-serif;
-$serif: Times New Roman, Times, serif;
+$sans: 'akzidenz', Helvetica, Arial, sans-serif;
+$mono: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
 // Type Sizes
-$large_size:      30px;
-$large_leading:   1.3em;
-$regular_size:    19px;
-$regular_leading: 1.3em;
+$large_size:      25px;
+$large_leading:   1.9em;
+$regular_size:    17px;
+$regular_leading: 1.5em;
 $small_size:      13px;
 $small_leading:   1.3em;
 $tiny_size:       9px;
-$tiny_leading:    0;
+$tiny_leading:    1;
+$mono_size:       14px;
+$mono_leading:    1.5em;
 
 // Spacing
 $gutter:  15px;
@@ -65,6 +68,13 @@ $unit_width: 123px;
 
 // @include prettyhover(background-color, 150ms, ease-out);
 @mixin prettyhover($attribute, $time, $easing) {
+  -webkit-transition: $attribute $time $easing;
+     -moz-transition: $attribute $time $easing;
+       -o-transition: $attribute $time $easing;
+          transition: $attribute $time $easing;
+}
+
+@mixin transition($attribute, $time, $easing) {
   -webkit-transition: $attribute $time $easing;
      -moz-transition: $attribute $time $easing;
        -o-transition: $attribute $time $easing;

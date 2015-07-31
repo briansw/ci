@@ -1,5 +1,6 @@
 #footer {
   padding: $gutter $gutter $large_margin*2 $gutter;
+  background: $light_gray;
 
   #footer-inner {
     @extend %c6;

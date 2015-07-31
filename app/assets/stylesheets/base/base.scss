@@ -13,7 +13,8 @@ body {
   padding: 0;
   position: relative;
   @extend %regular;
-  font-family: 'caslon', Times New Roman, Times, serif;
+  font-family: $sans;
+  font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -24,9 +25,9 @@ div, ul {
 a {
   text-decoration: none;
   color: $black;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid $gray;
   &.nounderline { border-bottom: none; }
-  &.current { border-bottom: 1px solid; }
+  &.current { border-bottom: 1px solid $gray; }
   &:hover { color: $default; }
 }
 
@@ -42,7 +43,6 @@ ul {
 
 
 #wrapper {
-  background: $light_yellow;
   padding: 15px 15px $large_margin*2 15px;
 }
 

@@ -11,6 +11,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt-ruby', '~> 3.1.5'
 
+gem 'github-markdown'
+
 gem 'brb', '~> 0.0.2', path: 'vendor/brb-0.0.2'
 
 # Image manipulation dependencies
@@ -21,7 +23,7 @@ gem 'elasticsearch-model'
 gem 'elasticsearch-rails'
 
 group :development do
-  gem 'spring'
+  # gem 'spring'
   gem 'guard-rspec', '~> 3.0.2'
   gem 'guard-spork', '~> 1.5.1'
   gem 'spork-rails', github: 'sporkrb/spork-rails'

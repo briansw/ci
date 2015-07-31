@@ -7,6 +7,8 @@
 %small   { font-size: $small_size;   line-height: $small_leading;   letter-spacing: 0; }
 %tiny    { font-size: $tiny_size;    line-height: $tiny_leading;    letter-spacing: 0; }
 
+%mono    { font-family: $mono; font-size: $mono_size;    line-height: $mono_leading;    letter-spacing: 0; }
+
 // Bold/italic resets
 strong, b { font-weight: bold; }
 em, i { font-style: italic; }
@@ -14,6 +16,8 @@ em, i { font-style: italic; }
 sup { vertical-align: super; font-size: smaller; line-height: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
+  font-weight: 400;
   @extend %large;
+  border-bottom: 1px solid $gray;
+  margin-bottom: 20px;
 }

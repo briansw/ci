@@ -8,7 +8,8 @@ module MarkdownHelper
   alias_method :s, :smarty
 
   def markdown(stringish)
-    MARKDOWN.render(stringish.to_s).html_safe
+    GitHub::Markdown.render_gfm(stringish.to_s).html_safe
+    # MARKDOWN.render(stringish.to_s).html_safe
   end
   alias_method :m, :markdown
 

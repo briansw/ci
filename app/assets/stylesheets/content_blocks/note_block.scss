@@ -6,12 +6,12 @@
     h2 { @extend %regular; @extend %medium-margin-below; }
     @extend %regular;
     background: $rich_black;
-    color: $light_yellow;
+    color: $white;
     padding: $gutter;
     min-height: 369px;
 
     a {
-      color: $light_yellow;
+      color: $white;
       &:hover { color: $white; }
     }
 

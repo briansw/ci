@@ -3,6 +3,17 @@
   @extend %large-margin-below;
   @extend %regular;
 
-  .caption { color: $gray; }
+  .caption {
+    margin-top: 5px;
+    color: $dark_gray;
+    @extend %small;
+    max-width: 400px;
+    a {
+      color: $dark_gray;
+      border-color: $gray;
+      &:hover { color: $blue; }
+    }
+    b, strong { font-weight: 400; }
+  }
 
 }
