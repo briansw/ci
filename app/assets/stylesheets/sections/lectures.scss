@@ -4,6 +4,7 @@
 
 #lecture {
   .heading {
+    text-align: center;
     @extend %c6;
     @extend %large-margin-below;
   }

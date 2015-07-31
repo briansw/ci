@@ -1,6 +1,11 @@
 <ul id="filters">
-  <li><span class="bug studio active" data-target="studio"><span class="letter">Studio</span></span></li>
-  <li><span class="bug lab active" data-target="lab"><span class="letter">Lab</span></span></li>
+  <% if page_name == 'lectures-index' || page_name == 'assignments-index' || page_name == 'readings-index' %>
+  <li><span class="bug all active" data-target="all"><span class="letter">All</span></span></li>
+  <li><span class="bug studio off" data-target="studio"><span class="letter">Studio</span></span></li>
+  <li><span class="bug lab off" data-target="lab"><span class="letter">Lab</span></span></li>
+  <% else %>
+  <li><a href="/"><span class="bug lab" data-target="lab"><span class="letter">&#9664; Back</span></span></a></li>
+  <% end %>
 </ul>
 
 <ul id="navigation">
