@@ -24,4 +24,8 @@ module ApplicationHelper
     end
   end
 
+  def grid_view?
+    'grid' if @lecture.present? && @lecture.grid_view? || @readings.present?
+  end
+
 end
