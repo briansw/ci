@@ -1,11 +1,13 @@
 #readings {
   @extend %whitespacefix;
+  text-align: center;
 
   .reading {
     vertical-align: bottom;
     @extend %c2;
     @extend %inlineblock;
     @extend %regular;
+    text-align: left;
   }
 
   .reading-button {
@@ -17,7 +19,7 @@
     border-radius: 4px;
     @include transition(all, 300ms, ease);
     &:hover {
-      color: $blue;
+      color: $black;
       background: $yellow;
     }
   }
