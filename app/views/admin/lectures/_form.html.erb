@@ -24,6 +24,10 @@
   <%= f.relation_field :readings, label_field: 'title', name: 'lecture[readings]' %>
 </div>
 
+<div class="field">
+  <%= f.label :grid_view %>
+  <%= f.check_box :grid_view %>
+</div>
 
 <div class="field">
   <%= f.label :active %>
