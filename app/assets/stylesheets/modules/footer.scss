@@ -20,6 +20,12 @@
     }
   }
 
+  .git-reminder {
+    margin-top: 10px;
+    @extend %mono;
+    color: $blue;
+  }
+
   .version-number {
     @extend %tiny-margin-above;
     color: $gray;
