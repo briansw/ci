@@ -16,3 +16,4 @@
 //= require students
 //= require slick
 //= require presentation_mode
+//= require video_block
