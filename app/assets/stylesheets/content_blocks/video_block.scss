@@ -1,3 +1,11 @@
 .video-block {
-
+  .video-area {
+    padding: $gutters;
+    background: $light_gray;
+    @extend %tiny-margin-below;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+  }
+  iframe { max-width:  100%; }
 }

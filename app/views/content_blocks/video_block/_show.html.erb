@@ -1,7 +1,8 @@
 <div class="content-block <%= css_class(cb) %>" id="<%= css_id(cb) %>">
   <%= content_tag(:h2, cb.title, class: 'title') if cb.title.present? %>
-
-  <iframe type="text/html" width="708" height="500" src="http://www.youtube.com/embed/<%= cb.video_id %>" frameborder="0" allowfullscreen></iframe>
+  <div class="video-area">
+    <iframe type="text/html" width="708" height="500" src="http://www.youtube.com/embed/<%= cb.video_id %>" frameborder="0" allowfullscreen></iframe>
+  </div>
   <div class="caption">
     <%= f(cb.caption) %>
   </div>
