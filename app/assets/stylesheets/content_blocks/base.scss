@@ -3,6 +3,11 @@
   @extend %large-margin-below;
   @extend %regular;
 
+  #content.grid & {
+    @extend %inlineblock;
+    width: 33%;
+  }
+
   .caption {
     margin-top: 5px;
     color: $dark_gray;

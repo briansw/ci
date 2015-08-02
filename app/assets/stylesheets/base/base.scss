@@ -48,5 +48,6 @@ ul {
 #content {
   @extend %c6;
   @extend %nogutters;
+  &.grid { width: 100%; }
 }
 

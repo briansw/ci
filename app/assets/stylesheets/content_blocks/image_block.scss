@@ -3,7 +3,7 @@
   .image-area {
     background: $light_gray;
     @extend %whitespacefix;
-    padding: $gutter;
+    padding: $gutters;
     @extend %tiny-margin-below;
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
