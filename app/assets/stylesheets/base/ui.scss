@@ -26,9 +26,9 @@
 }
 .bug {
   @extend %inlineblock;
-  border: 1px solid $black;
+  border: 1px solid $blue;
   position: relative;
-  background: $black;
+  background: $blue;
   color: $white;
   font-weight: 400;
   text-transform: uppercase;
@@ -39,7 +39,7 @@
   &.off {
     background: transparent;
     border: 1px solid;
-    color: $black;
+    color: $blue;
   }
 }
 
