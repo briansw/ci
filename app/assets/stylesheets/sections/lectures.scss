@@ -1,5 +1,6 @@
 .lectures {
   @extend %c6;
+  margin-top: 70px;
 }
 
 #lecture {
@@ -7,6 +8,10 @@
     text-align: center;
     @extend %c6;
     @extend %large-margin-below;
+    h2 {
+      line-height: 1em;
+      padding: 15px;
+    }
   }
 
   .content {

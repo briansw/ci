@@ -1,5 +1,6 @@
 .assignments {
   @extend %c6;
+  margin-top: 70px;
 }
 
 #assignment {
@@ -7,5 +8,9 @@
     text-align: center;
     @extend %c6;
     @extend %large-margin-below;
+    h2 {
+      line-height: 1em;
+      padding: 15px;
+    }
   }
 }

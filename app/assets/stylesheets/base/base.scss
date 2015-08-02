@@ -46,6 +46,7 @@ ul {
 }
 
 #content {
+  margin-top: 40px;
   @extend %c6;
   @extend %nogutters;
   &.grid { width: 100%; }
