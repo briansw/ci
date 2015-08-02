@@ -15,7 +15,7 @@
       <%= render 'shared/header' %>
     </div>
 
-    <div id="content">
+    <div id="content" class="<%= grid_view? %>">
       <%= yield %>
     </div>
   </div>
