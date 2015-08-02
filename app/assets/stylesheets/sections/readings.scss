@@ -1,19 +1,28 @@
 #readings {
   @extend %whitespacefix;
-  text-align: center;
+  max-width: 1240px;
+  margin: 0 auto;
 
   .reading {
     vertical-align: bottom;
     @extend %c2;
     @extend %inlineblock;
     @extend %regular;
-    text-align: left;
+    line-height: 1.2em;
+    position: relative;
+    .date {
+      position: absolute;
+      top: $gutter;
+      right: $gutter;
+      color: $dark_gray;
+      @extend %small;
+    }
   }
 
   .reading-button {
     display: block;
     border: 1px solid $gray;
-    padding: $gutter;
+    padding: $gutter $gutter $gutters $gutter;
     position: relative;
     margin-bottom: $gutters;
     border-radius: 4px;

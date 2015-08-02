@@ -3,9 +3,9 @@
     <div class="reading <%= section_label(reading) %>">
       <%= link_to(pdf_or_url(reading), target: '_blank', class: 'reading-button') do %>
         <%= section_bug(reading) %><br /><br />
-        <%= reading.year %><br />
-        <%= reading.title %><br />
-        ⤷ <%= reading.author %>
+        <strong><%= reading.title %></strong><br />
+        ⤷ <%= reading.author %><br />
+        <span class="date"><%= reading.year %></span>
       <% end %>
     </div>
   <% end %>
