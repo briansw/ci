@@ -7,7 +7,7 @@
 
   <div class="content">
     <% @lecture.content_blocks.each do |cb| %>
-      <%= render "content_blocks/#{cb.path_name}/show", cb: cb.send(cb.path_name) %>
+      <%= render "content_blocks/#{cb.path_name}/show", cb: cb.send(cb.path_name), x: lightbox_block_index(cb) %>
     <% end %>
 
     <% if @lecture.readings.present? %>

@@ -12,8 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require slick
+
+//= require base
 //= require filters
 //= require students
-//= require slick
-//= require presentation_mode
+//= require lightbox
 //= require video_block

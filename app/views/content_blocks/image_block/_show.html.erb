@@ -2,7 +2,15 @@
   <%= content_tag(:h2, cb.title, class: 'title') if cb.title.present? %>
 
   <div class="image-area">
-    <%= image_tag(cb.image.attachment_url, class: 'lightboxable', alt: strip_tags(cb.caption), data: { id: css_lightbox_id(cb), hires: cb.image.attachment_url(:lightbox), caption: strip_tags(ft(cb.caption)) }) %>
+    <%= image_tag(cb.image.attachment_url,
+                  class: 'lightboxable',
+                  alt: strip_tags(cb.caption),
+                  data: {
+                      id: css_lightbox_id(cb),
+                      hires: cb.image.attachment_url(:lightbox),
+                      caption: strip_tags(ft(cb.caption)),
+                      slide_index: x - 1
+                  }) %>
   </div>
   <div class="caption">
     <%= ft(cb.caption) %>

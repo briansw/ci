@@ -1,6 +1,10 @@
 <div class="content-block <%= css_class(cb) %>" id="<%= css_id(cb) %>">
   <%= content_tag(:h2, cb.title, class: 'title') if cb.title.present? %>
-  <div class="video-area">
+  <div class="video-area lightboxable"
+       data-id="<%= css_lightbox_id(cb) %>"
+       data-slide-index="<%= x - 1 %>"
+       data-caption="<%= strip_tags(ft(cb.caption)) %>"
+       data-video="<%= cb.video_id %>">
     <iframe type="text/html" width="708" height="500" src="http://www.youtube.com/embed/<%= cb.video_id %>" frameborder="0" allowfullscreen></iframe>
   </div>
   <div class="caption">

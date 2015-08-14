@@ -82,3 +82,11 @@ $unit_width: 123px;
        -o-transition: $attribute $time $easing;
           transition: $attribute $time $easing;
 }
+
+@mixin transform($value) {
+  -webkit-transform: $value;
+     -moz-transform: $value;
+      -ms-transform: $value;
+       -o-transform: $value;
+          transform: $value;
+}

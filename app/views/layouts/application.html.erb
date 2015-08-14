@@ -10,6 +10,11 @@
 </head>
 <body>
 
+  <div id="lightbox" style="display: none;">
+    <div id="lightbox-navigation"></div>
+    <div id="lightbox-slides"></div>
+  </div>
+
   <div id="wrapper">
     <div id="header">
       <%= render 'shared/header' %>
@@ -27,7 +32,6 @@
   </div>
 
   <%= render 'shared/wheel_of_fortune' %>
-  <%= render 'shared/presentation_mode' %>
 
   <%= javascript_include_tag 'application' %>
   <%= yield :init_student_list %>

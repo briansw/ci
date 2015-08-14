@@ -28,4 +28,11 @@ module ApplicationHelper
     'grid' if @lecture.present? && @lecture.grid_view? || @readings.present?
   end
 
+  def lightbox_block_index(cb)
+    @img_index ||= 0
+    if cb.block_type == 'ImageBlock' || cb.block_type == 'VideoBlock'
+      @img_index += 1
+    end
+  end
+
 end
