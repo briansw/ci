@@ -14,6 +14,8 @@ class Assignment < ActiveRecord::Base
 
   belongs_to :course
 
+  sluggable :name
+
   def self.active
     where(active: true).order('publish_on DESC')
   end
