@@ -17,8 +17,6 @@ class Lecture < ActiveRecord::Base
   has_content_block :gist_block
   has_content_block :note_block
 
-  sluggable :title
-
   def self.active
     where(active: true).order('publish_on DESC')
   end
